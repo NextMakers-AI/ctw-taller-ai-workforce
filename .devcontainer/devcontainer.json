@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+  "name": "Taller · Asistentes de planta",
+
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+
+  "remoteEnv": {
+    // Claude Code se instala en ~/.local/bin. Sin esto, `claude` no se
+    // encuentra en la terminal.
+    "PATH": "/home/vscode/.local/bin:${containerEnv:PATH}",
+
+    // El modelo horneado vive aca. Si esta variable falta, las bibliotecas
+    // buscan en ~/.cache/huggingface, no lo encuentran, y se ponen a bajar
+    // 2 GB en plena sala.
+    "HF_HOME": "/opt/cache-modelos",
+
+    // config.py trae "bedrock" por defecto. El taller usa la API directa de
+    // Anthropic, asi que se fija aca y no depende de que el .env lo diga.
+    "PROVEEDOR_LLM": "anthropic"
+  },
+
+  "postCreateCommand": "bash .devcontainer/al-crear.sh",
+
+  "forwardPorts": [8501],
+  "portsAttributes": {
+    "8501": {
+      "label": "La aplicación del taller",
+      "onAutoForward": "notify"
+    }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "anthropic.claude-code",
+        "ms-python.python"
+      ],
+      "settings": {
+        // Modo "plan": Claude describe lo que va a hacer y espera aprobacion
+        // antes de tocar archivos. Es el modo con el que conviene empezar la
+        // fase 1 — ver de que trata el taller es justamente mirar el plan
+        // antes de que se ejecute. Se cambia con un clic en el panel cuando
+        // ya hay confianza en el flujo.
+        "claudeCode.initialPermissionMode": "plan",
+
+        "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+        "python.terminal.activateEnvironment": false,
+        "files.exclude": {
+          "**/__pycache__": true
+        }
+      }
+    }
+  },
+
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "8gb"
+  },
+
+  "remoteUser": "vscode"
+}

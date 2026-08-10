@@ -1,0 +1,41 @@
+# Este archivo define QUE VEN LOS ALUMNOS.
+#
+# Tu carpeta local tiene dos cosas mezcladas: el material del taller y tu
+# implementacion de referencia (la solucion). El repositorio que abren los
+# alumnos solo puede llevar el material — si lleva la solucion, no hay taller.
+#
+# Todo lo que se ignora aca sigue existiendo en tu maquina. Simplemente no se
+# sube.
+
+# ---------------------------------------------------------------------------
+# LA SOLUCION. Esto es exactamente lo que los alumnos construyen en las tres
+# fases. Nunca debe subirse.
+# ---------------------------------------------------------------------------
+src/
+app.py
+pruebas/
+
+# El indice semantico se construye en la fase 3. Subirlo la regala.
+.chroma/
+
+# Se copian desde referencia/ durante la fase 1, como parte del ejercicio.
+requirements.txt
+.streamlit/
+
+# Producto del taller, no insumo.
+README.md
+PREGUNTAS-Y-RESPUESTAS.md
+
+# ---------------------------------------------------------------------------
+# SECRETOS. La llave de API nunca va al repositorio: se entrega a cada alumno
+# como secreto de su Codespace. Ver 00-preparacion-del-entorno.md.
+# ---------------------------------------------------------------------------
+.env
+
+# ---------------------------------------------------------------------------
+# Generado
+# ---------------------------------------------------------------------------
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

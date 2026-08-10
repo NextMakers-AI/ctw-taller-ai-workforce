@@ -1,0 +1,167 @@
+# ---------------------------------------------------------------------------
+# Tema tipo shadcn/ui, escala "zinc".
+#
+# shadcn no es un framework de estilos que se pueda "instalar" acá: es un
+# conjunto de tokens CSS (--background, --card, --muted, --border, --radius)
+# sobre la paleta de Tailwind. Streamlit 1.61 expone justamente esos tokens
+# como tema nativo, así que el look se consigue configurando y no inyectando
+# CSS contra el DOM interno de Streamlit —que cambia entre versiones y rompe.
+#
+# Los valores son los de shadcn "zinc" traducidos de HSL a hex:
+#   background #FFFFFF / #09090B   foreground #09090B / #FAFAFA
+#   muted      #F4F4F5 / #18181B   border     #E4E4E7 / #27272A
+#   radius     0.5rem = 8px
+#
+# El primario NO es el casi-negro de shadcn: es el naranja EXACTO del logo de
+# NextMakers, #EB652B (66 % de los píxeles opacos de la imagen). Sirve igual en
+# los dos modos porque su luminosidad OKLCH (L=0,666) cae dentro de la banda
+# permitida tanto en claro (0,43–0,77) como en oscuro (0,48–0,67) — un caso
+# afortunado que ahorra tener que elegir un segundo naranja.
+#
+# La tinta que va encima de ese naranja **no es blanca**: blanco sobre #EB652B da
+# 3,27:1, insuficiente para texto normal. El casi negro cálido #1C0A02 da 5,88:1.
+# De ahí que los botones primarios de esta app tengan letra oscura.
+# ---------------------------------------------------------------------------
+
+[server]
+# El taller corre en la laptop de cada participante: no hay nada que recolectar.
+headless = true
+
+
+[browser]
+gatherUsageStats = false
+
+[logger]
+# El vigilante de archivos recorre los módulos importados para decidir cuáles
+# recargar, y al hurgar en `transformers` tropieza con sus importaciones perezosas
+# de `torchvision` —que no está instalado y no hace falta para nada de esto—.
+# Son cientos de trazas al arrancar que NO son errores de esta aplicación pero se
+# leen exactamente como si lo fueran, y en un taller eso cuesta media hora de
+# preguntas. Se registran como advertencia, así que subir el nivel las calla sin
+# perder la recarga automática ni esconder un error de verdad.
+level = "error"
+
+[client]
+# Sin barra de herramientas: "Deploy" y el menú de tres puntos son controles de
+# desarrollo de Streamlit, no de esta aplicación. En un taller no hay nada que
+# desplegar y ese botón invita a apretarlo.
+toolbarMode = "minimal"
+
+[theme]
+# MODO OSCURO POR DEFECTO, y en las dos variantes a propósito.
+#
+# Streamlit sigue la preferencia del sistema operativo: si defines un juego de
+# colores claro arriba y un `[theme.dark]` abajo, la aplicación se ve clara en
+# un computador configurado en claro, y `base = "dark"` NO alcanza para forzarlo
+# —los colores explícitos del nivel superior le ganan a la base—.
+#
+# Por eso el juego oscuro está acá arriba y NO hay una variante clara: así la
+# aplicación se ve igual en cualquier máquina, que es lo que hace falta cuando se
+# proyecta en una sala. Para volver a claro hay que hacer dos cosas, y las dos:
+#   1. cambiar estos colores por los de la paleta clara (están en
+#      `src/estilo.py`, en el diccionario CLARO), y
+#   2. poner TEMA=claro en el `.env`, que es lo que decide la hoja de estilos
+#      propia y el color de los gráficos.
+#
+# El reporte descargable NO sigue esto: siempre se genera en claro, porque se
+# imprime o se lee en un cliente de correo.
+base = "dark"
+
+# Tipografía: Inter con la pila del sistema detrás. Si la wifi del venue falla y
+# la fuente no baja, cae en `system-ui` y sigue viéndose limpio — que es la razón
+# de no depender de una sola familia remota.
+font = "Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+headingFont = "Inter, ui-sans-serif, system-ui, -apple-system, sans-serif"
+codeFont = "'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace"
+baseFontSize = 15
+baseFontWeight = 400
+
+# shadcn usa titulares compactos y con bastante peso, no grandes y livianos.
+headingFontSizes = ["1.75rem", "1.375rem", "1.125rem", "1rem", "0.9375rem", "0.875rem"]
+headingFontWeights = [600, 600, 600, 600, 600, 600]
+
+# radius 0.5rem, y los botones un poco menos, como los de shadcn.
+baseRadius = "0.5rem"
+buttonRadius = "0.375rem"
+
+# El borde fino y visible es la marca de la casa: las tarjetas de shadcn se
+# separan del fondo por un borde de 1px, no por sombra.
+borderColor = "#27272A"
+showWidgetBorder = true
+showSidebarBorder = true
+dataframeBorderColor = "#27272A"
+dataframeHeaderBackgroundColor = "#18181B"
+
+# --- superficies y texto (zinc oscuro) -------------------------------------
+backgroundColor = "#09090B"
+secondaryBackgroundColor = "#18181B"
+textColor = "#FAFAFA"
+primaryColor = "#EB652B"
+linkColor = "#FA7A48"   # sobre #09090B necesita más luz que el naranja del logo
+linkUnderline = false
+codeBackgroundColor = "#18181B"
+codeTextColor = "#FAFAFA"
+codeFontSize = "0.8125rem"
+
+grayColor = "#A1A1AA"
+grayBackgroundColor = "#18181B"
+grayTextColor = "#A1A1AA"
+
+# La métrica es el número que la gente mira primero: grande y con peso.
+metricValueFontSize = "2rem"
+metricValueFontWeight = 600
+
+# --- paleta de gráficos ----------------------------------------------------
+# NO es la paleta de shadcn: la suya (--chart-1..5) pone tres cálidos análogos
+# juntos y falla la separación para daltonismo — verificado con el validador,
+# ΔE 4.7 en deuteranopía entre sus slots 4 y 5, y uno de sus colores lee gris.
+#
+# Son SEIS, no ocho, y es un hallazgo de la verificación: ocho tonos no caben en
+# la banda de luminosidad del modo oscuro sin pisarse (el ámbar y el naranja
+# quedaban a ΔE 0,5 bajo deuteranopía, o sea el mismo color). Seis pasan con
+# margen y seis alcanzan — lo máximo que colorea el tablero son las seis
+# categorías de paradas. Un séptimo grupo no se resuelve inventando un color: se
+# agrupa en «Otras».
+#
+# Verificados en modo TODOS LOS PARES, no solo adyacentes, así que cualquier
+# subconjunto en cualquier orden es seguro: peor par CVD ΔE 10,6 en claro y 9,3
+# en oscuro (objetivo ≥8), visión normal ΔE 18,5 en ambos.
+chartCategoricalColors = [
+  "#EB652B", "#A43650", "#069FF9", "#E35EBD", "#40C68B", "#7756DC",
+]
+# Rampa secuencial de un solo tono, el del logo. Streamlit exige EXACTAMENTE diez
+# valores: con siete descarta la lista entera y cae a sus colores por defecto sin
+# más aviso que una línea en el log, así que la rampa de marca no se aplicaba.
+#
+# Estos diez son puntos de interpolación de un degradado continuo, no diez bins
+# discretos. Por eso acá **no** se exige la separación mínima de luminosidad entre
+# pasos vecinos que sí se le exige a una escala ordinal: en un degradado, que dos
+# puntos contiguos se parezcan es el objetivo, no un defecto. Lo que sí se verificó
+# es lo que aplica a un continuo: luminosidad monótona, un solo tono, y el extremo
+# vecino a la superficie despegado de ella (2,10:1 en claro, 2,33:1 en oscuro) para
+# que el valor más bajo no se confunda con el fondo.
+#
+# Los pasos DISCRETOS del mapa de calor son otros —seis, en `src/estilo.py`— y esos
+# sí pasan la regla de separación, porque ahí cada celda tiene que distinguirse.
+chartSequentialColors = [
+  "#E5A48C", "#DD9276", "#D58060", "#CC6E4A", "#C5592E",
+  "#BE4200", "#B22D00", "#9E2200", "#881F00", "#731A00",
+]
+
+[theme.sidebar]
+# La barra lateral es la superficie "muted" de shadcn, un tono por debajo del
+# lienzo: separa la navegación del contenido sin necesitar una línea gruesa.
+backgroundColor = "#0C0C0E"
+secondaryBackgroundColor = "#18181B"
+borderColor = "#27272A"
+showWidgetBorder = true
+
+# NO hay [theme.dark] ni [theme.light]: definir variantes es justamente lo que
+# hace que Streamlit siga la preferencia del sistema operativo. Con un solo juego
+# de colores, la aplicación se ve oscura en cualquier máquina.
+#
+# El modo oscuro es **elegido**, no un volteo automático del claro: los pasos de
+# los colores de serie se re-eligieron para la superficie #09090B y se validaron
+# contra ella (todos ≥3:1, banda de luminosidad propia). Esos pasos los aplica el
+# tema de Altair en `src/estilo.py`, que es quien dibuja los gráficos: los colores
+# de gráfico de este archivo son solo de nivel superior en Streamlit.

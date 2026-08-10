@@ -1,0 +1,1557 @@
+﻿planta,fecha,hora_inicio,turno,linea,maquina,duracion_min,codigo_falla,categoria_falla,comentario_operario
+Envases del Pacífico S.A.S.,2026-02-08,10:25,mañana,L3,EMP-06,22.7,CAL-02,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-02-08,12:52,mañana,L3,EMP-07,2.5,,,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-02-08,16:15,tarde,L3,EMP-06,20.0,ELE-04,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-02-08,17:33,tarde,L1,SOP-01,2.8,ELE-05,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-02-08,21:49,tarde,L1,SOP-02,19.6,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-02-08,23:39,noche,L1,SOP-02,2.2,CAL-03,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-02-09,01:37,noche,L1,SOP-01,12.2,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-02-09,03:48,noche,L3,EMP-06,4.1,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-02-09,07:20,mañana,L3,EMP-06,2.2,OPE-01,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-02-09,07:24,mañana,L1,SOP-01,11.7,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-02-09,08:44,mañana,L2,INY-03,19.8,OPE-05,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-02-09,09:20,mañana,L3,EMP-06,26.5,ELE-07,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-02-09,10:51,mañana,L3,EMP-06,10.8,MEC-01,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-02-09,17:06,tarde,L2,INY-04,13.7,OPE-05,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-02-09,21:59,tarde,L1,SOP-01,16.7,MEC-04,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-02-10,02:03,noche,L3,EMP-06,2.6,MEC-01,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-02-10,03:06,noche,L1,SOP-02,22.9,,,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-02-10,06:10,mañana,L2,INY-03,23.9,OPE-04,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-02-10,11:52,mañana,L3,EMP-07,33.0,,,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-02-10,16:16,tarde,L1,SOP-01,3.6,OPE-01,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-02-10,16:40,tarde,L1,SOP-01,2.8,OPE-07,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-02-10,19:51,tarde,L3,EMP-06,73.6,CAL-04,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-02-11,06:52,mañana,L1,SOP-02,3.7,OPE-02,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-02-11,11:27,mañana,L1,SOP-01,4.9,MEC-05,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-02-11,16:00,tarde,L1,SOP-01,19.6,OPE-07,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-02-12,02:04,noche,L2,INY-04,25.7,ELE-02,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-02-12,20:54,tarde,L2,INY-05,26.9,OPE-02,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-02-12,22:37,noche,L2,INY-05,2.1,MEC-06,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-02-12,22:51,noche,L3,EMP-07,30.5,CAL-08,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-02-12,23:04,noche,L2,INY-05,1.9,ELE-02,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-02-13,01:35,noche,L1,SOP-02,3.6,OPE-07,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-02-13,03:38,noche,L2,INY-03,25.3,OPE-04,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-02-13,05:51,noche,L2,INY-05,19.0,CAL-06,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-02-13,09:42,mañana,L2,INY-03,25.0,MPR-04,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-02-13,11:33,mañana,L3,EMP-06,30.7,OPE-06,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-02-13,13:15,mañana,L2,INY-03,11.6,OPE-02,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-02-13,16:38,tarde,L3,EMP-06,5.4,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-02-13,22:24,noche,L3,EMP-07,9.4,OPE-08,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-02-13,22:28,noche,L1,SOP-02,38.0,OPE-01,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-02-13,22:47,noche,L2,INY-05,5.2,MPR-02,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-02-14,00:00,noche,L2,INY-04,2.5,CAL-06,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-02-14,00:07,noche,L1,SOP-01,2.9,OPE-08,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-02-14,00:21,noche,L1,SOP-02,9.6,,,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-02-14,00:40,noche,L2,INY-04,28.2,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-02-14,00:50,noche,L3,EMP-07,14.8,MEC-05,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-02-14,01:11,noche,L2,INY-04,20.5,MEC-05,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-02-14,02:04,noche,L3,EMP-06,4.2,MPR-05,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-02-14,02:24,noche,L2,INY-05,2.2,MEC-03,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-02-14,02:39,noche,L3,EMP-07,15.0,,,falla del variador
+Envases del Pacífico S.A.S.,2026-02-14,03:34,noche,L2,INY-03,12.5,MPR-02,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-02-14,04:03,noche,L2,INY-03,4.3,MPR-06,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-02-14,05:39,noche,L3,EMP-06,4.7,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-02-14,10:15,mañana,L1,SOP-02,4.1,MPR-08,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-02-14,14:09,tarde,L2,INY-05,1.9,OPE-04,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-02-14,21:57,tarde,L2,INY-03,46.6,CAL-05,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-02-15,00:58,noche,L3,EMP-06,49.2,MEC-01,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-02-15,03:53,noche,L3,EMP-06,6.5,OPE-07,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-02-15,04:28,noche,L3,EMP-06,1.3,CAL-05,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-02-15,06:55,mañana,L2,INY-04,31.1,,,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-02-15,07:05,mañana,L3,EMP-06,40.0,,,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-02-15,07:19,mañana,L3,EMP-07,4.6,MEC-03,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-02-15,11:14,mañana,L3,EMP-06,2.0,MPR-04,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-02-15,21:35,tarde,L1,SOP-01,24.2,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-02-15,21:58,tarde,L3,EMP-06,87.3,MEC-07,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-02-16,01:16,noche,L2,INY-03,3.7,MPR-05,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-02-16,03:52,noche,L1,SOP-01,10.9,MEC-03,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-02-16,04:02,noche,L3,EMP-07,13.2,,,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-02-16,06:40,mañana,L3,EMP-07,4.6,MEC-08,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-02-16,14:23,tarde,L3,EMP-06,37.9,OPE-04,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-02-16,18:45,tarde,L1,SOP-01,12.8,MEC-07,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-02-16,20:40,tarde,L3,EMP-07,21.0,OPE-06,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-02-16,20:48,tarde,L3,EMP-06,1.4,MEC-04,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-02-16,22:31,noche,L2,INY-04,2.7,ELE-01,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-02-16,23:07,noche,L3,EMP-06,1.5,MEC-02,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-02-17,02:22,noche,L1,SOP-02,4.2,CAL-06,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-02-17,07:22,mañana,L3,EMP-06,15.5,MPR-08,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-02-17,11:07,mañana,L3,EMP-07,23.6,OPE-01,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-02-17,17:38,tarde,L2,INY-04,173.0,CAL-04,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-02-17,19:33,tarde,L1,SOP-01,3.9,CAL-06,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-02-17,20:35,tarde,L1,SOP-01,27.8,MEC-08,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-02-17,20:58,tarde,L2,INY-04,1.1,,,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-02-17,21:51,tarde,L2,INY-04,16.3,MPR-01,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-02-17,22:03,noche,L2,INY-04,48.0,,,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-02-17,22:15,noche,L2,INY-05,2.6,OPE-04,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-02-18,01:57,noche,L2,INY-04,9.1,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-02-18,06:43,mañana,L3,EMP-06,71.0,OPE-02,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-02-18,15:03,tarde,L1,SOP-02,24.6,OPE-06,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-02-18,17:10,tarde,L3,EMP-06,11.9,OPE-08,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-02-18,18:08,tarde,L1,SOP-02,35.1,CAL-02,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-02-18,18:46,tarde,L3,EMP-06,17.2,OPE-08,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-02-19,00:53,noche,L1,SOP-01,33.0,ELE-01,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-02-19,00:57,noche,L2,INY-05,3.7,MEC-01,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-02-19,09:52,mañana,L2,INY-04,10.5,MPR-07,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-02-19,10:03,mañana,L2,INY-04,4.2,MPR-05,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-02-19,10:12,mañana,L3,EMP-06,23.6,OPE-03,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-02-19,12:07,mañana,L3,EMP-07,17.5,OPE-08,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-02-19,12:21,mañana,L2,INY-03,19.5,OPE-02,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-02-19,14:28,tarde,L2,INY-04,20.4,MEC-04,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-02-19,16:19,tarde,L1,SOP-02,8.9,,,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-02-19,21:22,tarde,L2,INY-05,1.5,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-02-19,22:04,noche,L3,EMP-07,3.5,OPE-07,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-02-20,02:04,noche,L2,INY-04,1.6,ELE-01,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-02-20,09:26,mañana,L2,INY-04,22.4,,,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-02-20,13:40,mañana,L1,SOP-01,2.7,MEC-06,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-02-20,14:32,tarde,L1,SOP-01,1.7,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-02-20,14:46,tarde,L2,INY-05,2.4,OPE-02,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-02-20,16:17,tarde,L2,INY-03,55.9,ELE-05,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-02-20,16:49,tarde,L2,INY-05,16.1,ELE-08,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-02-20,21:51,tarde,L2,INY-03,4.8,MEC-01,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-02-20,22:53,noche,L2,INY-05,12.1,OPE-06,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-02-21,00:53,noche,L2,INY-03,4.3,OPE-05,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-02-21,01:19,noche,L2,INY-03,13.7,OPE-06,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-02-21,01:21,noche,L2,INY-03,30.0,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-02-21,02:32,noche,L2,INY-05,13.9,CAL-04,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-02-21,03:33,noche,L2,INY-03,2.1,MEC-06,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-02-21,03:35,noche,L2,INY-05,9.1,OPE-05,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-02-21,03:58,noche,L2,INY-03,15.0,CAL-08,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-02-21,04:27,noche,L2,INY-03,2.0,,,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-02-21,08:45,mañana,L1,SOP-02,60.4,MEC-03,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-02-21,10:53,mañana,L2,INY-04,3.4,MEC-04,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-02-21,11:35,mañana,L2,INY-04,22.0,OPE-05,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-02-21,16:49,tarde,L3,EMP-06,2.2,,,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-02-21,17:16,tarde,L3,EMP-06,3.2,MEC-03,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-02-21,21:13,tarde,L1,SOP-02,24.9,,,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-02-21,23:36,noche,L2,INY-03,6.0,OPE-04,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-02-22,04:55,noche,L2,INY-03,1.2,CAL-02,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-02-22,23:06,noche,L1,SOP-02,23.0,,,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-02-23,07:58,mañana,L3,EMP-07,34.6,OPE-04,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-02-23,14:03,tarde,L3,EMP-07,3.4,MEC-04,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-02-23,17:48,tarde,L3,EMP-07,13.4,MEC-04,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-02-23,21:07,tarde,L2,INY-05,2.7,,,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-02-23,22:29,noche,L3,EMP-07,54.3,,,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-02-24,00:59,noche,L1,SOP-02,34.3,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-02-24,02:06,noche,L1,SOP-01,1.8,MPR-01,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-02-24,02:09,noche,L3,EMP-07,5.0,,,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-02-24,05:32,noche,L1,SOP-01,24.1,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-02-24,08:43,mañana,L2,INY-05,29.2,MEC-08,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-02-24,09:30,mañana,L2,INY-03,34.2,,,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-02-24,11:45,mañana,L2,INY-04,56.3,CAL-07,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-02-24,16:47,tarde,L3,EMP-07,2.1,,,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-02-24,22:48,noche,L3,EMP-06,3.8,CAL-05,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-02-25,00:14,noche,L3,EMP-07,1.6,CAL-05,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-02-25,04:44,noche,L2,INY-04,1.6,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-02-25,05:07,noche,L2,INY-03,17.1,MEC-05,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-02-25,09:53,mañana,L1,SOP-02,3.3,MPR-07,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-02-25,21:16,tarde,L3,EMP-06,17.4,OPE-03,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-02-26,00:04,noche,L3,EMP-07,21.5,OPE-05,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-02-26,00:33,noche,L3,EMP-07,51.3,OPE-05,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-02-26,17:23,tarde,L2,INY-03,1.0,MEC-05,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-02-26,19:18,tarde,L3,EMP-06,22.6,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-02-26,22:43,noche,L3,EMP-06,4.9,CAL-07,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-02-26,23:12,noche,L3,EMP-07,8.0,OPE-01,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-02-26,23:45,noche,L3,EMP-06,2.7,MPR-04,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-02-26,23:51,noche,L2,INY-03,66.8,,,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-02-27,00:07,noche,L2,INY-03,2.4,OPE-01,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-02-27,11:03,mañana,L1,SOP-01,1.6,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-02-27,13:25,mañana,L1,SOP-02,9.4,OPE-07,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-02-27,13:33,mañana,L2,INY-03,30.6,CAL-04,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-02-27,15:04,tarde,L1,SOP-01,24.1,MEC-01,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-02-27,18:25,tarde,L1,SOP-01,1.1,MEC-01,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-02-27,23:40,noche,L2,INY-03,19.6,MEC-07,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-02-28,00:21,noche,L2,INY-05,3.6,MEC-08,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-02-28,00:23,noche,L1,SOP-02,11.3,OPE-03,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-02-28,03:07,noche,L1,SOP-02,4.8,MEC-06,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-02-28,03:14,noche,L1,SOP-01,37.2,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-02-28,03:16,noche,L2,INY-04,16.6,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-02-28,04:05,noche,L2,INY-05,10.8,ELE-05,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-02-28,04:37,noche,L2,INY-03,39.1,,,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-02-28,04:42,noche,L1,SOP-01,15.1,MEC-01,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-02-28,05:22,noche,L2,INY-05,4.4,MPR-02,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-02-28,12:23,mañana,L3,EMP-06,1.3,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-02-28,13:30,mañana,L1,SOP-02,9.0,MEC-04,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-02-28,19:45,tarde,L3,EMP-07,16.8,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-03-01,00:11,noche,L2,INY-04,9.4,OPE-08,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-03-01,00:33,noche,L2,INY-04,5.4,OPE-07,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-03-01,01:38,noche,L2,INY-03,4.8,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-03-01,03:23,noche,L3,EMP-07,57.6,MEC-03,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-03-01,06:17,mañana,L3,EMP-07,40.3,MEC-06,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-03-01,10:23,mañana,L2,INY-03,2.7,,,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-03-01,10:59,mañana,L3,EMP-07,18.8,ELE-08,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-03-01,10:59,mañana,L3,EMP-07,32.1,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-03-01,11:12,mañana,L3,EMP-07,24.5,MEC-05,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-01,12:13,mañana,L2,INY-04,4.7,MEC-04,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-01,18:08,tarde,L3,EMP-07,20.9,MEC-07,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-03-01,18:23,tarde,L3,EMP-07,13.9,ELE-04,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-03-01,18:55,tarde,L3,EMP-06,3.5,MEC-07,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-01,21:06,tarde,L3,EMP-07,15.9,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-03-01,23:08,noche,L3,EMP-07,23.2,CAL-04,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-03-02,01:19,noche,L1,SOP-02,7.5,ELE-01,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-03-02,05:06,noche,L1,SOP-01,31.5,ELE-07,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-03-02,08:56,mañana,L1,SOP-01,2.5,MEC-03,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-03-02,13:35,mañana,L3,EMP-07,7.6,CAL-01,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-03-02,17:05,tarde,L3,EMP-06,4.8,CAL-03,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-03-02,18:54,tarde,L3,EMP-07,19.7,MEC-02,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-03-03,13:50,mañana,L2,INY-03,1.4,ELE-03,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-03-03,14:03,tarde,L3,EMP-06,3.2,MEC-03,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-03-03,15:32,tarde,L3,EMP-07,15.3,MEC-02,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-03-03,17:39,tarde,L3,EMP-06,72.6,,,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-03-04,00:03,noche,L2,INY-03,2.2,CAL-07,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-03-04,00:09,noche,L2,INY-04,38.5,MEC-02,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-03-04,01:22,noche,L1,SOP-02,3.6,,,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-03-04,02:49,noche,L2,INY-05,11.8,MEC-01,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-03-04,02:57,noche,L3,EMP-07,20.4,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-04,03:56,noche,L1,SOP-01,22.8,OPE-03,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-03-04,07:34,mañana,L1,SOP-01,1.7,OPE-08,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-03-04,10:02,mañana,L1,SOP-02,74.2,MEC-04,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-04,10:11,mañana,L2,INY-03,20.9,ELE-03,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-03-04,12:32,mañana,L2,INY-03,13.8,MEC-01,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-03-04,16:35,tarde,L2,INY-03,3.8,OPE-03,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-04,18:27,tarde,L2,INY-03,3.8,,,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-03-05,03:50,noche,L2,INY-03,4.2,,,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-03-05,07:41,mañana,L1,SOP-01,48.0,OPE-04,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-03-05,10:25,mañana,L1,SOP-01,2.0,MEC-06,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-03-05,10:33,mañana,L3,EMP-06,17.5,MEC-04,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-05,10:49,mañana,L1,SOP-02,1.7,CAL-06,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-03-05,12:16,mañana,L1,SOP-01,3.7,CAL-05,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-03-05,15:08,tarde,L3,EMP-07,1.8,MEC-02,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-03-05,15:09,tarde,L1,SOP-02,3.8,CAL-01,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-03-05,16:13,tarde,L3,EMP-07,3.6,MPR-05,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-03-05,20:38,tarde,L1,SOP-02,2.8,OPE-04,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-06,03:31,noche,L2,INY-04,15.5,,,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-03-06,05:00,noche,L2,INY-04,9.8,OPE-04,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-03-06,06:51,mañana,L3,EMP-06,1.7,,,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-03-06,09:37,mañana,L2,INY-05,36.7,ELE-07,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-03-06,12:43,mañana,L2,INY-03,19.1,MEC-02,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-03-06,16:49,tarde,L1,SOP-02,76.2,MEC-05,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-06,17:27,tarde,L3,EMP-07,4.0,MEC-06,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-03-06,23:45,noche,L3,EMP-06,20.2,CAL-06,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-03-07,00:16,noche,L2,INY-04,8.3,MEC-05,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-07,01:37,noche,L3,EMP-06,3.9,MEC-05,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-03-07,01:54,noche,L2,INY-05,44.7,MEC-08,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-07,02:10,noche,L3,EMP-07,10.6,,,falla del variador
+Envases del Pacífico S.A.S.,2026-03-07,02:23,noche,L2,INY-05,3.4,OPE-03,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-03-07,02:48,noche,L2,INY-03,11.6,MEC-03,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-07,03:48,noche,L2,INY-03,4.1,,,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-03-07,04:58,noche,L3,EMP-07,2.1,,,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-03-07,05:35,noche,L3,EMP-06,3.0,OPE-08,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-03-07,05:45,noche,L2,INY-04,30.9,MEC-07,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-03-07,10:36,mañana,L2,INY-04,21.1,MEC-01,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-03-07,11:52,mañana,L1,SOP-02,2.4,MEC-03,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-03-07,15:38,tarde,L3,EMP-06,70.1,OPE-01,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-03-07,15:58,tarde,L2,INY-03,13.0,OPE-01,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-03-07,16:56,tarde,L3,EMP-06,1.7,MEC-04,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-03-07,21:13,tarde,L1,SOP-01,35.0,,,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-03-07,22:24,noche,L2,INY-05,3.2,MPR-07,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-03-07,23:04,noche,L3,EMP-07,55.9,MEC-06,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-03-08,01:06,noche,L3,EMP-07,22.3,MEC-04,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-08,05:08,noche,L2,INY-05,14.3,OPE-04,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-03-08,05:51,noche,L2,INY-04,1.9,OPE-05,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-03-08,08:59,mañana,L2,INY-04,17.6,MEC-06,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-03-08,15:26,tarde,L1,SOP-02,2.0,MEC-02,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-03-08,15:32,tarde,L1,SOP-02,5.0,,,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-03-08,17:48,tarde,L1,SOP-01,3.9,,,falla del variador
+Envases del Pacífico S.A.S.,2026-03-08,20:19,tarde,L1,SOP-02,40.5,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-03-08,21:36,tarde,L1,SOP-01,16.2,OPE-07,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-03-09,02:30,noche,L3,EMP-07,20.2,,,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-03-09,02:32,noche,L2,INY-04,20.0,MPR-05,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-03-09,12:22,mañana,L3,EMP-06,4.5,MEC-08,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-09,14:06,tarde,L1,SOP-02,2.5,MEC-01,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-03-09,17:06,tarde,L3,EMP-06,46.3,MEC-07,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-03-09,18:33,tarde,L3,EMP-06,20.7,OPE-06,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-09,22:20,noche,L3,EMP-07,4.7,MEC-05,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-03-10,03:36,noche,L3,EMP-07,20.3,OPE-03,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-03-10,12:44,mañana,L1,SOP-02,23.4,CAL-03,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-03-10,13:06,mañana,L3,EMP-07,1.2,MEC-06,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-03-10,16:17,tarde,L3,EMP-07,22.7,OPE-02,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-03-10,18:13,tarde,L3,EMP-06,12.5,MPR-08,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-03-10,18:26,tarde,L3,EMP-06,25.0,ELE-02,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-03-10,18:55,tarde,L1,SOP-02,5.7,,,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-03-10,20:00,tarde,L1,SOP-01,86.4,ELE-07,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-03-11,00:57,noche,L1,SOP-01,2.0,CAL-05,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-03-11,08:18,mañana,L1,SOP-01,1.3,OPE-02,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-12,06:13,mañana,L3,EMP-06,66.8,CAL-02,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-03-12,06:23,mañana,L1,SOP-01,3.4,,,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-03-12,11:36,mañana,L3,EMP-07,4.8,OPE-06,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-12,12:17,mañana,L3,EMP-07,29.7,OPE-08,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-03-12,23:25,noche,L1,SOP-01,13.2,ELE-01,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-03-13,00:12,noche,L3,EMP-06,31.6,,,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-03-13,14:47,tarde,L3,EMP-07,66.7,ELE-02,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-03-13,21:31,tarde,L3,EMP-07,8.9,OPE-07,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-13,22:42,noche,L1,SOP-01,21.1,OPE-08,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-03-13,23:49,noche,L1,SOP-02,10.0,CAL-03,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-03-14,01:01,noche,L1,SOP-02,20.5,MPR-02,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-03-14,01:48,noche,L1,SOP-01,2.6,ELE-02,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-03-14,03:06,noche,L2,INY-03,37.0,ELE-08,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-03-14,03:40,noche,L2,INY-04,3.7,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-03-14,04:47,noche,L1,SOP-02,84.6,MPR-03,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-03-14,04:59,noche,L1,SOP-01,15.0,MPR-05,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-03-14,05:10,noche,L2,INY-05,3.8,MEC-02,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-03-14,07:48,mañana,L1,SOP-01,102.5,OPE-04,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-14,12:12,mañana,L1,SOP-01,29.4,OPE-01,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-03-14,14:37,tarde,L3,EMP-06,2.2,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-14,19:03,tarde,L3,EMP-07,26.3,MPR-02,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-03-14,20:08,tarde,L1,SOP-01,26.5,MPR-05,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-03-14,22:37,noche,L3,EMP-07,32.7,OPE-01,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-03-14,22:43,noche,L2,INY-04,21.9,MEC-02,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-03-14,23:29,noche,L1,SOP-01,2.4,OPE-03,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-03-14,23:30,noche,L1,SOP-01,22.1,CAL-05,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-03-15,02:49,noche,L2,INY-04,4.9,MPR-04,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-03-15,05:47,noche,L2,INY-05,104.0,,,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-03-15,20:31,tarde,L2,INY-03,16.4,MEC-04,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-16,01:49,noche,L1,SOP-01,51.7,MEC-03,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-16,03:44,noche,L1,SOP-01,34.7,,,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-03-16,05:28,noche,L2,INY-05,26.0,,,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-03-16,10:29,mañana,L1,SOP-02,1.5,,,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-03-16,13:20,mañana,L2,INY-05,2.6,MPR-07,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-03-16,15:53,tarde,L2,INY-03,13.9,MEC-07,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-03-16,16:58,tarde,L3,EMP-06,64.4,CAL-05,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-03-16,18:16,tarde,L1,SOP-01,51.6,,,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-03-16,20:14,tarde,L2,INY-05,3.0,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-16,21:32,tarde,L3,EMP-07,31.3,OPE-08,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-03-16,22:44,noche,L2,INY-04,47.0,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-03-17,03:29,noche,L3,EMP-07,4.5,MEC-04,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-03-17,13:10,mañana,L1,SOP-02,119.2,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-03-17,19:18,tarde,L2,INY-05,40.8,MPR-06,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-03-17,21:01,tarde,L2,INY-05,2.0,OPE-01,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-03-17,21:18,tarde,L2,INY-05,31.1,ELE-03,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-03-17,23:35,noche,L1,SOP-02,9.0,MPR-05,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-03-18,04:16,noche,L2,INY-03,74.1,OPE-03,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-03-18,04:32,noche,L2,INY-03,1.4,MEC-07,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-18,06:07,mañana,L1,SOP-02,3.9,OPE-05,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-18,11:05,mañana,L3,EMP-07,26.3,CAL-02,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-03-18,11:05,mañana,L3,EMP-07,2.4,OPE-02,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-18,13:58,mañana,L1,SOP-01,1.1,OPE-02,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-03-18,19:52,tarde,L2,INY-04,3.5,MEC-06,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-19,01:25,noche,L3,EMP-06,58.3,MEC-03,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-03-19,02:54,noche,L3,EMP-06,4.6,OPE-02,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-19,05:09,noche,L1,SOP-02,22.5,MPR-05,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-03-19,06:51,mañana,L1,SOP-01,3.9,CAL-06,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-03-19,11:05,mañana,L3,EMP-07,4.8,OPE-02,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-19,11:49,mañana,L1,SOP-02,32.3,MEC-03,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-03-19,16:29,tarde,L2,INY-03,6.2,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-03-19,19:20,tarde,L1,SOP-02,1.6,MEC-04,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-19,19:41,tarde,L2,INY-03,2.3,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-03-19,20:25,tarde,L2,INY-05,28.4,OPE-04,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-19,21:00,tarde,L2,INY-05,5.0,ELE-07,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-03-19,21:18,tarde,L2,INY-05,3.5,CAL-03,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-03-19,21:24,tarde,L1,SOP-02,28.3,,,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-03-20,02:59,noche,L3,EMP-06,14.2,,,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-03-20,03:20,noche,L3,EMP-06,4.5,MEC-02,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-20,05:02,noche,L3,EMP-06,20.3,OPE-04,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-20,07:52,mañana,L1,SOP-02,45.3,ELE-05,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-03-20,08:29,mañana,L1,SOP-02,26.0,,,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-03-20,10:06,mañana,L3,EMP-07,33.0,CAL-06,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-03-20,12:43,mañana,L2,INY-03,8.9,MPR-06,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-03-20,14:48,tarde,L2,INY-03,31.1,CAL-03,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-03-20,17:21,tarde,L3,EMP-07,52.8,OPE-07,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-03-20,17:56,tarde,L2,INY-05,19.5,MEC-02,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-03-20,18:09,tarde,L3,EMP-07,10.8,,,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-03-20,18:31,tarde,L1,SOP-02,15.3,MEC-05,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-03-20,19:53,tarde,L2,INY-04,1.6,,,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-03-20,22:01,noche,L2,INY-03,49.2,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-03-20,23:00,noche,L3,EMP-06,3.2,OPE-08,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-20,23:12,noche,L3,EMP-06,9.8,OPE-06,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-03-20,23:17,noche,L2,INY-05,1.1,ELE-08,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-03-21,00:24,noche,L3,EMP-07,31.2,,,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-03-21,00:58,noche,L3,EMP-07,4.5,,,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-03-21,01:28,noche,L2,INY-04,2.5,OPE-02,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-21,01:45,noche,L2,INY-04,1.8,,,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-03-21,02:39,noche,L2,INY-04,32.7,MPR-06,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-03-21,04:02,noche,L3,EMP-06,4.7,OPE-06,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-03-21,11:31,mañana,L2,INY-03,10.4,MPR-07,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-03-22,04:54,noche,L2,INY-04,21.1,,,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-03-22,06:41,mañana,L3,EMP-07,55.4,OPE-01,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-22,10:53,mañana,L3,EMP-06,2.3,MPR-06,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-03-22,22:09,noche,L1,SOP-01,4.9,,,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-03-22,22:44,noche,L1,SOP-02,5.0,ELE-06,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-03-23,01:27,noche,L1,SOP-02,17.3,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-03-23,02:42,noche,L1,SOP-02,41.5,MPR-07,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-03-23,05:28,noche,L1,SOP-01,38.7,,,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-03-23,05:56,noche,L1,SOP-01,13.0,OPE-07,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-03-23,08:02,mañana,L3,EMP-06,2.1,CAL-08,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-03-23,09:16,mañana,L3,EMP-07,32.5,OPE-01,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-03-23,09:18,mañana,L2,INY-04,3.3,OPE-08,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-03-24,06:25,mañana,L3,EMP-06,1.8,MEC-08,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-03-24,07:15,mañana,L1,SOP-02,4.3,ELE-04,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-03-24,12:45,mañana,L3,EMP-06,2.2,,,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-24,14:55,tarde,L2,INY-03,35.1,OPE-02,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-03-24,15:17,tarde,L2,INY-03,56.2,OPE-02,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-24,15:37,tarde,L2,INY-05,50.4,OPE-07,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-03-24,15:52,tarde,L2,INY-05,1.5,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-03-24,19:33,tarde,L1,SOP-01,13.9,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-03-25,02:54,noche,L1,SOP-01,47.9,,,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-03-25,03:54,noche,L1,SOP-01,50.3,MEC-07,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-25,04:35,noche,L1,SOP-01,1.2,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-03-25,05:23,noche,L3,EMP-07,4.8,CAL-06,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-03-25,07:00,mañana,L2,INY-03,21.9,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-03-25,07:13,mañana,L1,SOP-02,3.1,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-03-25,09:37,mañana,L1,SOP-01,10.1,MEC-07,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-03-25,10:43,mañana,L2,INY-04,12.8,ELE-03,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-03-25,15:16,tarde,L1,SOP-01,36.9,CAL-01,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-03-25,15:32,tarde,L3,EMP-07,2.3,MEC-02,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-03-25,18:49,tarde,L1,SOP-02,4.5,MEC-07,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-03-25,22:53,noche,L3,EMP-07,52.9,,,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-03-26,01:21,noche,L3,EMP-07,43.0,OPE-08,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-26,04:55,noche,L2,INY-04,22.8,MEC-05,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-03-26,05:18,noche,L2,INY-03,3.4,MEC-06,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-03-26,13:26,mañana,L2,INY-03,3.8,OPE-01,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-03-26,16:28,tarde,L1,SOP-01,27.5,OPE-07,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-03-26,22:20,noche,L1,SOP-02,2.6,,,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-03-26,23:16,noche,L1,SOP-01,3.3,,,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-03-27,01:43,noche,L2,INY-04,2.1,,,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-03-27,11:32,mañana,L3,EMP-06,4.0,,,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-03-27,22:01,noche,L2,INY-03,24.6,ELE-06,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-03-27,22:09,noche,L3,EMP-06,53.9,OPE-01,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-03-27,23:50,noche,L2,INY-05,4.7,,,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-03-28,00:01,noche,L3,EMP-07,38.2,MEC-02,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-03-28,00:29,noche,L2,INY-03,21.2,MEC-04,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-03-28,01:36,noche,L3,EMP-06,2.6,MEC-05,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-03-28,01:52,noche,L2,INY-05,4.5,ELE-02,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-03-28,03:04,noche,L2,INY-05,1.1,CAL-08,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-03-28,03:15,noche,L3,EMP-06,3.3,OPE-05,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-03-28,03:25,noche,L3,EMP-06,3.7,OPE-06,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-03-28,05:28,noche,L2,INY-04,4.0,ELE-08,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-03-28,05:32,noche,L3,EMP-07,2.5,,,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-03-28,05:51,noche,L2,INY-04,69.6,ELE-04,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-03-28,07:38,mañana,L2,INY-04,28.9,OPE-01,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-03-28,10:20,mañana,L2,INY-04,18.2,OPE-07,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-03-28,13:02,mañana,L2,INY-05,2.4,OPE-03,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-03-28,21:01,tarde,L1,SOP-01,14.8,MPR-07,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-03-28,22:11,noche,L2,INY-03,28.4,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-03-28,23:12,noche,L1,SOP-01,2.5,OPE-08,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-28,23:32,noche,L3,EMP-06,23.1,OPE-07,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-03-29,09:10,mañana,L2,INY-03,1.3,MEC-07,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-03-29,11:33,mañana,L1,SOP-02,15.5,OPE-03,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-29,14:09,tarde,L1,SOP-01,3.6,MPR-08,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-03-29,14:47,tarde,L1,SOP-01,36.2,OPE-06,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-03-29,15:47,tarde,L1,SOP-02,3.4,MEC-06,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-03-29,19:53,tarde,L2,INY-04,32.1,OPE-07,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-03-29,19:56,tarde,L2,INY-04,5.0,MPR-04,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-03-30,08:39,mañana,L1,SOP-01,2.2,OPE-02,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-03-30,10:32,mañana,L1,SOP-01,22.4,OPE-08,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-30,10:47,mañana,L1,SOP-02,3.0,OPE-03,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-30,10:55,mañana,L1,SOP-02,3.2,CAL-08,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-03-30,12:52,mañana,L3,EMP-06,15.6,MPR-06,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-03-30,17:54,tarde,L1,SOP-02,4.4,CAL-02,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-03-30,22:42,noche,L1,SOP-02,44.1,MEC-03,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-03-31,03:24,noche,L3,EMP-07,8.4,CAL-03,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-03-31,12:08,mañana,L2,INY-05,42.3,MPR-05,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-03-31,12:15,mañana,L2,INY-05,14.3,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-03-31,15:23,tarde,L2,INY-03,18.7,OPE-06,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-03-31,18:18,tarde,L2,INY-04,1.5,CAL-03,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-03-31,19:54,tarde,L1,SOP-01,23.0,OPE-08,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-04-01,00:16,noche,L2,INY-05,23.0,OPE-04,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-04-01,02:02,noche,L2,INY-05,2.4,OPE-05,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-04-01,02:07,noche,L1,SOP-01,1.7,CAL-07,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-04-01,03:24,noche,L2,INY-03,2.1,,,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-04-01,07:36,mañana,L3,EMP-06,30.5,MEC-02,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-04-01,09:21,mañana,L3,EMP-06,14.7,MEC-05,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-01,12:22,mañana,L3,EMP-07,49.5,MEC-05,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-01,21:09,tarde,L1,SOP-01,4.7,MEC-05,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-02,02:21,noche,L1,SOP-01,7.9,OPE-02,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-02,04:02,noche,L1,SOP-01,24.1,OPE-07,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-04-03,00:17,noche,L2,INY-03,8.8,OPE-01,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-04-03,06:41,mañana,L3,EMP-07,8.9,MPR-05,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-04-03,07:48,mañana,L3,EMP-07,17.4,MEC-02,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-04-03,10:27,mañana,L2,INY-05,79.9,MEC-01,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-04-03,10:27,mañana,L3,EMP-07,44.6,MEC-05,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-04-03,17:04,tarde,L1,SOP-01,4.9,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-04-03,20:42,tarde,L1,SOP-01,10.7,,,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-04-03,22:55,noche,L2,INY-04,42.4,CAL-05,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-04-03,23:34,noche,L2,INY-04,3.3,,,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-03,23:53,noche,L2,INY-05,39.8,MPR-04,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-04-04,00:15,noche,L3,EMP-07,8.9,,,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-04-04,00:35,noche,L2,INY-04,2.6,OPE-02,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-04,01:07,noche,L3,EMP-06,30.4,MEC-07,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-04-04,01:23,noche,L3,EMP-06,14.5,MEC-03,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-04-04,02:16,noche,L2,INY-03,5.0,ELE-03,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-04-04,02:32,noche,L2,INY-05,30.0,,,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-04-04,03:31,noche,L3,EMP-06,5.9,OPE-04,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-04-04,03:50,noche,L2,INY-05,4.8,MEC-06,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-04,03:55,noche,L2,INY-05,15.0,ELE-01,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-04-04,03:57,noche,L3,EMP-07,17.0,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-04-04,04:40,noche,L2,INY-05,5.0,MEC-02,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-04,04:59,noche,L2,INY-03,4.0,OPE-01,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-04,05:14,noche,L3,EMP-07,61.4,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-04,05:47,noche,L2,INY-04,18.6,OPE-02,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-04-04,10:13,mañana,L1,SOP-02,2.0,MEC-04,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-04-04,10:36,mañana,L3,EMP-07,12.9,,,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-04-04,11:25,mañana,L3,EMP-06,43.4,,,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-04-04,14:15,tarde,L1,SOP-01,3.3,ELE-01,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-04-04,17:22,tarde,L1,SOP-02,3.2,ELE-04,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-04-04,17:52,tarde,L1,SOP-01,11.7,OPE-04,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-04-04,18:39,tarde,L2,INY-05,5.1,MEC-03,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-04,21:10,tarde,L3,EMP-07,73.1,CAL-05,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-04-05,01:35,noche,L2,INY-04,3.5,OPE-06,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-05,04:45,noche,L1,SOP-01,3.5,ELE-08,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-04-05,06:02,mañana,L1,SOP-02,15.9,MEC-01,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-04-05,10:41,mañana,L1,SOP-01,87.0,ELE-01,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-04-05,10:58,mañana,L2,INY-04,22.0,OPE-01,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-05,11:50,mañana,L2,INY-03,11.2,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-04-05,18:58,tarde,L1,SOP-02,26.0,,,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-04-05,19:27,tarde,L1,SOP-01,47.5,OPE-07,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-05,20:06,tarde,L1,SOP-01,28.7,OPE-03,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-04-05,22:01,noche,L1,SOP-02,74.8,CAL-06,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-04-06,00:56,noche,L3,EMP-07,52.6,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-04-06,01:21,noche,L1,SOP-02,5.0,OPE-05,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-06,02:00,noche,L3,EMP-06,27.3,,,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-04-06,02:15,noche,L1,SOP-02,39.5,OPE-06,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-06,03:44,noche,L1,SOP-01,10.1,OPE-02,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-06,05:39,noche,L1,SOP-01,27.3,MPR-07,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-04-06,08:18,mañana,L2,INY-05,14.4,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-04-06,09:13,mañana,L2,INY-04,3.3,MPR-03,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-04-06,11:51,mañana,L1,SOP-02,11.2,OPE-06,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-04-06,14:58,tarde,L1,SOP-02,2.0,MEC-03,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-06,23:52,noche,L2,INY-03,4.8,CAL-03,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-04-07,06:08,mañana,L1,SOP-01,79.7,,,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-04-07,14:09,tarde,L2,INY-04,14.9,OPE-08,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-07,15:16,tarde,L3,EMP-07,100.5,MEC-07,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-07,18:33,tarde,L1,SOP-02,1.8,CAL-08,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-04-07,19:07,tarde,L3,EMP-07,3.7,MEC-02,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-07,23:58,noche,L3,EMP-06,1.9,MPR-04,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-04-08,08:28,mañana,L3,EMP-07,15.6,OPE-06,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-04-08,13:34,mañana,L1,SOP-01,123.6,,,falla del variador
+Envases del Pacífico S.A.S.,2026-04-08,13:45,mañana,L2,INY-04,1.9,,,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-04-08,14:18,tarde,L2,INY-03,2.7,,,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-04-08,14:32,tarde,L1,SOP-02,16.7,OPE-03,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-08,22:59,noche,L1,SOP-02,17.6,ELE-05,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-04-08,23:55,noche,L1,SOP-01,18.5,OPE-04,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-04-09,06:00,mañana,L2,INY-04,2.3,,,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-09,06:57,mañana,L2,INY-03,1.6,,,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-04-09,08:31,mañana,L3,EMP-07,28.4,ELE-06,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-04-09,09:52,mañana,L1,SOP-01,22.9,,,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-04-09,10:10,mañana,L1,SOP-02,5.0,MEC-04,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-04-09,10:34,mañana,L1,SOP-02,42.0,,,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-04-09,10:51,mañana,L3,EMP-07,5.0,OPE-01,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-09,12:14,mañana,L3,EMP-07,25.1,OPE-03,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-04-09,15:49,tarde,L2,INY-04,34.0,MEC-07,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-04-09,23:32,noche,L1,SOP-01,43.7,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-09,23:44,noche,L3,EMP-06,1.2,OPE-05,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-10,00:41,noche,L1,SOP-02,37.3,ELE-02,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-04-10,04:37,noche,L1,SOP-02,27.4,MEC-08,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-10,04:47,noche,L1,SOP-02,35.0,ELE-06,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-04-10,06:26,mañana,L2,INY-04,17.8,MEC-04,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-10,09:56,mañana,L2,INY-05,16.4,MPR-03,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-04-10,12:48,mañana,L1,SOP-01,4.6,CAL-04,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-04-10,13:07,mañana,L3,EMP-07,4.5,MEC-06,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-10,15:08,tarde,L2,INY-04,4.3,CAL-01,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-04-10,16:59,tarde,L1,SOP-01,15.5,ELE-04,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-04-10,23:07,noche,L1,SOP-01,24.9,MEC-07,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-10,23:12,noche,L2,INY-03,4.1,,,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-10,23:56,noche,L2,INY-03,2.9,CAL-05,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-04-11,00:25,noche,L2,INY-05,91.1,MEC-08,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-11,00:41,noche,L1,SOP-02,12.0,OPE-02,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-04-11,00:41,noche,L3,EMP-06,25.8,OPE-01,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-04-11,00:47,noche,L1,SOP-01,19.0,OPE-06,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-04-11,01:02,noche,L1,SOP-02,19.4,OPE-02,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-11,01:03,noche,L3,EMP-07,49.6,CAL-04,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-04-11,01:15,noche,L3,EMP-06,3.2,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-04-11,01:33,noche,L3,EMP-07,3.8,,,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-11,02:19,noche,L3,EMP-07,3.5,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-04-11,02:41,noche,L2,INY-04,6.9,OPE-03,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-11,03:08,noche,L1,SOP-01,1.9,MPR-03,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-04-11,03:36,noche,L1,SOP-01,4.5,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-11,04:49,noche,L2,INY-05,44.0,CAL-01,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-04-11,05:21,noche,L1,SOP-01,34.3,,,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-11,05:26,noche,L2,INY-05,1.3,OPE-01,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-11,08:55,mañana,L3,EMP-06,6.1,ELE-07,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-04-11,09:08,mañana,L2,INY-04,3.9,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-04-11,10:21,mañana,L2,INY-05,13.2,MEC-08,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-11,13:41,mañana,L2,INY-03,44.0,OPE-03,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-04-11,14:51,tarde,L3,EMP-07,25.8,ELE-07,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-04-11,16:53,tarde,L3,EMP-07,53.9,MPR-06,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-04-11,19:44,tarde,L3,EMP-07,112.5,OPE-02,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-11,21:18,tarde,L1,SOP-01,2.5,,,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-04-11,23:28,noche,L3,EMP-06,92.3,CAL-07,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-04-12,03:07,noche,L3,EMP-07,14.2,OPE-08,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-12,06:56,mañana,L3,EMP-07,88.9,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-04-12,07:21,mañana,L3,EMP-06,6.3,OPE-04,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-12,07:22,mañana,L2,INY-04,3.0,OPE-03,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-12,09:01,mañana,L3,EMP-07,1.1,CAL-08,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-04-12,15:48,tarde,L1,SOP-01,27.1,,,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-04-12,15:58,tarde,L1,SOP-02,5.2,,,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-04-12,17:06,tarde,L3,EMP-06,26.8,CAL-05,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-04-12,17:42,tarde,L1,SOP-01,2.8,MEC-05,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-12,21:50,tarde,L3,EMP-06,4.6,OPE-06,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-12,22:20,noche,L1,SOP-01,107.5,ELE-08,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-04-12,23:56,noche,L1,SOP-02,150.5,MPR-07,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-04-13,14:10,tarde,L1,SOP-01,2.3,OPE-03,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-04-13,14:22,tarde,L2,INY-03,24.1,MEC-05,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-13,16:17,tarde,L3,EMP-07,136.8,MEC-02,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-13,18:23,tarde,L1,SOP-02,35.7,OPE-05,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-13,20:08,tarde,L1,SOP-02,3.4,OPE-07,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-04-13,23:00,noche,L2,INY-03,4.5,,,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-04-13,23:00,noche,L3,EMP-06,2.3,,,falla del variador
+Envases del Pacífico S.A.S.,2026-04-13,23:03,noche,L3,EMP-07,1.0,ELE-05,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-04-14,02:00,noche,L3,EMP-07,3.4,,,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-14,05:42,noche,L1,SOP-01,3.6,MEC-03,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-04-14,09:09,mañana,L3,EMP-07,5.0,CAL-03,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-04-14,10:33,mañana,L3,EMP-07,155.6,CAL-06,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-04-14,10:52,mañana,L3,EMP-06,56.7,ELE-01,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-04-14,15:10,tarde,L1,SOP-02,2.4,CAL-03,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-04-14,15:12,tarde,L3,EMP-06,47.4,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-04-14,16:46,tarde,L3,EMP-07,11.9,OPE-05,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-14,18:41,tarde,L3,EMP-06,48.8,ELE-08,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-04-15,08:14,mañana,L2,INY-04,6.8,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-04-15,09:05,mañana,L2,INY-05,4.0,ELE-04,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-04-15,09:55,mañana,L2,INY-04,33.0,ELE-03,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-04-15,12:04,mañana,L2,INY-04,3.3,OPE-04,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-15,12:26,mañana,L2,INY-05,2.8,MEC-04,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-15,14:37,tarde,L1,SOP-02,55.0,OPE-06,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-15,18:01,tarde,L2,INY-03,2.5,MEC-07,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-15,19:43,tarde,L2,INY-04,17.0,OPE-08,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-04-15,19:52,tarde,L2,INY-03,21.2,OPE-02,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-15,20:48,tarde,L2,INY-03,2.9,MEC-03,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-15,21:21,tarde,L1,SOP-02,2.1,,,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-04-15,23:13,noche,L1,SOP-01,5.0,MPR-08,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-04-16,00:34,noche,L1,SOP-01,27.6,,,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-04-16,01:53,noche,L1,SOP-02,2.5,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-04-16,03:34,noche,L2,INY-05,3.9,ELE-05,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-04-16,17:22,tarde,L1,SOP-01,22.3,,,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-04-16,17:39,tarde,L3,EMP-06,20.7,CAL-02,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-04-16,18:24,tarde,L1,SOP-02,26.7,MPR-04,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-04-16,20:53,tarde,L2,INY-05,6.0,OPE-02,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-04-16,21:19,tarde,L3,EMP-07,4.2,ELE-03,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-04-16,23:09,noche,L1,SOP-01,2.6,OPE-08,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-04-17,09:18,mañana,L3,EMP-07,18.2,MEC-02,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-17,10:45,mañana,L2,INY-04,4.0,CAL-02,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-04-17,12:15,mañana,L2,INY-05,23.6,MEC-08,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-17,16:25,tarde,L2,INY-04,66.5,,,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-04-17,18:02,tarde,L1,SOP-02,1.2,,,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-04-17,21:55,tarde,L1,SOP-02,11.5,OPE-02,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-17,22:31,noche,L1,SOP-01,2.5,MEC-06,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-17,22:33,noche,L1,SOP-01,45.5,MPR-03,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-04-17,22:51,noche,L1,SOP-02,4.1,ELE-01,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-04-17,23:22,noche,L3,EMP-06,9.4,OPE-06,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-17,23:57,noche,L3,EMP-07,1.2,ELE-05,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-04-18,00:01,noche,L3,EMP-06,46.7,MPR-08,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-04-18,00:46,noche,L1,SOP-02,34.2,CAL-08,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-04-18,01:18,noche,L3,EMP-07,4.1,MEC-02,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-18,02:35,noche,L1,SOP-02,9.0,MEC-01,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-04-18,02:49,noche,L2,INY-04,5.6,MEC-07,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-18,03:03,noche,L1,SOP-02,18.9,OPE-08,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-04-18,04:22,noche,L1,SOP-01,18.8,MEC-06,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-04-18,04:23,noche,L1,SOP-02,31.1,,,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-18,04:47,noche,L3,EMP-06,11.4,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-04-18,05:00,noche,L1,SOP-01,10.4,,,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-04-18,05:00,noche,L3,EMP-07,14.0,CAL-03,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-04-18,05:48,noche,L1,SOP-01,20.1,OPE-03,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-18,05:52,noche,L2,INY-05,1.6,,,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-18,10:56,mañana,L1,SOP-01,24.7,OPE-03,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-18,11:36,mañana,L2,INY-03,8.8,ELE-07,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-04-18,13:15,mañana,L1,SOP-02,1.6,CAL-06,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-04-18,14:59,tarde,L2,INY-03,67.1,MEC-07,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-18,17:55,tarde,L1,SOP-02,47.7,ELE-03,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-04-18,18:15,tarde,L1,SOP-02,5.0,,,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-04-18,20:48,tarde,L2,INY-03,4.6,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-04-18,22:42,noche,L3,EMP-06,13.9,,,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-18,23:01,noche,L3,EMP-07,58.7,MEC-01,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-04-19,05:19,noche,L3,EMP-06,11.0,MEC-01,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-04-19,05:41,noche,L3,EMP-07,54.1,ELE-01,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-04-19,06:59,mañana,L2,INY-04,2.8,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-04-19,15:07,tarde,L1,SOP-02,30.6,MPR-04,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-04-20,02:52,noche,L2,INY-03,1.3,OPE-08,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-20,05:44,noche,L2,INY-04,3.6,MPR-08,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-04-20,07:13,mañana,L3,EMP-07,26.5,,,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-04-20,07:30,mañana,L1,SOP-02,44.1,ELE-05,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-04-20,10:05,mañana,L1,SOP-01,4.3,ELE-02,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-04-20,10:39,mañana,L3,EMP-07,14.3,MPR-06,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-04-20,10:55,mañana,L3,EMP-07,24.5,CAL-08,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-04-20,11:11,mañana,L3,EMP-06,11.8,MEC-02,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-04-20,11:12,mañana,L1,SOP-02,2.8,ELE-08,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-04-20,12:23,mañana,L1,SOP-02,18.0,,,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-04-20,13:07,mañana,L1,SOP-02,21.6,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-20,13:23,mañana,L2,INY-04,10.8,MEC-08,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-20,13:51,mañana,L1,SOP-02,40.4,CAL-05,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-04-20,16:06,tarde,L2,INY-03,13.5,CAL-06,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-04-20,19:21,tarde,L1,SOP-01,93.4,,,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-04-21,00:01,noche,L1,SOP-02,3.6,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-04-21,02:04,noche,L3,EMP-07,5.5,MEC-06,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-21,03:32,noche,L3,EMP-07,46.8,OPE-01,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-04-21,03:34,noche,L3,EMP-06,18.7,OPE-06,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-04-21,04:57,noche,L3,EMP-07,24.1,OPE-05,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-21,06:39,mañana,L1,SOP-01,1.8,ELE-06,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-04-21,07:38,mañana,L3,EMP-07,3.4,,,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-04-21,08:15,mañana,L3,EMP-07,59.1,OPE-01,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-04-21,11:54,mañana,L1,SOP-01,8.8,,,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-04-21,13:44,mañana,L2,INY-03,3.3,ELE-01,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-04-21,18:03,tarde,L1,SOP-02,8.3,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-04-21,19:05,tarde,L1,SOP-02,87.2,CAL-06,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-04-21,19:36,tarde,L2,INY-04,63.9,CAL-05,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-04-22,06:09,mañana,L3,EMP-06,15.1,MEC-07,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-22,07:18,mañana,L2,INY-03,2.7,CAL-01,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-04-22,09:09,mañana,L2,INY-04,3.6,CAL-08,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-04-22,13:00,mañana,L3,EMP-06,6.8,CAL-02,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-04-22,13:21,mañana,L3,EMP-07,79.7,,,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-04-22,13:41,mañana,L3,EMP-06,1.4,MEC-01,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-04-22,14:01,tarde,L2,INY-04,3.9,OPE-02,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-22,14:42,tarde,L3,EMP-06,5.7,MPR-04,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-04-22,18:28,tarde,L1,SOP-02,29.4,CAL-03,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-04-22,19:18,tarde,L1,SOP-02,40.3,ELE-06,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-04-22,20:28,tarde,L3,EMP-06,2.4,,,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-04-23,01:05,noche,L3,EMP-06,12.1,OPE-01,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-04-23,04:19,noche,L3,EMP-06,2.7,MPR-06,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-04-23,09:28,mañana,L2,INY-03,51.4,,,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-04-23,13:58,mañana,L2,INY-03,1.3,,,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-04-23,15:18,tarde,L3,EMP-06,42.2,OPE-02,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-23,16:52,tarde,L2,INY-05,2.5,MEC-05,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-04-23,17:37,tarde,L2,INY-05,39.4,OPE-06,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-04-23,21:55,tarde,L2,INY-03,1.1,,,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-04-24,00:57,noche,L3,EMP-06,55.7,ELE-05,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-04-24,10:27,mañana,L3,EMP-06,2.5,OPE-05,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-24,20:20,tarde,L2,INY-04,11.1,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-04-24,23:18,noche,L3,EMP-07,14.5,OPE-08,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-04-25,00:04,noche,L2,INY-03,15.3,CAL-03,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-04-25,01:49,noche,L1,SOP-01,2.9,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-04-25,02:32,noche,L2,INY-03,28.8,MEC-08,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-04-25,03:23,noche,L3,EMP-07,49.9,MEC-07,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-25,03:29,noche,L1,SOP-01,85.4,,,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-25,04:49,noche,L2,INY-05,4.3,,,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-04-25,05:24,noche,L1,SOP-02,60.7,OPE-08,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-25,05:39,noche,L3,EMP-06,26.2,MPR-06,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-04-25,05:51,noche,L1,SOP-02,8.4,,,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-04-25,05:53,noche,L2,INY-05,21.4,ELE-03,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-04-25,05:53,noche,L3,EMP-07,19.9,MEC-07,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-04-25,05:56,noche,L1,SOP-02,2.4,OPE-03,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-04-25,05:57,noche,L2,INY-03,48.0,MPR-03,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-04-25,07:42,mañana,L3,EMP-07,7.4,MEC-04,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-25,09:30,mañana,L3,EMP-06,2.6,OPE-03,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-25,17:08,tarde,L1,SOP-02,27.8,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-04-25,17:58,tarde,L2,INY-03,1.3,MEC-01,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-04-26,11:47,mañana,L2,INY-05,10.3,OPE-01,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-04-26,12:47,mañana,L2,INY-05,4.0,MEC-07,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-04-26,14:43,tarde,L1,SOP-01,16.5,CAL-03,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-04-26,16:24,tarde,L2,INY-04,27.0,,,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-04-27,01:01,noche,L2,INY-05,3.7,ELE-04,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-04-27,05:27,noche,L1,SOP-01,35.3,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-04-27,08:01,mañana,L2,INY-05,2.4,,,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-04-27,18:58,tarde,L1,SOP-01,2.3,MEC-06,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-28,06:56,mañana,L2,INY-03,37.8,MEC-04,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-28,09:41,mañana,L2,INY-03,4.3,MPR-06,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-04-28,20:16,tarde,L3,EMP-06,25.9,,,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-04-28,23:13,noche,L1,SOP-02,12.2,OPE-06,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-29,09:16,mañana,L3,EMP-06,4.6,OPE-08,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-04-29,20:47,tarde,L1,SOP-01,41.4,CAL-01,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-04-29,23:54,noche,L2,INY-04,2.2,MEC-03,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-04-30,00:40,noche,L2,INY-03,34.2,ELE-08,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-04-30,07:56,mañana,L3,EMP-06,3.5,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-04-30,08:20,mañana,L1,SOP-02,4.8,MEC-02,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-04-30,19:02,tarde,L2,INY-05,24.4,ELE-06,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-05-01,00:42,noche,L1,SOP-02,9.4,OPE-08,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-05-01,02:02,noche,L1,SOP-02,34.5,MEC-04,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-05-01,04:06,noche,L2,INY-03,15.0,CAL-03,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-05-01,07:34,mañana,L2,INY-04,102.7,CAL-04,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-05-01,12:36,mañana,L1,SOP-01,1.4,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-05-01,13:33,mañana,L2,INY-05,1.5,,,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-05-01,14:47,tarde,L1,SOP-02,26.0,MEC-03,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-05-01,14:54,tarde,L1,SOP-01,36.9,OPE-06,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-05-01,15:31,tarde,L1,SOP-02,29.1,MEC-06,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-05-01,16:35,tarde,L1,SOP-01,15.7,MPR-06,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-05-01,22:00,noche,L2,INY-04,4.7,ELE-07,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-05-01,22:19,noche,L1,SOP-02,5.3,MEC-06,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-05-01,23:01,noche,L1,SOP-01,27.2,OPE-05,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-05-01,23:01,noche,L2,INY-03,21.1,OPE-06,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-05-01,23:37,noche,L3,EMP-07,54.8,OPE-08,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-05-02,00:00,noche,L2,INY-05,27.6,MEC-08,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-05-02,00:36,noche,L1,SOP-01,19.4,MPR-05,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-05-02,00:42,noche,L2,INY-03,36.2,ELE-07,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-05-02,00:44,noche,L1,SOP-02,16.0,ELE-07,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-05-02,01:33,noche,L2,INY-03,3.4,MEC-02,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-05-02,01:45,noche,L3,EMP-06,30.1,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-05-02,03:35,noche,L2,INY-03,22.1,OPE-01,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-05-02,03:38,noche,L1,SOP-02,2.8,MEC-05,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-05-02,04:38,noche,L3,EMP-06,3.2,OPE-06,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-05-02,05:50,noche,L1,SOP-02,2.9,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-05-02,15:20,tarde,L1,SOP-01,39.4,MEC-06,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-05-02,16:47,tarde,L1,SOP-01,3.4,ELE-02,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-05-02,22:23,noche,L2,INY-03,1.5,MEC-05,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-05-03,09:23,mañana,L3,EMP-07,4.4,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-05-03,11:16,mañana,L3,EMP-07,21.6,MEC-07,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-05-03,15:11,tarde,L1,SOP-01,3.6,OPE-03,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-05-03,18:25,tarde,L1,SOP-02,1.5,MEC-08,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-05-03,19:04,tarde,L2,INY-03,49.7,ELE-08,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-05-04,02:33,noche,L1,SOP-01,58.8,MEC-07,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-05-04,06:06,mañana,L2,INY-03,3.6,MEC-07,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-05-04,09:36,mañana,L3,EMP-07,3.2,,,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-05-04,12:08,mañana,L3,EMP-06,29.3,OPE-07,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-05-04,13:09,mañana,L1,SOP-01,108.6,OPE-02,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-05-04,16:24,tarde,L1,SOP-02,17.8,MPR-04,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-05-04,21:21,tarde,L1,SOP-01,21.0,MEC-06,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-05-05,06:17,mañana,L1,SOP-02,2.7,CAL-04,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-05-05,17:14,tarde,L1,SOP-01,2.6,ELE-01,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-05-05,18:33,tarde,L3,EMP-07,32.6,MEC-01,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-05-05,19:25,tarde,L3,EMP-06,4.9,OPE-06,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-05-05,19:39,tarde,L1,SOP-01,2.6,,,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-05-05,20:25,tarde,L3,EMP-07,10.7,,,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-05-05,20:57,tarde,L1,SOP-01,28.0,MEC-01,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-05-06,10:32,mañana,L3,EMP-06,76.9,ELE-02,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-05-07,03:22,noche,L2,INY-05,42.8,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-05-07,05:32,noche,L1,SOP-01,48.8,MEC-02,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-05-07,08:45,mañana,L3,EMP-07,8.5,MEC-05,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-05-07,08:52,mañana,L2,INY-03,56.5,MEC-01,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-05-07,09:42,mañana,L3,EMP-06,27.1,CAL-02,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-05-07,12:35,mañana,L3,EMP-07,4.2,,,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-05-07,17:06,tarde,L3,EMP-06,7.7,OPE-01,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-05-07,19:05,tarde,L1,SOP-01,4.5,MEC-08,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-05-07,22:03,noche,L3,EMP-07,4.1,ELE-06,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-05-08,00:52,noche,L3,EMP-07,15.5,ELE-04,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-05-08,05:17,noche,L3,EMP-06,2.9,,,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-05-08,06:19,mañana,L3,EMP-06,62.2,,,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-05-08,10:36,mañana,L3,EMP-06,5.7,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-05-08,12:50,mañana,L1,SOP-01,1.9,OPE-07,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-05-08,15:13,tarde,L2,INY-03,15.7,ELE-06,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-05-08,15:48,tarde,L1,SOP-01,3.0,MEC-01,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-05-08,23:14,noche,L3,EMP-07,3.7,MEC-02,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-05-09,01:50,noche,L3,EMP-06,22.4,ELE-02,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-05-09,02:00,noche,L3,EMP-07,33.8,,,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-05-09,05:06,noche,L3,EMP-06,2.9,MEC-06,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-05-09,11:10,mañana,L1,SOP-02,26.2,MEC-05,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-05-09,22:44,noche,L2,INY-04,2.9,ELE-03,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-05-10,01:27,noche,L3,EMP-07,105.6,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-05-10,08:08,mañana,L3,EMP-07,3.1,,,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-05-10,09:02,mañana,L1,SOP-02,5.5,MEC-04,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-05-10,11:53,mañana,L1,SOP-02,1.2,OPE-01,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-05-10,22:15,noche,L2,INY-05,3.2,,,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-05-11,00:43,noche,L3,EMP-07,4.3,OPE-01,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-05-11,01:10,noche,L2,INY-04,17.1,,,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-05-11,01:29,noche,L2,INY-04,29.7,OPE-01,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-05-11,04:19,noche,L2,INY-05,2.2,MPR-01,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-05-11,05:26,noche,L2,INY-05,34.9,OPE-07,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-05-11,10:06,mañana,L1,SOP-01,42.0,OPE-04,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-05-11,10:07,mañana,L2,INY-05,1.9,OPE-03,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-05-11,11:37,mañana,L3,EMP-07,2.4,CAL-05,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-05-11,15:38,tarde,L1,SOP-01,3.0,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-05-11,18:01,tarde,L3,EMP-06,22.7,ELE-04,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-05-11,18:36,tarde,L1,SOP-01,2.9,MEC-05,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-05-12,03:14,noche,L2,INY-05,31.7,ELE-08,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-05-12,04:13,noche,L2,INY-05,12.8,CAL-04,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-05-12,05:28,noche,L2,INY-04,16.2,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-05-12,07:59,mañana,L2,INY-03,24.6,OPE-03,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-05-12,10:27,mañana,L2,INY-04,1.1,MEC-06,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-05-12,13:32,mañana,L2,INY-03,10.5,MPR-08,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-05-12,15:36,tarde,L3,EMP-07,19.6,,,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-05-12,18:11,tarde,L3,EMP-06,26.0,ELE-07,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-05-13,05:08,noche,L2,INY-05,136.3,MEC-06,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-05-13,06:35,mañana,L3,EMP-07,68.4,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-05-13,15:08,tarde,L3,EMP-07,1.3,,,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-05-13,17:25,tarde,L3,EMP-07,22.7,OPE-06,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-05-14,00:20,noche,L2,INY-03,35.0,OPE-02,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-05-14,02:24,noche,L2,INY-05,14.4,,,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-05-14,04:09,noche,L1,SOP-01,20.6,,,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-05-14,05:06,noche,L1,SOP-01,3.6,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-05-14,14:33,tarde,L3,EMP-06,9.2,,,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-05-14,15:02,tarde,L2,INY-03,3.3,MEC-07,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-05-14,15:15,tarde,L3,EMP-06,1.1,ELE-04,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-05-14,15:34,tarde,L3,EMP-07,30.3,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-05-14,17:42,tarde,L2,INY-05,46.2,ELE-02,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-05-14,22:43,noche,L3,EMP-06,6.6,,,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-05-15,02:21,noche,L3,EMP-07,3.7,ELE-06,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-05-15,03:02,noche,L1,SOP-02,49.5,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-05-15,04:52,noche,L1,SOP-02,42.1,,,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-05-15,06:03,mañana,L1,SOP-02,1.5,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-05-15,14:15,tarde,L2,INY-03,33.8,MEC-05,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-05-15,15:10,tarde,L1,SOP-01,3.8,OPE-02,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-05-15,16:24,tarde,L3,EMP-07,28.8,CAL-03,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-05-15,19:42,tarde,L1,SOP-01,18.2,,,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-05-15,19:55,tarde,L1,SOP-02,1.8,OPE-07,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-05-15,22:25,noche,L1,SOP-01,32.6,MEC-05,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-05-15,22:31,noche,L3,EMP-07,40.7,,,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-05-15,22:33,noche,L3,EMP-06,48.7,OPE-04,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-05-15,22:47,noche,L2,INY-05,47.1,MEC-01,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-05-15,23:14,noche,L3,EMP-07,20.5,,,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-05-15,23:59,noche,L2,INY-03,5.5,ELE-08,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-05-16,00:09,noche,L1,SOP-02,2.5,ELE-08,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-05-16,00:53,noche,L1,SOP-01,20.2,MPR-06,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-05-16,01:35,noche,L2,INY-05,2.5,ELE-04,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-05-16,02:15,noche,L3,EMP-07,24.4,MPR-05,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-05-16,02:31,noche,L2,INY-05,9.9,MEC-06,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-05-16,02:56,noche,L1,SOP-02,4.3,OPE-04,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-05-16,03:05,noche,L2,INY-05,4.1,OPE-01,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-05-16,03:43,noche,L1,SOP-01,22.3,MEC-02,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-05-16,03:55,noche,L3,EMP-07,3.4,OPE-06,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-05-16,04:27,noche,L2,INY-03,4.8,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-05-16,05:00,noche,L1,SOP-01,23.1,MEC-02,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-05-16,05:09,noche,L2,INY-03,29.5,OPE-01,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-05-16,05:37,noche,L3,EMP-06,18.4,MEC-01,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-05-16,08:15,mañana,L1,SOP-01,4.8,OPE-01,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-05-16,10:42,mañana,L3,EMP-06,26.6,,,falla del variador
+Envases del Pacífico S.A.S.,2026-05-17,07:56,mañana,L3,EMP-07,41.5,MEC-07,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-05-17,08:45,mañana,L2,INY-03,19.3,OPE-01,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-05-17,08:51,mañana,L1,SOP-02,34.3,MEC-02,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-05-17,09:30,mañana,L2,INY-05,9.1,,,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-05-17,11:01,mañana,L3,EMP-06,43.9,OPE-01,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-05-17,13:59,mañana,L3,EMP-06,36.7,,,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-05-17,14:39,tarde,L2,INY-03,4.4,OPE-07,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-05-17,18:06,tarde,L2,INY-04,37.7,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-05-17,19:43,tarde,L2,INY-03,54.8,,,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-05-17,20:15,tarde,L1,SOP-01,4.3,ELE-07,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-05-17,21:32,tarde,L2,INY-04,16.3,ELE-01,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-05-18,06:15,mañana,L3,EMP-06,5.0,MEC-02,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-05-18,06:47,mañana,L3,EMP-06,12.0,CAL-06,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-05-18,08:08,mañana,L3,EMP-06,13.5,OPE-07,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-05-18,09:14,mañana,L1,SOP-01,3.2,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-05-18,17:28,tarde,L3,EMP-06,1.9,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-05-18,20:01,tarde,L3,EMP-06,12.3,MPR-08,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-05-18,22:18,noche,L1,SOP-02,4.8,,,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-05-19,03:04,noche,L1,SOP-01,9.0,ELE-08,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-05-19,04:44,noche,L1,SOP-01,26.6,MEC-02,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-05-19,06:24,mañana,L3,EMP-06,31.6,,,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-05-19,17:13,tarde,L1,SOP-01,11.0,MPR-07,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-05-20,09:39,mañana,L3,EMP-07,12.0,,,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-05-20,14:34,tarde,L1,SOP-01,2.9,MEC-08,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-05-20,15:55,tarde,L1,SOP-02,27.9,CAL-05,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-05-20,16:26,tarde,L1,SOP-01,26.3,OPE-05,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-05-20,17:31,tarde,L3,EMP-06,2.2,,,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-05-20,19:36,tarde,L2,INY-04,4.8,ELE-07,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-05-21,01:51,noche,L2,INY-04,39.4,OPE-07,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-05-21,02:00,noche,L2,INY-04,17.2,MPR-02,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-05-21,03:26,noche,L1,SOP-01,19.6,CAL-04,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-05-21,06:19,mañana,L2,INY-03,3.9,ELE-02,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-05-21,09:02,mañana,L2,INY-05,2.5,MEC-06,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-05-21,10:48,mañana,L2,INY-03,12.0,CAL-01,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-05-21,12:37,mañana,L2,INY-05,8.6,OPE-03,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-05-21,16:40,tarde,L2,INY-05,4.6,ELE-07,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-05-21,16:57,tarde,L1,SOP-01,126.7,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-05-21,17:35,tarde,L2,INY-03,1.3,OPE-02,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-05-21,18:20,tarde,L2,INY-05,2.3,OPE-06,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-05-21,19:03,tarde,L1,SOP-02,34.5,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-05-21,19:52,tarde,L3,EMP-07,3.7,,,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-05-21,21:02,tarde,L2,INY-03,14.6,ELE-03,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-05-21,21:43,tarde,L1,SOP-02,46.0,MEC-01,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-05-21,23:36,noche,L1,SOP-01,19.5,,,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-05-22,00:30,noche,L3,EMP-07,20.0,OPE-06,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-05-22,03:45,noche,L1,SOP-01,3.2,MPR-04,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-05-22,08:24,mañana,L2,INY-03,5.0,MEC-03,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-05-22,08:45,mañana,L3,EMP-06,7.1,ELE-07,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-05-22,10:29,mañana,L2,INY-04,32.7,CAL-07,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-05-22,12:36,mañana,L1,SOP-01,46.1,MEC-08,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-05-22,15:29,tarde,L1,SOP-01,1.3,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-05-22,22:17,noche,L2,INY-03,27.0,MEC-07,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-05-22,22:23,noche,L3,EMP-06,3.2,OPE-01,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-05-23,00:14,noche,L3,EMP-07,38.8,MPR-03,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-05-23,00:34,noche,L2,INY-04,3.7,MEC-08,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-05-23,01:17,noche,L3,EMP-07,4.7,ELE-02,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-05-23,01:18,noche,L2,INY-05,14.1,MPR-08,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-05-23,03:09,noche,L2,INY-04,18.2,MPR-01,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-05-23,03:19,noche,L3,EMP-06,1.7,OPE-07,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-05-23,04:21,noche,L3,EMP-07,1.4,CAL-04,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-05-23,04:23,noche,L3,EMP-06,18.6,OPE-05,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-05-23,08:02,mañana,L1,SOP-01,41.3,,,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-05-23,09:36,mañana,L3,EMP-06,5.0,MPR-03,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-05-23,10:02,mañana,L1,SOP-01,14.2,MPR-04,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-05-23,11:04,mañana,L3,EMP-06,29.1,CAL-03,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-05-23,12:52,mañana,L3,EMP-06,3.5,ELE-01,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-05-23,13:58,mañana,L3,EMP-07,91.2,,,falla del variador
+Envases del Pacífico S.A.S.,2026-05-23,20:23,tarde,L3,EMP-07,17.5,,,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-05-24,00:12,noche,L2,INY-03,32.3,OPE-05,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-05-24,03:11,noche,L2,INY-03,73.8,MEC-08,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-05-24,03:37,noche,L2,INY-03,17.8,,,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-05-24,08:32,mañana,L1,SOP-01,9.9,MEC-05,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-05-24,10:49,mañana,L2,INY-03,22.3,OPE-08,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-05-24,12:36,mañana,L1,SOP-01,24.6,OPE-01,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-05-24,16:11,tarde,L3,EMP-07,2.1,MEC-03,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-05-24,18:58,tarde,L2,INY-05,1.2,CAL-02,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-05-24,21:23,tarde,L3,EMP-07,10.3,OPE-07,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-05-25,00:41,noche,L2,INY-05,88.8,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-05-25,02:40,noche,L1,SOP-01,3.2,CAL-02,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-05-25,02:47,noche,L1,SOP-02,1.4,MPR-02,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-05-25,05:54,noche,L1,SOP-02,10.4,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-05-25,06:52,mañana,L3,EMP-06,21.4,CAL-05,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-05-25,15:05,tarde,L2,INY-04,10.4,OPE-05,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-05-25,16:50,tarde,L1,SOP-02,3.3,OPE-07,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-05-25,17:07,tarde,L1,SOP-01,4.2,ELE-08,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-05-25,22:34,noche,L1,SOP-02,2.5,CAL-06,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-05-25,23:06,noche,L1,SOP-01,47.1,OPE-01,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-05-26,01:32,noche,L2,INY-03,21.9,MPR-01,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-05-26,02:40,noche,L1,SOP-02,54.6,CAL-03,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-05-26,05:59,noche,L2,INY-05,2.9,OPE-06,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-05-26,14:38,tarde,L2,INY-05,45.8,MPR-06,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-05-26,16:23,tarde,L2,INY-04,44.2,OPE-04,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-05-26,16:35,tarde,L2,INY-05,26.5,CAL-06,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-05-27,10:16,mañana,L1,SOP-02,84.0,MPR-05,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-05-27,13:37,mañana,L2,INY-05,33.6,ELE-03,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-05-27,13:57,mañana,L3,EMP-07,4.0,MEC-03,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-05-27,14:02,tarde,L2,INY-05,18.2,MEC-02,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-05-27,14:49,tarde,L2,INY-03,2.2,MEC-05,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-05-27,15:36,tarde,L3,EMP-06,1.9,MPR-03,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-05-27,16:11,tarde,L1,SOP-01,2.3,MEC-03,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-05-27,16:16,tarde,L1,SOP-01,31.6,MEC-03,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-05-27,22:21,noche,L1,SOP-01,114.4,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-05-28,01:46,noche,L2,INY-05,53.7,MPR-03,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-05-28,02:48,noche,L2,INY-05,4.7,OPE-05,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-05-28,03:03,noche,L2,INY-03,1.6,OPE-02,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-05-28,04:26,noche,L2,INY-04,26.4,OPE-06,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-05-28,09:18,mañana,L2,INY-05,13.2,MPR-05,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-05-28,09:30,mañana,L2,INY-05,19.6,MPR-04,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-05-28,14:36,tarde,L3,EMP-07,55.1,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-05-28,16:23,tarde,L3,EMP-07,8.3,ELE-02,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-05-28,21:30,tarde,L1,SOP-01,24.1,ELE-02,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-05-28,21:53,tarde,L3,EMP-07,8.4,OPE-04,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-05-29,00:06,noche,L2,INY-03,3.5,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-05-29,01:17,noche,L3,EMP-06,13.6,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-05-29,13:50,mañana,L1,SOP-01,4.6,MPR-06,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-05-29,14:17,tarde,L3,EMP-07,1.6,OPE-07,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-05-29,16:55,tarde,L1,SOP-02,14.6,OPE-05,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-05-29,16:56,tarde,L3,EMP-06,13.0,,,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-05-29,17:42,tarde,L1,SOP-02,3.7,,,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-05-29,20:20,tarde,L3,EMP-06,51.2,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-05-29,22:55,noche,L2,INY-05,17.2,MEC-08,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-05-29,23:32,noche,L1,SOP-01,14.0,MPR-06,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-05-29,23:47,noche,L3,EMP-06,21.4,OPE-07,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-05-30,00:05,noche,L1,SOP-01,4.9,,,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-05-30,00:25,noche,L2,INY-03,8.9,OPE-04,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-05-30,01:09,noche,L1,SOP-01,30.3,,,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-05-30,01:14,noche,L3,EMP-06,61.7,OPE-01,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-05-30,01:33,noche,L2,INY-05,21.2,CAL-03,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-05-30,02:51,noche,L3,EMP-06,12.0,MEC-04,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-05-30,03:24,noche,L2,INY-04,5.6,OPE-05,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-05-30,03:48,noche,L3,EMP-06,27.1,MPR-08,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-05-30,04:10,noche,L3,EMP-06,26.9,MEC-01,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-05-30,04:45,noche,L2,INY-03,4.7,,,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-05-30,08:21,mañana,L1,SOP-02,1.6,,,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-05-30,08:36,mañana,L1,SOP-01,4.3,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-05-30,11:35,mañana,L3,EMP-06,1.6,,,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-05-30,20:22,tarde,L3,EMP-07,22.8,MEC-06,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-05-30,20:37,tarde,L1,SOP-02,1.2,,,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-05-30,23:27,noche,L3,EMP-07,1.8,ELE-08,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-05-31,02:30,noche,L3,EMP-06,46.3,OPE-05,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-05-31,03:06,noche,L2,INY-03,1.8,MEC-06,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-05-31,05:30,noche,L3,EMP-06,16.5,CAL-06,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-05-31,11:00,mañana,L1,SOP-01,27.0,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-05-31,11:38,mañana,L3,EMP-07,6.2,OPE-06,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-05-31,17:38,tarde,L3,EMP-07,26.2,OPE-05,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-05-31,22:06,noche,L2,INY-04,3.4,ELE-01,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-06-01,00:18,noche,L3,EMP-07,31.5,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-06-01,08:01,mañana,L3,EMP-06,21.5,MEC-03,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-06-01,16:16,tarde,L1,SOP-01,6.5,,,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-06-01,16:47,tarde,L1,SOP-02,23.3,MEC-03,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-06-01,19:46,tarde,L1,SOP-01,17.4,MEC-04,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-06-02,01:12,noche,L3,EMP-07,2.7,OPE-03,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-02,02:53,noche,L1,SOP-01,15.0,OPE-06,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-02,06:30,mañana,L1,SOP-02,3.3,,,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-06-02,08:23,mañana,L2,INY-03,10.3,OPE-07,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-02,08:31,mañana,L3,EMP-06,4.0,ELE-03,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-06-02,12:02,mañana,L1,SOP-01,35.6,OPE-03,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-06-02,17:25,tarde,L1,SOP-02,42.4,MPR-06,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-06-02,18:01,tarde,L3,EMP-06,10.3,,,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-02,18:54,tarde,L3,EMP-06,3.0,MEC-05,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-06-02,19:12,tarde,L2,INY-05,5.7,ELE-01,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-06-02,21:02,tarde,L3,EMP-07,4.6,MPR-08,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-06-02,21:48,tarde,L2,INY-04,3.2,MEC-06,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-06-03,06:56,mañana,L1,SOP-01,110.0,MEC-01,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-06-03,07:26,mañana,L2,INY-05,22.2,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-06-03,07:46,mañana,L3,EMP-07,38.3,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-06-03,12:27,mañana,L3,EMP-07,17.3,MEC-03,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-06-03,13:55,mañana,L3,EMP-06,5.1,MPR-06,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-06-03,14:10,tarde,L2,INY-03,15.9,MEC-01,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-06-03,14:24,tarde,L2,INY-03,2.4,OPE-04,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-03,22:34,noche,L1,SOP-01,20.2,,,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-06-04,09:11,mañana,L2,INY-05,1.1,,,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-04,20:36,tarde,L1,SOP-01,45.4,,,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-06-05,02:37,noche,L1,SOP-02,3.4,,,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-06-05,07:02,mañana,L3,EMP-06,20.7,OPE-03,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-06-05,07:32,mañana,L1,SOP-01,95.8,OPE-01,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-05,20:44,tarde,L1,SOP-01,17.7,MEC-02,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-06-05,21:08,tarde,L1,SOP-01,20.6,,,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-06-05,22:16,noche,L2,INY-05,4.7,MPR-05,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-06-05,22:54,noche,L2,INY-04,48.1,ELE-02,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-06-06,00:28,noche,L2,INY-05,39.3,MEC-04,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-06-06,00:29,noche,L1,SOP-02,18.4,,,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-06,00:37,noche,L1,SOP-01,36.3,,,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-06-06,01:00,noche,L1,SOP-01,4.6,OPE-06,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-06-06,01:10,noche,L2,INY-05,4.4,OPE-02,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-06-06,02:06,noche,L1,SOP-02,4.4,CAL-04,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-06-06,02:17,noche,L1,SOP-02,5.8,CAL-02,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-06-06,03:28,noche,L1,SOP-01,45.1,OPE-08,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-06,04:02,noche,L1,SOP-02,33.9,ELE-05,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-06-06,04:17,noche,L2,INY-04,25.9,OPE-07,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-06,05:29,noche,L1,SOP-01,24.5,CAL-08,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-06-06,05:56,noche,L2,INY-04,12.5,MEC-07,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-06-06,06:11,mañana,L3,EMP-06,37.5,,,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-06-06,06:12,mañana,L1,SOP-02,8.8,ELE-06,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-06-06,07:07,mañana,L3,EMP-06,19.2,MEC-07,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-06-06,07:11,mañana,L3,EMP-06,4.7,,,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-06-06,07:50,mañana,L1,SOP-02,18.9,,,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-06-06,09:14,mañana,L2,INY-05,125.0,ELE-07,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-06-06,15:54,tarde,L1,SOP-02,22.0,OPE-07,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-06,18:43,tarde,L1,SOP-02,20.1,ELE-08,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-06-06,19:15,tarde,L2,INY-04,21.7,MEC-01,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-06-07,01:54,noche,L2,INY-04,14.1,,,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-06-07,05:28,noche,L2,INY-04,4.5,ELE-04,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-06-07,06:14,mañana,L1,SOP-02,2.9,MEC-05,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-06-07,14:34,tarde,L2,INY-05,18.3,OPE-02,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-07,18:03,tarde,L2,INY-03,13.6,,,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-06-08,08:17,mañana,L3,EMP-07,6.9,OPE-02,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-06-08,09:03,mañana,L2,INY-03,1.8,MEC-01,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-06-08,16:48,tarde,L2,INY-05,14.6,MEC-08,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-06-08,18:21,tarde,L3,EMP-06,58.8,CAL-08,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-06-08,19:17,tarde,L2,INY-03,23.0,ELE-06,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-06-09,01:58,noche,L2,INY-03,5.6,,,falla del variador
+Envases del Pacífico S.A.S.,2026-06-09,02:23,noche,L3,EMP-07,17.8,,,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-06-09,05:15,noche,L3,EMP-07,39.6,OPE-03,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-09,10:19,mañana,L3,EMP-06,16.1,MPR-08,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-06-09,15:02,tarde,L2,INY-03,1.8,OPE-02,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-09,15:59,tarde,L2,INY-03,2.8,ELE-07,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-06-09,17:07,tarde,L2,INY-03,4.5,MEC-03,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-06-10,04:51,noche,L3,EMP-07,2.6,,,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-10,13:12,mañana,L3,EMP-06,17.1,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-06-10,15:02,tarde,L1,SOP-01,13.4,MEC-06,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-06-10,19:59,tarde,L1,SOP-01,27.1,OPE-07,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-10,21:06,tarde,L1,SOP-02,30.5,OPE-01,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-10,22:13,noche,L2,INY-04,38.5,OPE-07,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-06-10,22:21,noche,L1,SOP-02,66.2,OPE-04,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-10,23:08,noche,L2,INY-04,6.5,CAL-06,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-06-11,02:00,noche,L1,SOP-01,18.9,OPE-06,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-11,07:20,mañana,L3,EMP-06,5.0,,,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-06-11,08:21,mañana,L1,SOP-01,25.6,OPE-07,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-06-11,12:27,mañana,L3,EMP-07,17.9,ELE-04,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-06-11,13:20,mañana,L2,INY-04,4.4,MPR-07,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-06-11,13:37,mañana,L3,EMP-06,20.4,,,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-06-11,13:43,mañana,L2,INY-05,28.0,MEC-03,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-06-11,15:12,tarde,L2,INY-03,2.6,ELE-06,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-06-11,15:57,tarde,L1,SOP-01,64.9,MEC-02,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-06-11,22:36,noche,L3,EMP-07,28.3,MPR-05,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-06-12,01:40,noche,L3,EMP-07,21.4,,,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-06-12,08:34,mañana,L1,SOP-02,1.8,MPR-03,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-06-12,10:56,mañana,L1,SOP-01,4.7,,,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-12,13:08,mañana,L2,INY-03,17.8,MEC-05,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-06-12,16:21,tarde,L1,SOP-02,1.9,OPE-05,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-06-13,00:11,noche,L2,INY-03,28.3,MEC-08,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-06-13,02:58,noche,L2,INY-05,64.8,MEC-02,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-06-13,03:56,noche,L2,INY-05,31.1,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-06-13,05:27,noche,L2,INY-04,4.0,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-06-13,07:33,mañana,L2,INY-04,49.6,MEC-01,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-06-13,08:57,mañana,L1,SOP-01,3.9,OPE-01,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-06-13,09:03,mañana,L3,EMP-07,31.2,,,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-06-13,09:12,mañana,L1,SOP-02,3.9,ELE-04,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-06-13,12:23,mañana,L2,INY-03,20.7,MEC-03,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-06-13,13:31,mañana,L1,SOP-01,16.2,OPE-03,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-06-13,13:32,mañana,L2,INY-03,6.3,MEC-01,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-06-13,22:17,noche,L2,INY-03,4.7,OPE-05,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-14,01:02,noche,L2,INY-05,14.5,MEC-07,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-06-14,02:24,noche,L2,INY-05,12.9,ELE-05,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-06-14,03:10,noche,L1,SOP-01,13.3,OPE-03,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-14,12:35,mañana,L2,INY-04,35.3,,,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-06-14,13:25,mañana,L3,EMP-06,117.9,OPE-04,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-14,22:08,noche,L2,INY-03,4.4,,,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-15,00:47,noche,L2,INY-05,77.6,OPE-03,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-06-15,08:50,mañana,L2,INY-04,5.0,,,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-06-15,09:03,mañana,L1,SOP-02,50.1,MEC-03,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-06-15,10:02,mañana,L2,INY-05,4.9,MEC-04,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-06-15,18:37,tarde,L1,SOP-01,22.1,,,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-06-15,20:12,tarde,L1,SOP-02,11.9,MEC-05,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-06-16,12:58,mañana,L1,SOP-01,1.1,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-06-16,15:41,tarde,L3,EMP-06,1.9,MEC-01,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-06-16,18:35,tarde,L3,EMP-06,4.7,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-06-16,22:40,noche,L3,EMP-07,46.2,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-06-17,01:58,noche,L1,SOP-02,164.5,CAL-05,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-06-17,03:19,noche,L3,EMP-06,27.6,MEC-02,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-06-17,08:59,mañana,L2,INY-04,115.9,,,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-06-17,10:11,mañana,L1,SOP-01,23.7,OPE-06,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-06-17,14:46,tarde,L2,INY-04,33.9,CAL-04,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-06-17,22:56,noche,L3,EMP-06,34.8,ELE-02,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-06-17,23:07,noche,L3,EMP-06,1.3,ELE-04,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-06-18,01:36,noche,L1,SOP-01,16.9,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-06-18,05:29,noche,L1,SOP-02,15.5,MEC-01,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-06-18,05:47,noche,L2,INY-05,1.0,OPE-06,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-06-18,20:17,tarde,L1,SOP-01,3.8,MEC-06,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-06-19,02:05,noche,L3,EMP-06,112.8,MEC-02,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-06-19,12:45,mañana,L2,INY-04,3.9,ELE-06,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-06-19,12:54,mañana,L2,INY-05,20.8,MEC-01,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-06-19,18:00,tarde,L3,EMP-06,4.5,OPE-05,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-19,21:26,tarde,L2,INY-03,2.6,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-06-19,23:00,noche,L1,SOP-01,3.1,OPE-02,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-06-20,00:05,noche,L2,INY-05,10.5,OPE-02,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-06-20,00:09,noche,L1,SOP-02,2.1,ELE-08,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-06-20,00:55,noche,L1,SOP-02,34.8,OPE-03,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-20,01:19,noche,L2,INY-05,14.8,MEC-04,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-06-20,01:25,noche,L2,INY-03,19.5,MPR-03,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-06-20,02:06,noche,L2,INY-03,36.7,MEC-04,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-06-20,04:07,noche,L2,INY-04,58.7,OPE-08,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-20,04:19,noche,L1,SOP-02,1.4,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-06-20,04:49,noche,L1,SOP-01,87.5,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-06-20,05:09,noche,L1,SOP-01,2.4,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-06-20,05:19,noche,L2,INY-05,35.3,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-06-20,12:30,mañana,L2,INY-04,9.8,OPE-02,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-20,13:31,mañana,L2,INY-03,6.8,,,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-06-20,20:36,tarde,L2,INY-04,13.4,,,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-06-20,23:12,noche,L2,INY-05,12.1,OPE-08,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-06-21,00:55,noche,L2,INY-03,23.6,OPE-03,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-21,02:09,noche,L2,INY-03,12.5,MPR-08,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-06-21,02:25,noche,L3,EMP-07,8.6,MEC-04,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-06-21,06:38,mañana,L2,INY-03,2.9,MEC-08,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-06-21,13:40,mañana,L2,INY-03,89.6,CAL-06,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-06-21,17:29,tarde,L1,SOP-01,15.5,OPE-02,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-06-21,21:38,tarde,L2,INY-03,14.5,OPE-06,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-06-22,00:45,noche,L2,INY-03,52.0,CAL-08,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-06-22,01:46,noche,L2,INY-04,10.0,ELE-05,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-06-22,05:39,noche,L2,INY-03,12.0,OPE-04,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-22,07:42,mañana,L1,SOP-01,145.4,,,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-22,08:18,mañana,L3,EMP-07,42.2,MPR-05,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-06-22,13:27,mañana,L2,INY-03,8.6,,,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-06-22,14:50,tarde,L3,EMP-06,8.1,OPE-01,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-22,16:28,tarde,L3,EMP-06,37.8,CAL-06,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-06-22,18:44,tarde,L1,SOP-01,8.9,ELE-05,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-06-22,19:07,tarde,L3,EMP-07,30.5,MEC-07,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-06-23,02:07,noche,L1,SOP-02,20.6,MEC-03,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-06-23,05:11,noche,L2,INY-04,10.1,MPR-06,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-06-23,06:12,mañana,L1,SOP-02,44.3,,,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-06-23,06:58,mañana,L3,EMP-07,3.6,OPE-07,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-06-23,08:48,mañana,L3,EMP-07,6.5,MEC-03,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-06-23,11:44,mañana,L3,EMP-07,45.7,OPE-02,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-23,19:09,tarde,L2,INY-05,50.6,OPE-05,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-06-24,07:59,mañana,L2,INY-03,2.0,OPE-02,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-06-24,10:49,mañana,L2,INY-05,39.7,CAL-07,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-06-24,12:21,mañana,L1,SOP-02,22.8,ELE-04,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-06-24,22:47,noche,L2,INY-05,1.1,OPE-03,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-06-25,02:15,noche,L3,EMP-07,33.4,,,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-06-25,08:08,mañana,L1,SOP-02,2.6,,,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-25,08:09,mañana,L3,EMP-07,40.5,OPE-08,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-06-25,08:38,mañana,L2,INY-05,3.6,CAL-05,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-06-25,10:38,mañana,L1,SOP-01,96.8,,,falla del variador
+Envases del Pacífico S.A.S.,2026-06-25,14:18,tarde,L2,INY-03,28.1,OPE-01,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-25,14:20,tarde,L2,INY-04,48.3,OPE-03,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-06-25,14:40,tarde,L3,EMP-06,1.2,MPR-02,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-06-25,16:48,tarde,L3,EMP-06,84.2,ELE-02,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-06-25,17:25,tarde,L2,INY-03,8.3,,,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-06-25,20:14,tarde,L2,INY-05,4.7,,,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-06-26,06:57,mañana,L3,EMP-06,19.6,MPR-08,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-06-26,11:54,mañana,L3,EMP-06,10.9,,,falla del variador
+Envases del Pacífico S.A.S.,2026-06-26,13:45,mañana,L3,EMP-07,13.8,MPR-07,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-06-26,21:21,tarde,L2,INY-04,1.9,ELE-03,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-06-27,01:07,noche,L3,EMP-06,4.3,CAL-03,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-06-27,01:31,noche,L3,EMP-06,2.7,,,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-06-27,02:31,noche,L3,EMP-06,14.8,,,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-06-27,03:57,noche,L3,EMP-06,11.7,MPR-01,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-06-27,10:02,mañana,L2,INY-05,14.9,,,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-06-27,18:50,tarde,L1,SOP-02,4.3,ELE-06,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-06-27,19:37,tarde,L2,INY-05,7.0,,,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-27,20:08,tarde,L2,INY-04,11.3,MEC-07,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-06-27,22:10,noche,L1,SOP-01,47.9,MEC-06,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-06-28,01:11,noche,L1,SOP-02,1.8,OPE-06,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-06-28,02:20,noche,L1,SOP-01,9.8,OPE-01,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-28,08:13,mañana,L2,INY-04,13.8,ELE-03,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-06-28,11:29,mañana,L2,INY-04,18.0,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-06-28,13:43,mañana,L1,SOP-01,16.0,OPE-08,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-28,21:41,tarde,L2,INY-03,2.4,MEC-08,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-06-28,23:08,noche,L1,SOP-02,29.1,OPE-08,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-06-28,23:25,noche,L2,INY-05,8.3,,,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-06-29,02:21,noche,L1,SOP-02,1.1,CAL-04,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-06-29,05:26,noche,L2,INY-05,2.1,OPE-05,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-29,10:13,mañana,L1,SOP-01,27.7,,,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-06-29,12:37,mañana,L3,EMP-06,4.3,OPE-04,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-06-29,14:47,tarde,L3,EMP-07,4.2,,,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-06-29,17:15,tarde,L1,SOP-01,3.2,CAL-03,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-06-29,18:48,tarde,L1,SOP-01,3.0,OPE-06,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-06-29,19:28,tarde,L3,EMP-07,5.3,,,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-06-29,21:06,tarde,L3,EMP-07,31.0,MEC-08,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-06-30,00:18,noche,L3,EMP-07,43.6,OPE-01,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-06-30,12:48,mañana,L1,SOP-01,2.3,MEC-02,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-06-30,20:22,tarde,L2,INY-03,4.8,ELE-07,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-06-30,21:42,tarde,L3,EMP-06,16.2,CAL-07,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-07-01,05:42,noche,L3,EMP-06,36.7,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-07-01,09:24,mañana,L1,SOP-01,14.2,ELE-06,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-07-01,10:14,mañana,L2,INY-03,68.5,MPR-03,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-07-01,12:32,mañana,L2,INY-04,18.5,CAL-01,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-07-01,14:44,tarde,L1,SOP-01,1.0,ELE-06,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-07-01,18:45,tarde,L1,SOP-01,2.1,,,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-07-01,19:22,tarde,L3,EMP-06,2.3,OPE-08,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-07-01,19:32,tarde,L2,INY-05,2.7,OPE-05,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-01,21:35,tarde,L2,INY-03,17.7,OPE-05,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-07-01,22:44,noche,L2,INY-05,1.8,ELE-08,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-07-02,03:34,noche,L3,EMP-06,2.9,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-07-02,04:18,noche,L3,EMP-07,11.5,OPE-02,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-02,10:44,mañana,L1,SOP-01,55.0,CAL-06,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-07-02,14:21,tarde,L3,EMP-06,8.9,MEC-05,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-07-02,14:52,tarde,L2,INY-03,21.0,ELE-07,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-07-02,15:27,tarde,L2,INY-03,13.1,MPR-07,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-07-02,17:49,tarde,L2,INY-05,11.2,CAL-04,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-07-02,22:01,noche,L1,SOP-02,10.5,OPE-07,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-07-02,22:58,noche,L1,SOP-01,22.1,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-07-03,04:09,noche,L2,INY-04,1.5,CAL-03,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-07-03,06:22,mañana,L1,SOP-01,2.9,ELE-07,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-07-03,09:22,mañana,L1,SOP-02,2.0,ELE-03,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-07-03,10:10,mañana,L1,SOP-01,14.5,MEC-04,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-07-03,21:05,tarde,L3,EMP-06,129.8,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-07-03,22:51,noche,L3,EMP-07,7.9,OPE-05,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-07-03,22:59,noche,L3,EMP-06,3.3,OPE-01,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-07-03,23:37,noche,L1,SOP-02,2.2,CAL-01,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-07-04,00:12,noche,L3,EMP-07,21.1,,,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-07-04,02:00,noche,L3,EMP-07,25.6,,,falla del variador
+Envases del Pacífico S.A.S.,2026-07-04,02:02,noche,L3,EMP-07,47.2,,,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-04,04:01,noche,L1,SOP-01,5.4,CAL-02,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-07-04,04:26,noche,L1,SOP-01,28.2,OPE-04,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-07-04,04:43,noche,L3,EMP-07,21.1,OPE-06,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-07-04,07:28,mañana,L1,SOP-02,10.0,,,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-07-04,12:24,mañana,L2,INY-04,2.4,OPE-02,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-07-04,13:22,mañana,L3,EMP-07,4.3,,,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-07-04,22:17,noche,L1,SOP-02,118.5,,,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-07-04,23:18,noche,L1,SOP-01,118.0,MPR-07,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-07-05,20:29,tarde,L2,INY-04,2.6,,,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-07-05,22:23,noche,L1,SOP-01,132.0,ELE-04,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-07-05,23:05,noche,L1,SOP-01,14.6,MPR-02,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-07-06,08:12,mañana,L1,SOP-01,3.1,,,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-07-06,08:19,mañana,L3,EMP-06,2.6,MPR-03,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-07-06,13:14,mañana,L1,SOP-01,2.2,OPE-04,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-07-06,16:06,tarde,L3,EMP-06,46.6,,,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-07-06,17:35,tarde,L1,SOP-01,3.3,OPE-05,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-07-06,19:11,tarde,L3,EMP-07,58.6,MEC-04,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-07-06,20:27,tarde,L3,EMP-07,2.5,,,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-07-06,21:30,tarde,L1,SOP-01,12.1,OPE-05,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-07,01:21,noche,L3,EMP-06,13.2,OPE-04,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-07-07,03:27,noche,L2,INY-03,23.3,MEC-05,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-07-07,03:58,noche,L2,INY-04,1.5,,,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-07-07,06:03,mañana,L2,INY-03,20.9,OPE-01,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-07-07,07:24,mañana,L2,INY-05,17.9,CAL-03,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-07-07,09:48,mañana,L2,INY-04,1.3,MEC-05,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-07-07,13:03,mañana,L2,INY-05,46.3,MEC-06,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-07-07,18:13,tarde,L1,SOP-02,21.3,OPE-04,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-07-07,21:23,tarde,L1,SOP-01,4.7,MEC-05,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-07-08,00:16,noche,L2,INY-05,45.3,MPR-01,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-07-08,02:00,noche,L2,INY-05,2.6,CAL-07,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-07-08,05:46,noche,L2,INY-04,2.4,OPE-06,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-07-08,21:06,tarde,L3,EMP-07,37.7,MEC-03,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-07-08,21:46,tarde,L3,EMP-06,8.4,MPR-06,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-07-09,00:30,noche,L1,SOP-01,4.8,,,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-07-09,09:05,mañana,L1,SOP-02,2.6,ELE-07,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-07-09,09:36,mañana,L1,SOP-02,1.2,CAL-02,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-07-09,10:50,mañana,L1,SOP-02,4.9,OPE-01,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-07-09,12:52,mañana,L1,SOP-02,5.0,MEC-03,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-07-09,17:43,tarde,L2,INY-03,1.4,MEC-07,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-07-09,18:13,tarde,L3,EMP-06,2.1,OPE-01,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-07-09,18:48,tarde,L3,EMP-07,29.5,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-07-09,20:13,tarde,L2,INY-03,3.1,CAL-06,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-07-09,21:46,tarde,L2,INY-04,20.5,MEC-08,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-07-10,00:02,noche,L2,INY-03,117.8,ELE-06,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-07-10,01:02,noche,L3,EMP-07,108.1,ELE-04,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-07-10,01:49,noche,L1,SOP-01,4.2,ELE-06,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-07-10,03:03,noche,L2,INY-05,28.7,,,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-07-10,03:45,noche,L2,INY-05,9.1,,,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-07-10,06:12,mañana,L2,INY-03,10.9,OPE-08,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-07-10,09:11,mañana,L3,EMP-06,24.9,OPE-06,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-07-10,09:54,mañana,L1,SOP-02,3.8,OPE-07,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-10,11:22,mañana,L2,INY-03,36.2,MEC-04,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-07-10,19:12,tarde,L1,SOP-02,4.8,MPR-06,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-07-10,21:17,tarde,L1,SOP-01,22.7,OPE-07,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-10,22:20,noche,L2,INY-04,120.0,MEC-05,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-07-10,22:25,noche,L3,EMP-07,20.2,,,falla del variador
+Envases del Pacífico S.A.S.,2026-07-11,04:35,noche,L1,SOP-01,3.3,CAL-03,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-07-11,04:46,noche,L1,SOP-02,4.4,MPR-04,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-07-11,05:09,noche,L1,SOP-02,18.1,ELE-06,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-07-11,05:17,noche,L3,EMP-06,120.1,ELE-05,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-07-11,05:47,noche,L3,EMP-06,23.1,CAL-05,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-07-11,05:54,noche,L1,SOP-02,4.5,OPE-05,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-11,05:54,noche,L3,EMP-07,10.6,OPE-03,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-07-12,06:18,mañana,L2,INY-03,2.8,ELE-04,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-07-12,08:31,mañana,L2,INY-04,13.4,CAL-03,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-07-12,14:13,tarde,L2,INY-04,22.2,CAL-08,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-07-12,15:20,tarde,L3,EMP-06,2.8,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-07-12,16:39,tarde,L3,EMP-07,37.4,OPE-04,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-07-12,20:16,tarde,L1,SOP-01,1.3,,,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-07-12,20:28,tarde,L2,INY-03,49.7,,,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-07-13,02:49,noche,L1,SOP-02,36.9,ELE-08,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-07-13,15:35,tarde,L2,INY-05,19.1,ELE-06,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-07-14,03:09,noche,L2,INY-04,4.5,OPE-05,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-07-14,05:33,noche,L3,EMP-06,7.4,CAL-04,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-07-14,14:04,tarde,L2,INY-03,5.6,,,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-14,16:17,tarde,L1,SOP-01,46.0,OPE-01,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-14,16:52,tarde,L3,EMP-06,1.7,MEC-07,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-07-14,17:12,tarde,L3,EMP-06,14.5,MEC-07,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-07-14,21:46,tarde,L2,INY-05,4.9,CAL-03,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-07-15,09:56,mañana,L2,INY-03,17.5,,,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-07-15,22:13,noche,L1,SOP-02,38.0,,,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-15,23:24,noche,L3,EMP-06,78.9,OPE-08,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-07-16,00:14,noche,L3,EMP-06,42.0,MEC-05,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-07-16,02:37,noche,L3,EMP-06,11.0,OPE-08,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-07-16,05:02,noche,L3,EMP-07,8.0,,,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-07-16,06:23,mañana,L2,INY-03,2.1,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-07-16,07:54,mañana,L1,SOP-01,16.3,ELE-05,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-07-16,11:32,mañana,L3,EMP-07,75.4,ELE-05,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-07-16,15:58,tarde,L2,INY-03,1.3,MEC-04,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-07-17,00:04,noche,L1,SOP-01,2.2,OPE-06,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-07-17,08:52,mañana,L3,EMP-06,16.2,MEC-04,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-07-17,13:24,mañana,L3,EMP-06,26.4,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-07-17,17:42,tarde,L2,INY-05,1.7,OPE-03,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-17,23:06,noche,L3,EMP-07,2.5,CAL-05,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-07-17,23:23,noche,L1,SOP-01,45.2,OPE-08,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-07-18,00:14,noche,L3,EMP-06,4.6,OPE-07,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-18,01:52,noche,L1,SOP-01,30.0,MPR-08,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-07-18,03:09,noche,L1,SOP-01,1.8,CAL-04,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-07-18,06:59,mañana,L1,SOP-01,10.0,MEC-08,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-07-18,07:47,mañana,L3,EMP-06,16.2,MEC-08,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-07-18,13:39,mañana,L3,EMP-06,13.7,ELE-05,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-07-18,18:25,tarde,L2,INY-03,4.6,MPR-01,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-07-18,19:27,tarde,L3,EMP-06,1.2,MPR-05,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-07-18,19:58,tarde,L1,SOP-01,3.9,OPE-08,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-18,23:00,noche,L2,INY-03,22.2,OPE-05,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-07-18,23:31,noche,L2,INY-03,82.6,MEC-06,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-07-19,00:15,noche,L2,INY-03,13.9,CAL-02,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-07-19,04:39,noche,L2,INY-04,14.4,OPE-04,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-07-19,08:02,mañana,L2,INY-04,2.7,ELE-05,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-07-19,08:23,mañana,L1,SOP-02,11.5,OPE-04,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-07-19,08:51,mañana,L1,SOP-01,1.9,,,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-07-19,10:05,mañana,L2,INY-03,24.9,CAL-07,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-07-19,10:13,mañana,L2,INY-05,68.0,,,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-07-19,10:28,mañana,L2,INY-03,14.1,,,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-07-19,10:28,mañana,L2,INY-05,17.6,OPE-05,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-07-19,10:54,mañana,L2,INY-04,27.1,,,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-07-19,11:40,mañana,L3,EMP-07,16.0,OPE-03,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-07-19,12:57,mañana,L3,EMP-07,12.2,,,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-07-19,13:01,mañana,L2,INY-05,28.5,OPE-05,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-19,19:30,tarde,L1,SOP-01,3.3,MEC-02,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-07-19,20:46,tarde,L1,SOP-01,55.1,MPR-05,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-07-19,23:28,noche,L1,SOP-02,4.5,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-07-20,05:17,noche,L3,EMP-07,2.3,OPE-02,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-07-20,06:20,mañana,L1,SOP-01,2.2,CAL-05,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-07-20,07:38,mañana,L3,EMP-07,4.8,,,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-07-20,11:31,mañana,L3,EMP-06,45.3,OPE-05,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-20,12:05,mañana,L1,SOP-02,12.0,MPR-06,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-07-21,04:32,noche,L1,SOP-01,15.0,,,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-07-21,10:32,mañana,L1,SOP-01,3.4,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-07-21,11:05,mañana,L2,INY-04,13.8,ELE-08,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-07-21,12:47,mañana,L2,INY-04,31.8,,,falla del variador
+Envases del Pacífico S.A.S.,2026-07-21,13:09,mañana,L1,SOP-02,4.2,ELE-03,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-07-22,06:02,mañana,L1,SOP-02,39.7,MEC-01,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-07-22,06:17,mañana,L3,EMP-07,37.9,MEC-06,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-07-22,11:51,mañana,L1,SOP-02,15.0,MEC-03,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-07-22,13:54,mañana,L1,SOP-02,38.3,ELE-02,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-07-22,14:39,tarde,L1,SOP-01,55.9,ELE-07,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-07-22,17:40,tarde,L1,SOP-01,45.6,ELE-05,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-07-22,20:45,tarde,L3,EMP-06,23.2,OPE-05,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-07-22,23:19,noche,L1,SOP-01,19.5,MEC-01,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-07-22,23:27,noche,L3,EMP-06,4.4,MPR-06,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-07-23,00:02,noche,L2,INY-04,1.6,OPE-08,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-07-23,00:12,noche,L1,SOP-02,27.1,OPE-01,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-23,10:43,mañana,L3,EMP-06,61.2,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-07-23,16:56,tarde,L1,SOP-02,9.5,MEC-05,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-07-24,01:14,noche,L3,EMP-06,4.6,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-07-24,05:24,noche,L2,INY-05,30.5,CAL-01,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-07-24,11:12,mañana,L3,EMP-06,4.4,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-07-24,15:26,tarde,L1,SOP-01,2.1,ELE-02,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-07-24,18:36,tarde,L1,SOP-01,12.1,MEC-02,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-07-24,19:07,tarde,L2,INY-03,65.3,,,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-07-24,20:02,tarde,L2,INY-03,12.3,OPE-03,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-07-24,21:49,tarde,L3,EMP-07,5.0,ELE-06,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-07-24,22:14,noche,L3,EMP-07,3.4,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-07-24,22:26,noche,L3,EMP-06,3.3,MEC-04,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-07-24,23:20,noche,L3,EMP-06,34.2,MEC-07,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-07-25,00:03,noche,L3,EMP-06,3.4,MEC-02,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-07-25,00:14,noche,L1,SOP-02,3.4,,,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-07-25,00:40,noche,L1,SOP-01,12.8,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-07-25,03:14,noche,L3,EMP-07,2.6,,,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-25,03:31,noche,L3,EMP-07,1.4,ELE-06,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-07-25,03:35,noche,L3,EMP-07,1.7,OPE-08,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-07-25,04:34,noche,L1,SOP-02,3.8,OPE-01,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-07-25,05:32,noche,L3,EMP-06,49.9,,,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-07-25,05:59,noche,L3,EMP-06,7.9,OPE-08,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-07-25,06:29,mañana,L2,INY-03,4.7,CAL-08,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-07-25,06:47,mañana,L1,SOP-02,12.9,,,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-07-25,07:08,mañana,L2,INY-04,14.0,MEC-04,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-07-25,07:26,mañana,L1,SOP-02,14.5,OPE-04,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-25,17:03,tarde,L2,INY-05,55.7,OPE-05,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-07-26,01:48,noche,L1,SOP-01,33.9,MPR-06,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-07-26,03:05,noche,L1,SOP-02,52.6,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-07-26,15:46,tarde,L1,SOP-02,33.1,MPR-02,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-07-26,15:59,tarde,L3,EMP-07,20.0,,,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-07-26,20:28,tarde,L1,SOP-02,1.4,OPE-06,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-07-27,00:45,noche,L2,INY-04,4.6,ELE-04,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-07-27,01:47,noche,L1,SOP-01,2.2,MEC-08,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-07-27,02:52,noche,L1,SOP-02,13.6,,,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-07-27,03:01,noche,L2,INY-03,3.2,ELE-05,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-07-27,07:43,mañana,L3,EMP-07,21.9,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-07-27,07:48,mañana,L1,SOP-01,4.5,OPE-05,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-27,13:21,mañana,L3,EMP-06,122.8,OPE-08,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-07-27,17:14,tarde,L3,EMP-06,4.6,CAL-08,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-07-27,21:17,tarde,L3,EMP-06,3.9,ELE-06,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-07-27,22:20,noche,L2,INY-04,82.4,MPR-07,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-07-27,22:45,noche,L2,INY-04,15.2,,,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-07-28,00:44,noche,L2,INY-05,13.8,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-07-28,01:08,noche,L2,INY-05,1.7,MPR-03,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-07-28,08:58,mañana,L3,EMP-06,37.8,MEC-01,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-07-28,10:33,mañana,L3,EMP-06,11.7,OPE-05,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-07-28,12:43,mañana,L1,SOP-02,3.2,ELE-03,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-07-28,16:44,tarde,L3,EMP-07,25.5,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-07-28,18:25,tarde,L3,EMP-07,102.7,MEC-01,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-07-28,20:36,tarde,L3,EMP-06,12.4,CAL-07,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-07-28,20:37,tarde,L2,INY-03,3.1,,,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-07-29,09:21,mañana,L1,SOP-01,1.8,OPE-02,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-29,21:53,tarde,L1,SOP-01,2.7,MEC-07,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-07-30,02:34,noche,L3,EMP-06,21.6,OPE-03,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-07-30,03:34,noche,L3,EMP-07,28.4,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-07-30,04:26,noche,L3,EMP-07,29.9,MEC-03,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-07-30,08:08,mañana,L3,EMP-06,5.7,,,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-07-30,11:12,mañana,L2,INY-04,71.8,MEC-03,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-07-30,19:55,tarde,L1,SOP-01,10.7,ELE-03,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-07-30,20:28,tarde,L1,SOP-01,16.9,OPE-02,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-07-31,01:38,noche,L1,SOP-01,12.9,OPE-07,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-07-31,10:38,mañana,L3,EMP-07,14.1,OPE-06,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-07-31,11:18,mañana,L3,EMP-07,1.0,OPE-03,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-08-01,01:48,noche,L1,SOP-02,16.4,ELE-04,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-08-01,02:07,noche,L1,SOP-02,6.5,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-08-01,02:11,noche,L1,SOP-01,80.8,MPR-02,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-08-01,02:32,noche,L2,INY-04,18.7,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-08-01,05:44,noche,L1,SOP-01,86.5,OPE-03,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-08-01,08:04,mañana,L2,INY-03,30.7,,,no se pudo determinar el origen
+Envases del Pacífico S.A.S.,2026-08-01,14:04,tarde,L1,SOP-01,47.6,MPR-05,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-08-01,14:33,tarde,L2,INY-05,3.6,,,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-08-01,15:31,tarde,L3,EMP-07,31.7,CAL-07,Calidad,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-08-01,17:04,tarde,L3,EMP-06,17.2,,,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-08-01,18:09,tarde,L1,SOP-01,71.4,ELE-01,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-08-01,19:07,tarde,L1,SOP-02,5.0,MPR-04,Materia prima,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-08-01,19:10,tarde,L2,INY-04,3.3,,,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-08-01,19:31,tarde,L3,EMP-06,4.1,MEC-05,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-08-01,19:41,tarde,L2,INY-05,77.9,CAL-05,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-08-02,00:02,noche,L3,EMP-06,8.3,MEC-07,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-08-02,02:54,noche,L2,INY-05,4.4,MEC-08,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-08-02,03:58,noche,L1,SOP-02,4.5,ELE-05,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-08-02,04:42,noche,L3,EMP-06,50.6,,,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-08-02,08:21,mañana,L2,INY-04,3.2,ELE-02,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-08-02,09:34,mañana,L2,INY-04,5.0,MEC-07,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-08-02,10:27,mañana,L3,EMP-06,21.7,MPR-05,Materia prima,el lote venía con partículas negras
+Envases del Pacífico S.A.S.,2026-08-02,11:14,mañana,L2,INY-04,7.1,OPE-02,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-08-02,11:20,mañana,L3,EMP-06,62.9,,,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-08-02,12:03,mañana,L2,INY-03,35.3,OPE-03,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-08-02,13:20,mañana,L3,EMP-06,20.9,ELE-05,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-08-02,17:11,tarde,L3,EMP-07,11.6,OPE-01,Operativa,tolva vacía por demora del montacargas
+Envases del Pacífico S.A.S.,2026-08-02,18:18,tarde,L1,SOP-02,3.6,CAL-02,Calidad,"rebaba persistente, revisión de molde"
+Envases del Pacífico S.A.S.,2026-08-02,19:24,tarde,L3,EMP-06,1.1,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-08-03,05:13,noche,L1,SOP-02,32.8,MPR-06,Materia prima,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-08-03,07:20,mañana,L2,INY-05,1.9,OPE-07,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-08-03,10:09,mañana,L1,SOP-02,11.0,MEC-02,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-08-03,13:17,mañana,L2,INY-04,27.5,,,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-08-03,14:05,tarde,L2,INY-05,2.6,ELE-07,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-08-03,19:39,tarde,L2,INY-03,34.9,OPE-04,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-08-03,22:10,noche,L2,INY-05,26.2,MEC-07,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-08-04,01:45,noche,L2,INY-05,2.1,MEC-08,Mecánica,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-08-04,02:08,noche,L1,SOP-02,7.5,OPE-07,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-08-04,05:42,noche,L1,SOP-01,24.6,,,la máquina se detuvo sola
+Envases del Pacífico S.A.S.,2026-08-04,09:28,mañana,L2,INY-03,3.5,MEC-01,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-08-04,11:08,mañana,L1,SOP-02,35.8,ELE-04,Eléctrica,se quemó una resistencia de zona
+Envases del Pacífico S.A.S.,2026-08-04,19:09,tarde,L2,INY-04,44.8,,,"piezas fuera de peso, se paró para ajustar"
+Envases del Pacífico S.A.S.,2026-08-04,20:38,tarde,L2,INY-03,13.4,ELE-03,Eléctrica,sensor de puerta sin señal
+Envases del Pacífico S.A.S.,2026-08-05,00:00,noche,L1,SOP-02,25.0,MEC-02,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-08-05,06:33,mañana,L1,SOP-01,21.1,OPE-06,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-08-05,06:56,mañana,L3,EMP-06,19.3,MEC-06,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-08-05,10:41,mañana,L3,EMP-07,2.4,OPE-01,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-08-05,14:32,tarde,L2,INY-05,1.3,ELE-05,Eléctrica,saltó el breaker del tablero
+Envases del Pacífico S.A.S.,2026-08-05,16:06,tarde,L2,INY-03,2.4,OPE-01,Operativa,"atasco en la tolva, se destapó a mano"
+Envases del Pacífico S.A.S.,2026-08-05,16:55,tarde,L2,INY-05,26.5,MEC-02,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-08-05,19:16,tarde,L2,INY-04,12.1,CAL-01,Calidad,se detuvo por muestra no conforme
+Envases del Pacífico S.A.S.,2026-08-06,01:40,noche,L1,SOP-01,11.5,,,paro sin causa aparente
+Envases del Pacífico S.A.S.,2026-08-06,01:46,noche,L1,SOP-02,5.0,OPE-04,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-08-06,03:37,noche,L1,SOP-02,3.5,MEC-04,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-08-06,08:23,mañana,L1,SOP-02,2.3,,,falla del variador
+Envases del Pacífico S.A.S.,2026-08-06,11:11,mañana,L2,INY-04,1.3,MEC-02,Mecánica,fuga hidráulica en la unidad de cierre
+Envases del Pacífico S.A.S.,2026-08-06,11:14,mañana,L2,INY-05,1.2,MEC-01,Mecánica,"rodamiento haciendo ruido, hubo que parar"
+Envases del Pacífico S.A.S.,2026-08-06,11:30,mañana,L2,INY-03,22.0,,,pellet fuera de especificación
+Envases del Pacífico S.A.S.,2026-08-06,11:42,mañana,L2,INY-05,4.6,,,"resina con humedad aparente, se purgó"
+Envases del Pacífico S.A.S.,2026-08-06,11:52,mañana,L1,SOP-02,16.6,OPE-05,Operativa,la tolva quedó mal cerrada y hubo que reponer
+Envases del Pacífico S.A.S.,2026-08-06,12:02,mañana,L3,EMP-07,4.9,ELE-04,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-08-06,12:20,mañana,L3,EMP-06,27.1,ELE-06,Eléctrica,falla del variador
+Envases del Pacífico S.A.S.,2026-08-06,12:30,mañana,L3,EMP-06,1.3,MEC-02,Mecánica,desalineación del brazo extractor
+Envases del Pacífico S.A.S.,2026-08-06,16:06,tarde,L3,EMP-06,12.0,,,se rompió la banda de arrastre
+Envases del Pacífico S.A.S.,2026-08-06,17:03,tarde,L1,SOP-01,4.4,OPE-07,Operativa,se atascó la banda de salida con cajas
+Envases del Pacífico S.A.S.,2026-08-06,22:53,noche,L3,EMP-07,25.7,OPE-07,Operativa,cambio de bobina más lento de lo normal
+Envases del Pacífico S.A.S.,2026-08-06,22:54,noche,L1,SOP-01,2.4,OPE-01,Operativa,se atascó la banda de salida con cajas

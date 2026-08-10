@@ -1,0 +1,92 @@
+﻿fecha,maquina,tipo,duracion_min,descripcion,responsable
+2026-02-09,SOP-01,preventivo,51.7,revisión de sistema hidráulico,N. Arango
+2026-02-10,EMP-06,preventivo,64.2,cambio programado de filtros,S. Muñoz
+2026-02-10,EMP-07,preventivo,70.8,calibración de sensores,H. Cardona
+2026-02-10,INY-05,preventivo,169.8,revisión de sistema hidráulico,N. Arango
+2026-02-17,INY-04,correctivo,210.3,intervención tras paro: se detuvo por muestra no conforme,N. Arango
+2026-02-18,INY-04,preventivo,231.8,calibración de sensores,F. Zapata
+2026-02-20,INY-03,preventivo,187.2,cambio programado de filtros,H. Cardona
+2026-02-22,SOP-02,preventivo,152.8,revisión de sistema hidráulico,F. Zapata
+2026-03-07,EMP-07,preventivo,139.3,rutina de lubricación y ajuste,S. Muñoz
+2026-03-09,INY-05,preventivo,140.4,cambio programado de filtros,H. Cardona
+2026-03-10,SOP-01,correctivo,109.4,intervención tras paro: sensor de puerta sin señal,N. Arango
+2026-03-14,INY-04,preventivo,203.8,cambio programado de filtros,N. Arango
+2026-03-15,INY-05,correctivo,130.3,intervención tras paro: se detuvo por muestra no conforme,H. Cardona
+2026-03-16,SOP-01,preventivo,46.2,cambio programado de filtros,N. Arango
+2026-03-17,INY-03,preventivo,62.0,calibración de sensores,H. Cardona
+2026-03-17,SOP-02,correctivo,87.6,intervención tras paro: no se pudo determinar el origen,H. Cardona
+2026-03-19,EMP-06,preventivo,187.6,cambio programado de filtros,S. Muñoz
+2026-03-25,SOP-02,preventivo,50.5,cambio programado de filtros,N. Arango
+2026-03-28,INY-04,correctivo,49.0,intervención tras paro: sensor de puerta sin señal,F. Zapata
+2026-04-05,SOP-01,correctivo,53.2,intervención tras paro: saltó el breaker del tablero,N. Arango
+2026-04-07,EMP-07,correctivo,139.0,intervención tras paro: desalineación del brazo extractor,H. Cardona
+2026-04-08,SOP-01,correctivo,136.1,intervención tras paro: falla del variador,H. Cardona
+2026-04-10,SOP-01,preventivo,196.3,revisión de sistema hidráulico,N. Arango
+2026-04-11,INY-04,preventivo,111.4,calibración de sensores,N. Arango
+2026-04-12,EMP-07,correctivo,78.0,intervención tras paro: paro sin causa aparente,N. Arango
+2026-04-12,SOP-01,correctivo,139.4,intervención tras paro: sensor de puerta sin señal,S. Muñoz
+2026-04-12,SOP-02,correctivo,208.2,"intervención tras paro: resina con humedad aparente, se purgó",F. Zapata
+2026-04-13,EMP-07,correctivo,191.2,intervención tras paro: se rompió la banda de arrastre,F. Zapata
+2026-04-14,EMP-06,preventivo,104.3,cambio programado de filtros,S. Muñoz
+2026-04-14,EMP-07,correctivo,93.5,"intervención tras paro: rebaba persistente, revisión de molde",N. Arango
+2026-04-15,EMP-07,preventivo,128.8,rutina de lubricación y ajuste,F. Zapata
+2026-04-15,INY-05,preventivo,100.5,rutina de lubricación y ajuste,N. Arango
+2026-04-17,INY-04,correctivo,89.4,intervención tras paro: se quemó una resistencia de zona,S. Muñoz
+2026-04-20,SOP-01,correctivo,58.6,intervención tras paro: se atascó la banda de salida con cajas,H. Cardona
+2026-04-21,INY-04,correctivo,68.3,intervención tras paro: se detuvo por muestra no conforme,F. Zapata
+2026-04-21,SOP-02,correctivo,64.5,intervención tras paro: se detuvo por muestra no conforme,N. Arango
+2026-04-22,EMP-07,correctivo,63.0,"intervención tras paro: resina con humedad aparente, se purgó",S. Muñoz
+2026-04-22,INY-03,preventivo,121.4,calibración de sensores,H. Cardona
+2026-04-25,SOP-02,correctivo,40.2,intervención tras paro: la tolva quedó mal cerrada y hubo que reponer,F. Zapata
+2026-04-26,SOP-02,preventivo,76.8,calibración de sensores,H. Cardona
+2026-05-01,INY-04,correctivo,125.7,"intervención tras paro: piezas fuera de peso, se paró para ajustar",S. Muñoz
+2026-05-04,SOP-01,correctivo,86.7,"intervención tras paro: atasco en la tolva, se destapó a mano",S. Muñoz
+2026-05-05,SOP-01,preventivo,98.9,calibración de sensores,N. Arango
+2026-05-06,EMP-06,correctivo,51.2,intervención tras paro: sensor de puerta sin señal,S. Muñoz
+2026-05-07,INY-04,preventivo,236.5,calibración de sensores,N. Arango
+2026-05-10,EMP-07,correctivo,113.0,intervención tras paro: desalineación del brazo extractor,F. Zapata
+2026-05-13,EMP-07,preventivo,137.8,revisión de sistema hidráulico,N. Arango
+2026-05-21,INY-05,preventivo,226.9,rutina de lubricación y ajuste,H. Cardona
+2026-05-22,EMP-06,preventivo,67.0,revisión de sistema hidráulico,F. Zapata
+2026-05-23,EMP-07,correctivo,127.5,intervención tras paro: falla del variador,S. Muñoz
+2026-05-24,INY-03,correctivo,101.4,intervención tras paro: se rompió la banda de arrastre,F. Zapata
+2026-05-27,SOP-01,correctivo,72.8,intervención tras paro: paro sin causa aparente,H. Cardona
+2026-05-27,SOP-02,correctivo,102.2,intervención tras paro: pellet fuera de especificación,S. Muñoz
+2026-05-29,INY-03,preventivo,118.2,cambio programado de filtros,F. Zapata
+2026-06-01,SOP-02,preventivo,132.2,rutina de lubricación y ajuste,H. Cardona
+2026-06-03,SOP-01,correctivo,142.8,intervención tras paro: se rompió la banda de arrastre,F. Zapata
+2026-06-05,SOP-01,correctivo,79.9,intervención tras paro: cambio de bobina más lento de lo normal,S. Muñoz
+2026-06-09,INY-04,preventivo,131.5,revisión de sistema hidráulico,H. Cardona
+2026-06-10,SOP-01,preventivo,93.3,rutina de lubricación y ajuste,S. Muñoz
+2026-06-11,SOP-01,correctivo,42.7,"intervención tras paro: rodamiento haciendo ruido, hubo que parar",S. Muñoz
+2026-06-15,INY-05,correctivo,89.7,intervención tras paro: la tolva quedó mal cerrada y hubo que reponer,H. Cardona
+2026-06-17,INY-04,correctivo,105.7,intervención tras paro: se quemó una resistencia de zona,H. Cardona
+2026-06-17,SOP-02,correctivo,163.9,"intervención tras paro: rebaba persistente, revisión de molde",H. Cardona
+2026-06-19,EMP-07,preventivo,132.6,calibración de sensores,N. Arango
+2026-06-20,SOP-01,correctivo,73.8,intervención tras paro: desalineación del brazo extractor,H. Cardona
+2026-06-21,INY-03,correctivo,62.0,"intervención tras paro: rebaba persistente, revisión de molde",S. Muñoz
+2026-06-24,INY-05,preventivo,215.7,calibración de sensores,N. Arango
+2026-06-25,EMP-06,correctivo,87.1,intervención tras paro: falla del variador,H. Cardona
+2026-06-28,EMP-06,preventivo,176.5,revisión de sistema hidráulico,H. Cardona
+2026-07-01,SOP-02,preventivo,188.0,revisión de sistema hidráulico,S. Muñoz
+2026-07-04,SOP-01,correctivo,124.6,"intervención tras paro: resina con humedad aparente, se purgó",N. Arango
+2026-07-05,INY-03,preventivo,222.1,revisión de sistema hidráulico,H. Cardona
+2026-07-05,SOP-01,correctivo,83.3,intervención tras paro: sensor de puerta sin señal,N. Arango
+2026-07-10,EMP-07,correctivo,119.7,intervención tras paro: falla del variador,H. Cardona
+2026-07-10,INY-04,correctivo,91.5,intervención tras paro: desalineación del brazo extractor,N. Arango
+2026-07-11,EMP-06,correctivo,94.6,intervención tras paro: sensor de puerta sin señal,H. Cardona
+2026-07-11,SOP-01,preventivo,204.6,rutina de lubricación y ajuste,F. Zapata
+2026-07-15,INY-04,preventivo,177.7,cambio programado de filtros,F. Zapata
+2026-07-16,EMP-07,correctivo,100.9,intervención tras paro: se quemó una resistencia de zona,H. Cardona
+2026-07-18,INY-05,preventivo,149.4,cambio programado de filtros,F. Zapata
+2026-07-19,INY-05,correctivo,64.2,"intervención tras paro: atasco en la tolva, se destapó a mano",H. Cardona
+2026-07-20,EMP-07,preventivo,146.6,rutina de lubricación y ajuste,H. Cardona
+2026-07-23,EMP-06,correctivo,39.9,intervención tras paro: la máquina se detuvo sola,H. Cardona
+2026-07-24,EMP-06,preventivo,234.6,rutina de lubricación y ajuste,H. Cardona
+2026-07-25,SOP-02,preventivo,225.0,revisión de sistema hidráulico,H. Cardona
+2026-07-27,EMP-06,correctivo,110.3,intervención tras paro: se atascó la banda de salida con cajas,F. Zapata
+2026-07-28,EMP-07,correctivo,64.5,"intervención tras paro: rodamiento haciendo ruido, hubo que parar",S. Muñoz
+2026-07-30,INY-04,correctivo,93.1,intervención tras paro: fuga hidráulica en la unidad de cierre,F. Zapata
+2026-07-31,INY-03,preventivo,167.7,rutina de lubricación y ajuste,F. Zapata
+2026-08-01,INY-05,correctivo,92.0,"intervención tras paro: rebaba persistente, revisión de molde",F. Zapata
+2026-08-02,EMP-06,correctivo,44.4,intervención tras paro: desalineación del brazo extractor,N. Arango
