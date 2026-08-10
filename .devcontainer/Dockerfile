@@ -27,10 +27,22 @@ ENV VENV=/opt/venv \
 # capa nueva, o sea que DUPLICA el tamaño de la imagen. Creando los directorios
 # vacios con el dueño correcto y trabajando como `vscode` desde aqui, cada
 # archivo nace ya con su dueño y no hay nada que corregir despues.
+#
+# OJO CON LOS PADRES. `mkdir -p a/b/c` crea `a` y `a/b` como root, y darle dueño
+# solo a `a/b/c` no sirve: el usuario sigue sin poder escribir en los de arriba.
+# El instalador de Claude Code guarda las versiones en ~/.local/share, asi que
+# ~/.local, ~/.local/bin y ~/.local/share necesitan dueño los tres.
+#
+# Estos chown son sobre directorios VACIOS y sin -R: instantaneos, y no tienen
+# nada que ver con el chown recursivo sobre 4 GB que hubo aca antes.
 RUN set -eux; \
     echo "===> 0. directorios"; \
-    mkdir -p "$VENV" "$HF_HOME" /home/vscode/.local/bin /home/vscode/.claude; \
-    chown vscode:vscode "$VENV" "$HF_HOME" /home/vscode/.local/bin /home/vscode/.claude
+    mkdir -p "$VENV" "$HF_HOME" \
+             /home/vscode/.local/bin /home/vscode/.local/share \
+             /home/vscode/.claude; \
+    chown vscode:vscode "$VENV" "$HF_HOME" \
+                        /home/vscode/.local /home/vscode/.local/bin \
+                        /home/vscode/.local/share /home/vscode/.claude
 
 USER vscode
 ENV PATH="/home/vscode/.local/bin:${PATH}"
