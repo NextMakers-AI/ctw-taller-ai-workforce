@@ -20,6 +20,22 @@ ENV VENV=/opt/venv \
     PYTHONDONTWRITEBYTECODE=1
 
 # ---------------------------------------------------------------------------
+# 0. Los directorios, vacios y con dueño, ANTES de llenarlos
+# ---------------------------------------------------------------------------
+# Sin `chown -R` en ninguna parte, y es a proposito. Un chown recursivo sobre un
+# venv de 1.8 GB no solo tarda minutos: en Docker reescribe cada archivo en una
+# capa nueva, o sea que DUPLICA el tamaño de la imagen. Creando los directorios
+# vacios con el dueño correcto y trabajando como `vscode` desde aqui, cada
+# archivo nace ya con su dueño y no hay nada que corregir despues.
+RUN set -eux; \
+    echo "===> 0. directorios"; \
+    mkdir -p "$VENV" "$HF_HOME" /home/vscode/.local/bin /home/vscode/.claude; \
+    chown vscode:vscode "$VENV" "$HF_HOME" /home/vscode/.local/bin /home/vscode/.claude
+
+USER vscode
+ENV PATH="/home/vscode/.local/bin:${PATH}"
+
+# ---------------------------------------------------------------------------
 # 1. Entorno virtual
 # ---------------------------------------------------------------------------
 # Se usa `python3`, no `python3.12`: la imagen base expone el interprete por ese
@@ -49,7 +65,7 @@ RUN set -eux; \
 # ---------------------------------------------------------------------------
 # 3. El resto de los paquetes
 # ---------------------------------------------------------------------------
-COPY referencia/requirements.txt /tmp/requirements.txt
+COPY --chown=vscode:vscode referencia/requirements.txt /tmp/requirements.txt
 RUN set -eux; \
     echo "===> 3. requirements.txt"; \
     "$VENV/bin/pip" install --no-cache-dir -r /tmp/requirements.txt; \
@@ -59,32 +75,24 @@ RUN set -eux; \
 # ---------------------------------------------------------------------------
 # 4. Modelo de busqueda por significado
 # ---------------------------------------------------------------------------
-COPY .devcontainer/preparar-modelo.py /tmp/preparar-modelo.py
+COPY --chown=vscode:vscode .devcontainer/preparar-modelo.py /tmp/preparar-modelo.py
 RUN set -eux; \
     echo "===> 4. modelo de embeddings"; \
     "$VENV/bin/python" /tmp/preparar-modelo.py; \
     rm /tmp/preparar-modelo.py
 
-RUN set -eux; \
-    echo "===> 5. permisos"; \
-    chown -R vscode:vscode "$VENV" "$HF_HOME"
-
 # ---------------------------------------------------------------------------
-# 6. Claude Code
+# 5. Claude Code
 # ---------------------------------------------------------------------------
-USER vscode
-ENV PATH="/home/vscode/.local/bin:${PATH}"
-
 # Version FIJA, no "latest". Los quince alumnos tienen que estar en la misma
 # version que probaste tu: si cada Codespace instala la ultima del dia, a media
 # manana unos ven una interfaz y otros ven otra, y tus instrucciones dejan de
 # coincidir con la pantalla.
 #
 # El `claude --version` de abajo no es decorativo: si la instalacion se cae a
-# medias, la construccion tiene que fallar aqui y no tres pasos despues.
+# medias, la construccion tiene que fallar aqui y no despues.
 RUN set -eux; \
-    echo "===> 6. Claude Code"; \
-    mkdir -p /home/vscode/.local/bin /home/vscode/.claude; \
+    echo "===> 5. Claude Code"; \
     curl -fsSL https://claude.ai/install.sh | bash -s 2.1.144; \
     claude --version
 
