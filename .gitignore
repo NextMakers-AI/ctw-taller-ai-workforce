@@ -6,25 +6,33 @@
 #
 # Todo lo que se ignora aca sigue existiendo en tu maquina. Simplemente no se
 # sube.
+#
+# OJO CON LAS BARRAS INICIALES. Un patron como `requirements.txt` (sin barra)
+# significa "cualquier archivo con ese nombre, en cualquier carpeta", y se lleva
+# por delante `referencia/requirements.txt`, que el taller SI necesita. La barra
+# inicial ancla el patron a la raiz del proyecto, que es lo que queremos en
+# todos los casos de abajo.
 
 # ---------------------------------------------------------------------------
 # LA SOLUCION. Esto es exactamente lo que los alumnos construyen en las tres
 # fases. Nunca debe subirse.
 # ---------------------------------------------------------------------------
-src/
-app.py
-pruebas/
+/src/
+/app.py
+/pruebas/
 
 # El indice semantico se construye en la fase 3. Subirlo la regala.
-.chroma/
+/.chroma/
 
-# Se copian desde referencia/ durante la fase 1, como parte del ejercicio.
-requirements.txt
-.streamlit/
+# Se copian DESDE referencia/ durante la fase 1, como parte del ejercicio.
+# Se ignoran solo en la raiz: los originales viven en referencia/ y tienen que
+# viajar con el repositorio.
+/requirements.txt
+/.streamlit/
 
 # Producto del taller, no insumo.
-README.md
-PREGUNTAS-Y-RESPUESTAS.md
+/README.md
+/PREGUNTAS-Y-RESPUESTAS.md
 
 # ---------------------------------------------------------------------------
 # SECRETOS. La llave de API nunca va al repositorio: se entrega a cada alumno
@@ -33,7 +41,7 @@ PREGUNTAS-Y-RESPUESTAS.md
 .env
 
 # ---------------------------------------------------------------------------
-# Generado
+# Generado. Estos SI van sin barra: son basura en cualquier carpeta.
 # ---------------------------------------------------------------------------
 .venv/
 __pycache__/

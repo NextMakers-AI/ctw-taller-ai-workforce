@@ -3,6 +3,9 @@
 # Todo lo pesado se hornea aca: los paquetes de Python (~1.8 GB) y el modelo de
 # embeddings (~2.1 GB). El alumno no descarga nada de eso — abre el Codespace y
 # ya esta. Esa es la razon de existir de este archivo.
+#
+# Cada paso imprime un marcador ===> para que el "Creation Log" sea legible
+# cuando algo falle.
 
 FROM mcr.microsoft.com/devcontainers/python:3.12-bookworm
 
@@ -17,33 +20,57 @@ ENV VENV=/opt/venv \
     PYTHONDONTWRITEBYTECODE=1
 
 # ---------------------------------------------------------------------------
-# 1. Paquetes de Python
+# 1. Entorno virtual
 # ---------------------------------------------------------------------------
-# torch se instala APARTE y desde el indice de solo-CPU, antes que el resto.
-# `sentence-transformers` lo arrastra como dependencia, y el torch por defecto
-# de PyPI para Linux viene con todo el stack de CUDA: son varios gigabytes de
-# bibliotecas de GPU que en un Codespace no tienen ninguna maquina que usar.
-# Instalandolo primero, pip ya lo encuentra satisfecho y no lo reemplaza.
-RUN python3.12 -m venv "$VENV" \
- && "$VENV/bin/pip" install --no-cache-dir --upgrade pip \
- && "$VENV/bin/pip" install --no-cache-dir \
-      --index-url https://download.pytorch.org/whl/cpu torch
+# Se usa `python3`, no `python3.12`: la imagen base expone el interprete por ese
+# nombre y no garantiza un alias con el numero de version. Igual se verifica que
+# sea 3.12 y se falla en el acto si no lo es — una imagen construida sobre otra
+# version arranca bien y revienta despues, que es peor.
+RUN set -eux; \
+    echo "===> 1. entorno virtual"; \
+    python3 --version; \
+    python3 -c 'import sys; assert sys.version_info[:2] == (3, 12), sys.version'; \
+    python3 -m venv "$VENV"; \
+    "$VENV/bin/pip" install --no-cache-dir --upgrade pip
 
+# ---------------------------------------------------------------------------
+# 2. PyTorch, solo-CPU
+# ---------------------------------------------------------------------------
+# `sentence-transformers` arrastra torch, y el torch por defecto de PyPI para
+# Linux viene con todo el stack de CUDA: son varios gigabytes de bibliotecas de
+# GPU que en un Codespace no tienen ninguna tarjeta que usar. Instalandolo
+# primero desde el indice de solo-CPU, pip ya lo encuentra satisfecho y no lo
+# reemplaza al resolver el requirements.
+RUN set -eux; \
+    echo "===> 2. torch (CPU)"; \
+    "$VENV/bin/pip" install --no-cache-dir \
+        --index-url https://download.pytorch.org/whl/cpu torch
+
+# ---------------------------------------------------------------------------
+# 3. El resto de los paquetes
+# ---------------------------------------------------------------------------
 COPY referencia/requirements.txt /tmp/requirements.txt
-RUN "$VENV/bin/pip" install --no-cache-dir -r /tmp/requirements.txt \
- && rm /tmp/requirements.txt
+RUN set -eux; \
+    echo "===> 3. requirements.txt"; \
+    "$VENV/bin/pip" install --no-cache-dir -r /tmp/requirements.txt; \
+    rm /tmp/requirements.txt; \
+    "$VENV/bin/python" -c 'import importlib.metadata as m; [m.version(p) for p in ("streamlit","chromadb","strands-agents","pandas")]; print("paquetes clave presentes")'
 
 # ---------------------------------------------------------------------------
-# 2. Modelo de busqueda por significado
+# 4. Modelo de busqueda por significado
 # ---------------------------------------------------------------------------
 COPY .devcontainer/preparar-modelo.py /tmp/preparar-modelo.py
-RUN "$VENV/bin/python" /tmp/preparar-modelo.py \
- && rm /tmp/preparar-modelo.py
+RUN set -eux; \
+    echo "===> 4. modelo de embeddings"; \
+    "$VENV/bin/python" /tmp/preparar-modelo.py; \
+    rm /tmp/preparar-modelo.py
 
-RUN chown -R vscode:vscode "$VENV" "$HF_HOME"
+RUN set -eux; \
+    echo "===> 5. permisos"; \
+    chown -R vscode:vscode "$VENV" "$HF_HOME"
 
 # ---------------------------------------------------------------------------
-# 3. Claude Code
+# 6. Claude Code
 # ---------------------------------------------------------------------------
 USER vscode
 ENV PATH="/home/vscode/.local/bin:${PATH}"
@@ -52,15 +79,16 @@ ENV PATH="/home/vscode/.local/bin:${PATH}"
 # version que probaste tu: si cada Codespace instala la ultima del dia, a media
 # manana unos ven una interfaz y otros ven otra, y tus instrucciones dejan de
 # coincidir con la pantalla.
-RUN curl -fsSL https://claude.ai/install.sh | bash -s 2.1.144
+#
+# El `claude --version` de abajo no es decorativo: si la instalacion se cae a
+# medias, la construccion tiene que fallar aqui y no tres pasos despues.
+RUN set -eux; \
+    echo "===> 6. Claude Code"; \
+    mkdir -p /home/vscode/.local/bin /home/vscode/.claude; \
+    curl -fsSL https://claude.ai/install.sh | bash -s 2.1.144; \
+    claude --version
 
-# Y por la misma razon, sin auto-actualizacion en segundo plano: Claude Code
-# busca versiones nuevas al arrancar y se actualiza solo si no se le apaga.
-RUN mkdir -p /home/vscode/.claude \
- && printf '%s\n' \
-    '{' \
-    '  "$schema": "https://json.schemastore.org/claude-code-settings.json",' \
-    '  "env": {' \
-    '    "DISABLE_AUTOUPDATER": "1"' \
-    '  }' \
-    '}' > /home/vscode/.claude/settings.json
+# Sin auto-actualizacion en segundo plano, por la misma razon que el pin.
+COPY --chown=vscode:vscode .devcontainer/claude-settings.json /home/vscode/.claude/settings.json
+
+RUN echo "===> imagen del taller lista"
