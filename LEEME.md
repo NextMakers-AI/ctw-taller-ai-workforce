@@ -65,8 +65,10 @@ anotados en ninguna parte del archivo.**
 03-fase-3-….md         ─┘
 
 datos/                      Los cinco CSV. Ya están.
-referencia/
+referencia/                 Lo que lee el agente, no tú.
   esquema-de-datos.md       Las columnas de los cinco archivos.
+  implementacion.md         Las decisiones técnicas del motor.
+  interfaz.md               Cómo se dibuja la pantalla.
   requirements.txt          Versiones fijadas. Se copia tal cual.
   config.toml               Tema nativo de Streamlit. Se copia tal cual.
   paleta-validada.md        Los hex con sus números de verificación.

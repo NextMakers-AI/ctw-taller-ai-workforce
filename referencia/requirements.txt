@@ -14,10 +14,6 @@ numpy==2.5.1
 statsmodels==0.14.6
 scipy==1.18.0
 
-# Semántica: solo para el texto libre de las notas.
-sentence-transformers==5.7.0
-chromadb==1.5.9
-
 # Interfaz. altair ya viene con streamlit y es la que dibuja los seis gráficos:
 # se fija explícita para que el taller sea reproducible, no porque sea un extra.
 streamlit==1.61.1
@@ -51,16 +47,13 @@ fpdf2==2.8.5
 # en Intel y en Apple Silicon; en Windows y Linux no cambia nada.
 cryptography==48.0.1
 
-# Estas dos son el motor de respaldo de embeddings (ver 07-semantica.md). Hoy
-# llegan solas —`onnxruntime` por chromadb, `tokenizers` por transformers— pero
-# se fijan explícitas porque el código depende de ellas de forma directa: una
-# dependencia transitiva sosteniendo algo estructural se rompe el día que el
-# paquete de arriba cambie, y ahí falla la búsqueda semántica en silencio.
-onnxruntime==1.23.2
-tokenizers==0.22.2
-
 # --------------------------------------------------------------------------- #
 # Lo que NO está acá, a propósito:
+#
+# Embeddings y bases vectoriales (sentence-transformers, chromadb, torch). Las
+# dos columnas de texto libre tienen TREINTA textos distintos en total: caben
+# enteros en el contexto del modelo, que ya sabe agrupar significados. Un modelo
+# de 2 GB para buscar entre treinta frases es más infraestructura que dato.
 #
 # pypdf y cualquier librería de chunking de documentos. Los datos de esta planta
 # son tabulares —tres CSV con esquema fijo—, no prosa. Trocear un CSV en

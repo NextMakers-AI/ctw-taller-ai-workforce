@@ -12,10 +12,9 @@
     // encuentra en la terminal.
     "PATH": "/home/vscode/.local/bin:${containerEnv:PATH}",
 
-    // El modelo horneado vive aca. Si esta variable falta, las bibliotecas
-    // buscan en ~/.cache/huggingface, no lo encuentran, y se ponen a bajar
-    // 2 GB en plena sala.
-    "HF_HOME": "/opt/cache-modelos",
+    // Aca vivian HF_HOME, HF_HUB_OFFLINE y TRANSFORMERS_OFFLINE, para el modelo
+    // de embeddings. El proyecto ya no lleva embeddings, asi que no hay cache de
+    // modelos que apuntar ni Hub que silenciar.
 
     // config.py trae "bedrock" por defecto. El taller usa la API directa de
     // Anthropic, asi que se fija aca y no depende de que el .env lo diga.

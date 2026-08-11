@@ -14,8 +14,8 @@ clásico `KeyError: '﻿fecha'`, con un carácter invisible adelante.
 
 ### `muestras_qc.csv` — 28.236 filas
 
-Pesos pieza por pieza. Es la única fuente que permite ver el material regalado
-dentro de producto conforme.
+Pesos pieza por pieza. Es la única fuente que permite cuantificar el material en
+exceso que sale dentro de producto conforme.
 
 | Columna | Tipo | Ejemplo |
 |---|---|---|
@@ -33,10 +33,9 @@ dentro de producto conforme.
 > **La tolerancia de inspección de esta planta es asimétrica**: rechaza por debajo
 > del 3 % del objetivo, pero acepta hasta un 25 % por encima. Una pieza pesada
 > cumple de sobra, pasa la inspección y se despacha. Ese detalle del dominio es la
-> razón de que exista material regalado que ningún reporte de scrap ve.
+> razón de que exista material en exceso, que la báscula de rechazos no registra
+> porque nada se rechazó.
 
-> **Una `cavidad` solo tiene sentido junto a su `molde`.** La cavidad 3 del molde A
-> y la cavidad 3 del molde B son máquinas distintas.
 
 ### `produccion_turno.csv` — 1.137 filas
 
