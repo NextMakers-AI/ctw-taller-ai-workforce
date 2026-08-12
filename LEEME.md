@@ -6,7 +6,7 @@ archivos que alguien llena al cierre de cada turno.
 
 No es un chatbot sobre documentos. Es un asistente en el que **cada cifra que dice
 sale de una función de cálculo**, y al final de cada respuesta el código —no el
-modelo— escribe sobre cuántas filas se paró.
+modelo— escribe cuántas filas de datos usó para calcularla.
 
 ---
 
@@ -67,11 +67,13 @@ anotados en ninguna parte del archivo.**
 datos/                      Los cinco CSV. Ya están.
 referencia/                 Lo que lee el agente, no tú.
   esquema-de-datos.md       Las columnas de los cinco archivos.
+  estructura-del-proyecto.md  El árbol de archivos, fase por fase.
   implementacion.md         Las decisiones técnicas del motor.
   interfaz.md               Cómo se dibuja la pantalla.
   requirements.txt          Versiones fijadas. Se copia tal cual.
   config.toml               Tema nativo de Streamlit. Se copia tal cual.
   paleta-validada.md        Los hex con sus números de verificación.
+  verificacion.md           Las comprobaciones al cerrar cada fase.
 assets/                     El logo y el favicon.
 .env.example                Se copia a .env y se le pone la llave.
 

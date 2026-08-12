@@ -10,8 +10,9 @@
 ---
 # La interfaz de esta fase: solo el chat
 
-Con la consola en verde, recién ahora se dibuja. Son tres piezas: el sistema
-visual mínimo, el armazón de la página y la pantalla de chat propiamente dicha.
+Solo después de que todas las comprobaciones pasen se construye la pantalla. Son
+tres piezas: el sistema visual mínimo, la estructura de la página y la pantalla de
+chat propiamente dicha.
 
 **Nada de gráficos, nada de filtros, nada de pestañas.** El tablero no es que se
 deje para después por falta de tiempo: es que un chat que ya responde bien y dice
@@ -101,7 +102,7 @@ cae dentro de las dos bandas permitidas.
 
 **La tinta encima no es blanca.** Blanco sobre ese naranja da 3,27:1, insuficiente
 para texto. El casi negro cálido #1C0A02 da 5,88:1. Por eso los botones primarios
-y la pastilla de la pregunta llevan **letra oscura**: no es una preferencia
+y la burbuja de la pregunta llevan **letra oscura**: no es una preferencia
 estética.
 
 Los enlaces tampoco usan el naranja del logo tal cual: `#C13D00` en claro
@@ -167,60 +168,89 @@ dentro de un `<a>` escrito con `unsafe_allow_html=True` sale como texto literal.
 Es donde el taller se juega su credibilidad: acá se ve al agente consultar los
 datos en vivo.
 
+## La regla que gobierna toda esta pantalla
+
+**El scroll lo hace Streamlit, no el CSS.** `st.container(height=…)` produce un
+contenedor con `overflow-y: auto` nativo y alto fijo. Sobre eso, el CSS ajusta
+**una sola cosa**: que ese alto sea relativo a la ventana en lugar de un número de
+píxeles.
+
+Todo intento de armar el alto con una cadena de `flex` sobre cuatro niveles de
+envoltorios de Streamlit termina en la misma falla: si un eslabón no se estira, el
+campo de entrada queda flotando a media caja y la conversación desborda la ventana.
+No lo intentes.
+
 ## El problema de partida
 
-`st.chat_input` **suelto se ancla al pie de la ventana, pero dentro de un
-contenedor se dibuja en línea**. En la fase 2 esta pantalla va a vivir dentro
-de una pestaña, y ahí el campo de entrada termina **arriba** de los mensajes. Se
-construye desde ya con la estructura que aguanta las dos situaciones.
+`st.chat_input` **suelto se ancla al pie de la ventana, pero dentro de un contenedor
+se dibuja en línea**. En la fase 2 esta pantalla vive dentro de una pestaña, y ahí
+el campo de entrada termina **arriba** de los mensajes. Se construye desde ya con la
+estructura que aguanta las dos situaciones.
 
 ## La estructura, de fuera hacia adentro
 
-Todo dentro de **una sola caja con borde**, para que se lea como un componente:
-
 ```python
+ALTO_TRANSCRIPCION = 560          # respaldo en píxeles; el CSS lo vuelve relativo
+
 with st.container(border=True, key="caja_chat"):
-    # 1. barra de acciones (solo si ya hay conversación)
-    # 2. transcripción, con su propio scroll
-    # 3. sugerencias (solo si NO hay conversación)
+    # 1. barra de acciones — solo si ya hay conversación
+    # 2. la transcripción: SIEMPRE se crea, con alto fijo y scroll propio
+    transcripcion = st.container(height=ALTO_TRANSCRIPCION, autoscroll=True,
+                                 key="transcripcion")
+    with transcripcion:
+        for mensaje in st.session_state[clave_chat]:
+            dibujar(mensaje)
+    # 3. sugerencias — solo si NO hay conversación
     # 4. st.chat_input
 ```
 
-La caja tiene **alto fijo** —`height: calc(100vh - 118px) !important`— y la
-transcripción es lo elástico (`flex: 1 1 auto`), de modo que el campo de entrada
-siempre toque el pie.
+Tres cosas de ese bloque no son opcionales:
 
-> **El alto es FIJO, jamás adaptativo.** Hacer que dependa de si hay conversación
-> encoge la caja **justo cuando el agente empieza a responder**, que es el peor
-> momento posible para mover el layout.
+**La transcripción se crea siempre**, aunque no haya mensajes. Un `st.container()`
+sin contenido no llega al DOM, y sin ella el campo de entrada sube al tope de la
+caja. Con `height=` fijo el contenedor existe desde el primer render.
 
-> **Streamlit envuelve cada contenedor en un `stLayoutWrapper` y al envoltorio es
-> al que le pone el alto.** Estirar solo el bloque de adentro no sirve: hay que
-> soltar los dos, y además fijarles `flex: 0 0 auto`, porque si no el
-> `flex-shrink` los encoge de vuelta al tamaño del contenido.
-> ```css
-> [data-testid="stLayoutWrapper"]:has(> .st-key-caja_chat) {
->   height: calc(100vh - 118px) !important; flex: 0 0 auto !important;
-> }
-> .st-key-caja_chat [data-testid="stLayoutWrapper"]:has(> .st-key-transcripcion) {
->   flex: 1 1 auto !important; height: auto !important; min-height: 0 !important;
-> }
-> ```
+**El alto es fijo, jamás adaptativo.** Hacer que dependa de si hay conversación
+encoge la caja justo cuando el agente empieza a responder, que es el peor momento
+posible para mover el diseño.
 
-### Dos cosas de Streamlit que rompen esta estructura
+**`autoscroll=True`** deja la conversación pegada al último mensaje mientras el
+agente escribe. Más abajo, por qué no hace falta nada más.
 
-**1. Un `st.container()` vacío NO llega al DOM.** Sin conversación, el contenedor
-de la transcripción no existe, la caja se queda sin su elemento elástico y el campo
-de entrada sube al tope. Métele un hueco de 1 px cuando no hay mensajes:
+### El alto relativo a la ventana
 
-```python
-if not st.session_state[clave_chat]:
-    st.markdown('<div class="hueco-transcripcion"></div>', unsafe_allow_html=True)
+Un solo número que ajustar, declarado como variable CSS:
+
+```css
+:root { --alto-fuera-del-chat: 210px; }   /* cabecera + campo de entrada + aire */
+
+[data-testid="stLayoutWrapper"]:has(> .st-key-transcripcion),
+.st-key-transcripcion {
+  height: calc(100dvh - var(--alto-fuera-del-chat)) !important;
+  min-height: 260px !important;
+}
 ```
 
-**2. `st.chat_input` se estira dentro de un contenedor flex.** No basta con fijar
-el `flex` de su contenedor: sus divisiones internas llevan `flex: 1 1 0%` y
-arrastran el `textarea` hasta ~170 px, o sea seis líneas vacías.
+`100dvh` y no `100vh`: en un navegador móvil `vh` cuenta la barra de direcciones
+como si no existiera, y la conversación queda tapada por ella.
+
+**Y hay que recortar el relleno que Streamlit pone alrededor**, o la suma pasa del
+alto de la ventana y aparece un segundo scroll, el de la página:
+
+```css
+.stMainBlockContainer { padding-top: 2rem !important; padding-bottom: 0 !important; }
+```
+
+> **Cómo se comprueba que el número está bien.** Abre la app y mira la barra de
+> desplazamiento de la **página** (la del borde derecho del navegador, no la de la
+> conversación). Si existe, `--alto-fuera-del-chat` se quedó corto: súbelo de 10 en
+> 10 hasta que desaparezca. Es el único número de este archivo que depende del
+> navegador, y por eso está aislado en una variable.
+
+### El campo de entrada no se estira
+
+`st.chat_input` dentro de un contenedor arrastra sus divisiones internas con
+`flex: 1 1 0%` y estira el área de texto hasta unas seis líneas vacías:
 
 ```css
 .st-key-caja_chat [data-testid="stChatInput"] > div,
@@ -230,14 +260,58 @@ arrastran el `textarea` hasta ~170 px, o sea seis líneas vacías.
 }
 ```
 
-El `max-height` no es defensivo: es el comportamiento correcto de un chat.
+El `max-height` no es defensivo: es el comportamiento correcto de un chat. Crece
+hasta cinco líneas y a partir de ahí hace scroll adentro.
+
+### El botón de detener, mientras el agente responde
+
+`st.chat_input` trae `submit_mode`, que resuelve dos cosas de una:
+
+```python
+st.chat_input("Pregunta sobre la planta…", submit_mode="stop")
+```
+
+Con `"stop"`, al enviar una pregunta el botón se convierte en un botón de **detener**
+y el área de texto se bloquea hasta que el agente termina. Es el comportamiento de
+un chat de producción, y evita el fallo más visible de una demostración en vivo: un
+segundo envío mientras el modelo escribe deja dos respuestas entrelazadas.
+
+No lo montes a mano con `disabled=` y una bandera en `session_state`: el parámetro
+nativo también deja parar una respuesta larga, que la bandera no.
+
+## La conversación va centrada y con ancho máximo
+
+Los mensajes no ocupan todo el ancho de la pantalla. En un monitor amplio, una
+línea de 1.400 px es incómoda de leer: el ojo pierde el renglón al volver.
+
+```css
+.st-key-transcripcion [data-testid="stChatMessage"] {
+  max-width: 46rem; margin-left: auto; margin-right: auto;
+}
+```
+
+Es el detalle que más acerca el resultado a un chat de producción, y son tres
+líneas.
+
+## El desplazamiento automático al último mensaje
+
+**Streamlit lo hace solo, y no hay que escribir JavaScript.** `st.container` acepta
+`autoscroll`, y con alto fijo y mensajes de chat adentro viene activado por defecto.
+Se declara explícito de todos modos, para que nadie lo quite por error:
+
+```python
+transcripcion = st.container(height=ALTO_TRANSCRIPCION, autoscroll=True, key="transcripcion")
+```
+
+Sin esto, cada respuesta nueva nace fuera de la vista y hay que arrastrar a mano,
+que es lo que hace que un chat se sienta roto.
 
 ## Los mensajes: patrón asimétrico
 
 `st.chat_message` dibuja avatar y texto plano, sin burbujas: no lee como una
 conversación.
 
-- **La pregunta**: pastilla a la derecha, fondo del primario, radio
+- **La pregunta**: burbuja a la derecha, fondo del primario, radio
   `1rem 1rem 0.25rem 1rem`, ancho máximo 70 %, avatar del usuario oculto.
 - **La respuesta**: texto corrido con su avatar a la izquierda. Meterla en burbuja
   sería un error — son reportes largos, con listas, tablas y bloques de código.
@@ -246,11 +320,11 @@ conversación.
 
 **1. El texto se sale del fondo de color.** Streamlit le pone a
 `stMarkdownContainer` un **margen inferior negativo de 15 px** para compensar el
-margen de los párrafos. Al quitarle el margen al párrafo de la pastilla, esa
+margen de los párrafos. Al quitarle el margen al párrafo de la burbuja, esa
 compensación se queda sin contraparte. **Donde anules el margen del párrafo, anula
 también el negativo del contenedor.**
 
-**2. La pastilla sale centrada** aunque la fila tenga `justify-content: flex-end`.
+**2. La burbuja sale centrada** aunque la fila tenga `justify-content: flex-end`.
 Se resuelve con `margin-left: auto; margin-right: 0` sobre el contenido, que no
 depende de quién gane la regla de la fila.
 
@@ -262,12 +336,26 @@ que mide su texto (`flex: 0 0 auto`).
 **4. El ícono del asistente casi no se ve**: iba en el gris del borde. Va con la
 tinta del texto.
 
-### Nada de scroll horizontal
+### Nada de desplazamiento horizontal
+
+Tres reglas, y hacen falta las tres:
+
+```css
+.st-key-transcripcion p,
+.st-key-transcripcion li,
+.st-key-transcripcion td { overflow-wrap: anywhere; }
+
+.st-key-transcripcion pre,
+.st-key-transcripcion [data-testid="stTable"],
+.st-key-transcripcion [data-testid="stDataFrame"] { overflow-x: auto; max-width: 100%; }
+
+.st-key-transcripcion [data-testid="stChatMessageContent"] { min-width: 0; }
+```
 
 Las palabras largas se parten donde toque —un id de lote no tiene espacios— y lo
-que de verdad no se puede partir hace **su propio scroll adentro**:
-`overflow-wrap: anywhere` en párrafos y celdas, `overflow-x: auto` en `pre` y
-tablas.
+que de verdad no se puede partir hace **su propio scroll adentro**. La tercera
+regla es la que más se olvida: sin `min-width: 0`, un elemento flexible se niega a
+encogerse por debajo de su contenido y empuja toda la fila hacia afuera.
 
 Tipografía: 14 px de base (no los 15 de Streamlit), interlínea 1.65, y **títulos
 discretos** — una respuesta trae subtítulos, y a 24 px compiten con la interfaz.
@@ -275,19 +363,36 @@ discretos** — una respuesta trae subtítulos, y a 24 px compiten con la interf
 ## Las sugerencias
 
 Las cuatro preguntas de ejemplo —las mismas de `preguntar.py`—, **dentro de la
-caja** y **se lanzan al hacer clic**: una lista para copiar y pegar obliga a un
-paso que no aporta nada.
+caja** y **se lanzan al hacer clic**: una lista para copiar y pegar obliga a un paso
+que no aporta nada. Solo se muestran cuando no hay conversación.
 
 ```python
 pendiente = st.session_state.pop(clave_pendiente, None)   # POP, y ANTES de dibujar
 ```
 
-El `pop` antes de dibujar es lo que evita que **el mismo clic se procese dos
-veces**.
+El `pop` antes de dibujar es lo que evita que **el mismo clic se procese dos veces**.
 
-Van como pastillas compactas en fila (`st.container(horizontal=True)`), no en
-rejilla: una rejilla reservaba media caja para cuatro botones y le robaba el
-espacio a la conversación. Solo se muestran cuando no hay conversación.
+**Van en fila, compactas, y ese es el punto.** Apiladas a lo ancho ocupan media
+pantalla y le quitan el espacio a la conversación:
+
+```python
+with st.container(horizontal=True, horizontal_alignment="center", gap="small"):
+    for pregunta in SUGERENCIAS:
+        st.button(pregunta, type="tertiary")
+```
+
+Con `horizontal=True` los botones se acomodan en fila y **saltan solos al siguiente
+renglón** cuando no caben. No uses `st.columns`: reparte el ancho en partes iguales
+y estira cada botón hasta llenar su columna.
+
+> **Si te salen estirados y con huecos verticales, el culpable es
+> `use_container_width=True`.** En esta versión `st.button` ya mide lo que mide su
+> texto por defecto, así que ese parámetro sobra — y es lo que produce cuatro
+> botones a pantalla completa, uno debajo del otro.
+
+Verifica mirando la pantalla, no el código: **el texto de cada botón cabe en una o
+dos líneas.** Si las preguntas de ejemplo son largas, córtalas para el botón y manda
+la pregunta completa al agente.
 
 ## El streaming y el estado en vivo
 
@@ -313,7 +418,7 @@ Al final, el **bloque de trazabilidad**, que lo arma el código. Y `configurar()
 se llama **una vez por pregunta**, igual que en la consola: si se llamara una sola
 vez al arrancar, el bloque de la cuarta pregunta listaría las filas de las cuatro.
 
-## Un fallo del modelo no puede tumbar la interfaz
+## Un fallo del modelo no puede dejar inservible la interfaz
 
 El texto se acumula **fuera** del `try`, y el error se guarda en su propia
 variable —Python borra el nombre de `except ... as exc` al salir del bloque:
@@ -415,8 +520,8 @@ Separator, Avatar— se les agregan dos:
 
 | Componente shadcn | Cómo se ve acá |
 |---|---|
-| **SidebarMenu** | El selector de asistente es una **lista de navegación, no un radio**: activo en pastilla translúcida del primario |
-| **Tabs** | Subrayado del primario en la activa, no pastilla rellena |
+| **SidebarMenu** | El selector de asistente es una **lista de navegación, no un radio**: activo con fondo redondeado translúcido del primario |
+| **Tabs** | Subrayado del primario en la activa, no fondo relleno |
 
 Y las tarjetas de KPI del tablero son **Card**, igual que la caja del chat.
 
@@ -449,10 +554,10 @@ desde otra fuente de medición. Eso sí codifica algo.
 **El texto lleva tokens de texto, nunca el color de la serie.**
 
 Las barras del Pareto tienen que medir **todas lo mismo** para poder ponerse una
-al lado de la otra: el material rechazado del nivel base, el exceso de cada causa
-sobre esa base, y el material en exceso. Omitir la barra del nivel base haría creer que las
+al lado de la otra: el material rechazado de la línea base, el exceso de cada causa
+sobre esa base, y el material en exceso. Omitir la barra de la línea base haría creer que las
 causas atribuidas explican todo el scrap. Y **el acumulado se calcula sobre las
-barras del gráfico**, no contra el total de la planta: como las causas se solapan,
+barras del gráfico**, no contra el total de la planta: como las causas se superponen,
 las barras suman algo más que el desperdicio real, y el pie tiene que decirlo.
 
 ## Trampas de Altair
@@ -602,8 +707,9 @@ tonos: seis colores saturados en un tablero de marca naranja se leen chillones.
 Como esa escala **no identifica por leyenda** con más de tres categorías, los dos
 gráficos que la usan con seis llevan **etiquetas directas**:
 
-- **Torta**: nombre y porcentaje sobre cada gajo con peso suficiente. El color
-  armoniza; el nombre identifica. Es lo que hace legítima una torta monocromática.
+- **Gráfico circular**: nombre y porcentaje sobre cada sector con peso suficiente.
+  El color armoniza; el nombre identifica. Es lo que hace legítimo un gráfico
+  circular monocromático.
 - **Área apilada**: es el mejor caso de la rampa —bandas contiguas que se comparan
   contra su vecina— y conserva la leyenda.
 - **Top de máquinas**: colorea por línea, y son tres, así que los pasos se reparten
@@ -631,7 +737,7 @@ y no `ValueError: could not convert string to float`. Si hay problemas, **el
 archivo no se carga**, y se muestran todos juntos con su conteo.
 
 **Confirmación en dos pasos:** si es válido, se muestra el resumen, una vista
-previa de 5 filas, y recién ahí el botón *«Usar este archivo como …»*. Reemplazar
+previa de 5 filas, y solo entonces el botón *«Usar este archivo como …»*. Reemplazar
 la fuente de datos de un tablero no puede ser un solo clic accidental.
 
 Al aceptar hay que **invalidar las cachés de datos**: los marcos cambiaron y

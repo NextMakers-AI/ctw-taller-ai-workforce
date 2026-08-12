@@ -71,7 +71,7 @@ Los índices salen de la **vista filtrada**, no de los datos completos.
 > así que va **antes** de anotar. Escrito al derecho —anotar primero, configurar
 > después, que es como sale natural porque configurar «prepara» las herramientas—
 > el bloque sale vacío. No falla nada: simplemente el reporte queda con cifras y
-> sin decir sobre cuántas filas se paró.
+> sin decir cuántas filas de datos las sustentan.
 
 ### El encargo al modelo
 
@@ -84,7 +84,7 @@ opcional**.
 **Si hay que recortar el JSON, se dice.** Un JSON cortado a la mitad sin avisar
 hace que el modelo concluya sobre datos incompletos creyéndolos completos.
 
-Y un fallo del modelo no puede tumbar el reporte: el texto se acumula **fuera** del
+Y un fallo del modelo no puede dejar inservible el reporte: el texto se acumula **fuera** del
 `try`, porque las gráficas y las cifras no dependen de él — ya están calculadas.
 
 ---

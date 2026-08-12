@@ -134,5 +134,5 @@ Lo que sí conviene saber, porque condiciona el método:
   media y desviación estándar que lo incluya.
 - Hay **notas escritas por personas distintas que describen el mismo problema con
   palabras completamente distintas**, sin una sola palabra en común.
-- Las condiciones que explican el scrap **se solapan**: un mismo turno puede tener
+- Las condiciones que explican el scrap **se superponen**: un mismo turno puede tener
   cambio de color y paro no programado, y cuenta en los dos.

@@ -1,36 +1,37 @@
 # Fase 3 · Plataforma multidominio y reportería
 
-> **Cómo se usa.** Pásale este archivo entero al mismo agente de código, sobre lo
-> que construiste en las fases 1 y 2.
+## Forma de trabajo
 
-## Cómo trabajar conmigo
+Trabaja de forma autónoma y no me pidas decisiones técnicas.
 
-**No sé programar.** Trabaja de forma autónoma y no me pidas decisiones técnicas.
-
-- Háblame en **español sencillo**, sin jerga y sin trazas de error.
-- Si algo falla, **diagnostícalo y arréglalo tú**. Después cuéntame en una frase
-  qué pasó y qué hiciste.
-- Si de verdad necesitas algo de mí, pídeme **una sola cosa a la vez**.
-- **No inventes que verificaste algo.** Corre el comando y mira la salida real.
-- Al terminar, dime en pocas frases **qué construiste y qué puedo probar yo**.
+- Háblame en español sencillo, sin jerga y sin trazas de error.
+- Si algo falla, diagnostícalo y arréglalo. Después cuéntame en una frase qué pasó
+  y qué hiciste.
+- Si necesitas algo de mí, pídeme una sola cosa a la vez, con instrucciones exactas.
+- Cuando este archivo diga «verifica X», ejecuta el comando y mira la salida real.
+  No afirmes que verificaste algo si no lo hiciste.
+- Al terminar, dime en pocas frases qué construiste y qué puedo probar yo.
 
 ---
 
-Ya tienes una aplicación completa de un asistente. Ahora vas a comprobar si el
-contrato de la fase 2 sirve de verdad: **agregar un segundo asistente de un dominio
-completamente distinto sin tocar la pantalla.**
+## Objetivo
 
-Y de paso, las dos piezas que convierten la demostración en algo entregable: leer
-las notas de texto libre y un reporte que se puede mandar por correo.
+Ya existe una aplicación completa de un asistente. Esta fase comprueba si el
+contrato de la fase 2 funciona: agregar un segundo asistente de un dominio
+completamente distinto sin modificar la pantalla.
 
-**El orden importa.** Si se acaba el tiempo, lo que falte tiene que ser lo menos
-valioso:
+Además se agregan las dos piezas que convierten la demostración en algo entregable:
+leer las notas de texto libre y generar un reporte que se pueda enviar por correo.
 
-1. **Las notas de texto libre** — completa la séptima herramienta que dejaste marcada.
-2. **El segundo asistente** — el momento que justifica todo el contrato.
+Constrúyelo en este orden, para que lo que quede sin hacer si se acaba el tiempo sea
+lo menos valioso:
+
+1. **Las notas de texto libre** — completa la séptima herramienta que quedó
+   declarada en la fase 1.
+2. **El segundo asistente** — es lo que verifica que el contrato sirve.
 3. **Las dos pestañas que faltan** — Datos y Generar reporte.
 
-**Siguen valiendo** `referencia/interfaz.md` y `referencia/implementacion.md`, y se
+Siguen valiendo `referencia/interfaz.md` y `referencia/implementacion.md`, y se
 suma `referencia/reporte.md`.
 
 ---
@@ -39,8 +40,8 @@ suma `referencia/reporte.md`.
 
 ## El patrón que hay que poder encontrar
 
-En `nota_supervisor` hay siete supervisores describiendo **el mismo problema sin
-compartir casi ninguna palabra**:
+En la columna `nota_supervisor` hay siete supervisores describiendo el mismo
+problema sin compartir casi ninguna palabra:
 
 ```
 arranque con el molde frío, mucha rebaba en las primeras cajas
@@ -54,43 +55,44 @@ turno perdido: el molde se enfrió tras el paro y salió rebaba toda la jornada
 
 Buscar «molde frío» encuentra dos. Las otras cinco no llevan esa palabra.
 
-Y encontrarlas **cierra el círculo de la lección 1**: los números dicen que hay
-material saliendo dentro de producto conforme, y estas notas dicen por qué.
+Encontrarlas completa la regla 1: los números dicen que hay material saliendo dentro
+de producto conforme, y estas notas dicen por qué.
 
-## Por qué esto NO lleva embeddings ni base vectorial
+## Por qué esto no lleva embeddings ni base vectorial
 
 Cuenta los textos antes de elegir la herramienta. Las dos columnas de texto libre
-tienen **treinta textos distintos en total**, unos dos kilobytes.
+tienen treinta textos distintos en total, unos dos kilobytes.
 
-Y el asistente que estás construyendo **ya es un modelo de lenguaje**. Si le pasas
-los treinta y le preguntas cuáles describen el mismo problema, los agrupa igual de
-bien — porque agrupar significados es literalmente lo que sabe hacer.
+El asistente que estás construyendo ya es un modelo de lenguaje. Si le pasas los
+treinta y le preguntas cuáles describen el mismo problema, los agrupa igual de bien,
+porque agrupar significados es exactamente lo que sabe hacer.
 
 Los embeddings se justifican con cien mil notas, cuando ya no caben en el contexto.
-Con treinta serían la herramienta pesada para un problema que no la pide.
+Con treinta serían una herramienta pesada para un problema que no la requiere.
 
-**Esto es una decisión de diseño y va escrita en el README**, porque saber cuándo NO
-hace falta la pieza sofisticada es parte de lo que este proyecto enseña.
+Esto es una decisión de diseño y va escrita en el README, porque saber cuándo no
+hace falta la pieza sofisticada es parte de lo que este proyecto demuestra.
 
 ## La herramienta
 
-`listar_notas_distintas` — sin argumentos. Devuelve los textos **distintos** de las
+`listar_notas_distintas` — sin argumentos. Devuelve los textos distintos de las
 columnas de texto libre de la vista filtrada, cada uno con cuántas filas lo
 escribieron.
 
 - **Textos distintos, no filas.** Si cuarenta turnos dicen «sin novedad», eso es una
-  entrada con `filas: 40`. Agrupar textos idénticos es del código; agrupar
+  entrada con el campo `filas: 40`. Agrupar textos idénticos es del código; agrupar
   significados parecidos es del modelo.
 - **Respeta los filtros.** Si la vista está en L1, solo salen las notas de L1.
 - **Anota las filas en el registro**, como cualquier otra herramienta.
-- **No cuenta nada del negocio.** Sirve para «¿ha pasado esto antes?». Si alguien
+- **No calcula nada del negocio.** Sirve para «¿ha pasado esto antes?». Si alguien
   pregunta *cuánto*, la cifra sale de una función de cálculo.
 
-**Nunca metas números acá.** «4.084 kg» no se busca por parecido, se suma.
+Nunca incluyas números en esta herramienta. «4.084 kg» no se busca por parecido, se
+suma.
 
-El módulo que recopila los textos **no sabe de dominios**: recibe qué columnas de
-qué archivos llevan texto. Son `nota_supervisor` y `descripcion` en el asistente de
-desperdicio, `comentario_operario` y `descripcion` en el de paradas.
+El módulo que recopila los textos no sabe de dominios: recibe qué columnas de qué
+archivos llevan texto. Son las columnas `nota_supervisor` y `descripcion` en el
+asistente de desperdicio, y `comentario_operario` y `descripcion` en el de paradas.
 
 ---
 
@@ -98,31 +100,31 @@ desperdicio, `comentario_operario` y `descripcion` en el de paradas.
 
 ## Por qué existe
 
-Para probar que la abstracción sirve. Es **deliberadamente distinto** del primero:
+Para verificar que la abstracción sirve. Es deliberadamente distinto del primero:
 minutos en vez de gramos, máquinas en vez de SKU, pesos por hora en vez de dólares
-por kilo, y una partición real de causas en vez de categorías que se solapan.
+por kilo, y causas que no se superponen —cada parada tiene una sola— en vez de
+categorías que sí lo hacen.
 
-Si los dos fueran parecidos, la abstracción no probaría nada. **La pantalla no se
-toca**: si te ves editándola, algo del contrato quedó corto y hay que arreglar el
+Si los dos fueran parecidos, la abstracción no probaría nada. La pantalla no se
+modifica: si terminas editándola, el contrato quedó incompleto y hay que corregir el
 contrato, no la interfaz.
 
-Sus fuentes son `downtime_log.csv` y `mantenimiento_historico.csv`. Va en
-`src/paras/`, con la misma estructura que el primero.
+Sus fuentes son `downtime_log.csv` y `mantenimiento_historico.csv`. Va en la
+carpeta `src/paras/`, con la misma estructura que el primero.
 
 ## El hallazgo que define este agente
 
 **La fecha del turno no es la fecha del calendario.**
 
-El turno de noche va de 22:00 a 05:59 y pertenece al día en que empezó. Una parada
-a las 02:00 del sábado es del turno de noche del **viernes**.
+El turno de noche va de 22:00 a 05:59 y pertenece al día en que empezó. Una parada a
+las 02:00 del sábado es del turno de noche del **viernes**.
 
-Sin esa corrección, el patrón más fuerte de todo el archivo **aparece partido entre
-dos días contiguos y se lee como ruido**. Con la fecha del turno queda en una sola
-celda y la prueba estadística lo confirma.
+Sin esa corrección, el patrón más fuerte de todo el archivo aparece repartido entre
+dos días contiguos y se interpreta como ruido. Con la fecha del turno queda en una
+sola celda y la prueba estadística lo confirma.
 
-Es la lección de este agente: **una corrección de tres líneas es la diferencia entre
-encontrar el patrón y no verlo.** El mapa día × turno va sobre la fecha del turno, y
-el filtro de fechas también.
+Una corrección de tres líneas es la diferencia entre encontrar el patrón y no verlo.
+El mapa día × turno va sobre la fecha del turno, y el filtro de fechas también.
 
 ```python
 madrugada_de_turno_noche = (p["turno"] == "noche") & (hora < 6)
@@ -134,86 +136,80 @@ p["fecha_turno"] = p["fecha"] - pd.to_timedelta(
 
 Una de cada cuatro filas trae el código vacío y solo el comentario del operario.
 
-**El vocabulario se construye desde el propio archivo, no desde la intuición.** Se
+El vocabulario se construye desde el propio archivo, no desde la intuición. Se
 cruzan las palabras del comentario con la categoría de las filas que sí la tienen, y
 se ve qué categoría le corresponde de verdad a cada palabra.
 
-> El caso que lo enseña: **«tolva» parece materia prima.** En este archivo, todas las
-> filas que la mencionan y además traen categoría son **operativas**. Corregirlo por
-> el dato y no por la intuición baja mucho las filas sin clasificar.
+El caso que lo demuestra: «tolva» parece materia prima. En este archivo, todas las
+filas que la mencionan y además traen categoría son operativas. Corregirlo por el
+dato y no por la intuición reduce mucho las filas sin clasificar.
 
-Cada palabra aporta **una unidad de evidencia repartida según cómo se reparte de
-verdad** en el archivo. Quedarse solo con las palabras que apuntan a una sola
-categoría parece más limpio, pero deja fuera justamente las que vuelven ambiguo a un
-comentario — y entonces la marca de ambigüedad no se activa nunca.
+Cada palabra vota, y su voto se reparte entre las categorías en la misma proporción
+en que aparece en el archivo: si «tolva» sale en 8 filas operativas y 2 de materia
+prima, aporta 0,8 a operativa y 0,2 a materia prima. Quedarse solo con las palabras
+que apuntan a una sola categoría parece más limpio, pero deja fuera justamente las
+que vuelven ambiguo un comentario, y entonces la marca de ambigüedad no se activa
+nunca.
 
-Marca cada fila con de dónde salió su categoría y si el comentario era ambiguo, y
-**reporta en el pie del gráfico qué porcentaje se infirió del comentario**. Es una
+Marca cada fila con el origen de su categoría —código de falla o comentario— y con
+si el comentario era ambiguo, y reporta en el pie del gráfico qué porcentaje se
+dedujo del comentario. Es una
 medida de calidad del dato que quien lee tiene derecho a ver.
 
 ## Las nueve herramientas
 
-`resumen_de_paras`, `rankear_causas`, `detectar_patron_recurrente`,
-`comparar_lineas`, `analizar_microparos`, `cuantificar_ahorro`,
-`generar_reporte_handoff`, `consultar_maquina`, `listar_comentarios_distintos`.
+`resumen_de_paras`, `ordenar_causas`, `detectar_patron_recurrente`,
+`comparar_lineas`, `analizar_microparadas`, `cuantificar_ahorro`,
+`generar_reporte_de_entrega`, `consultar_maquina`, `listar_comentarios_distintos`.
 
 Cuatro decisiones de método que hay que respetar:
 
 **Un patrón se compara contra la actividad real de la planta**, no contra un
 promedio plano. Si la planta corre menos los domingos, tener menos paradas el
-domingo no es un hallazgo. La exposición hay que aproximarla —el archivo no trae el
-calendario de operación— y **eso se dice en la respuesta**.
+domingo no es un hallazgo. Las horas que la planta realmente operó hay que
+aproximarlas —el archivo no trae el calendario de operación— y eso se dice en la
+respuesta.
 
 **Comparar líneas es comparar perfil, no volumen.** Una línea que corre el doble
-tiene el doble de paradas y eso no dice nada. Devuelve horas **por día** y número de
+tiene el doble de paradas y eso no dice nada. Devuelve horas por día y número de
 máquinas, y el pie lo advierte.
 
-**Las microparadas (menos de 5 minutos) devuelven un dato honesto e incómodo.** Son
-muchísimas en cantidad y pocas en horas: contarlas por cantidad las hace parecer el
-problema principal cuando no lo son. La respuesta contesta *«si juntáramos todas en
-una sola causa, ¿en qué puesto quedaría?»*, que es la pregunta que importa.
+**Las microparadas (menos de 5 minutos) devuelven un dato incómodo pero honesto.**
+Son muchísimas en cantidad y pocas en horas: contarlas por cantidad las hace parecer
+el problema principal cuando no lo son. La respuesta contesta «si juntáramos todas
+en una sola causa, ¿en qué puesto quedaría?», que es la pregunta que importa.
 
 **El ahorro solo cuenta patrones confirmados**, solo el exceso sobre lo esperado, y
-**baja la probabilidad de éxito si ya se intentaron preventivos** en esa máquina: si
-el preventivo ya se hizo y el problema sigue, es menos probable que funcione ahora.
+baja la probabilidad de éxito si ya se intentaron preventivos en esa máquina: si el
+preventivo ya se hizo y el problema sigue, es menos probable que funcione ahora.
 
 ## Los seis gráficos
 
-Pareto con curva acumulada, torta de causas, horas por línea, evolución semanal,
-mapa día × turno sobre la fecha del turno, y top de máquinas.
+Pareto con curva acumulada, gráfico circular de causas, horas por línea, evolución
+semanal, mapa día × turno sobre la fecha del turno, y las máquinas con más paradas.
 
-**El Pareto lleva curva acumulada acá y no en el otro tablero, y no es una
-inconsistencia** — escríbelo en el código:
+El Pareto lleva curva acumulada acá y no en el otro tablero. No es una
+inconsistencia; documéntalo en el código:
 
-- En **paradas** las causas son una partición real: cada parada pertenece a
-  exactamente una categoría, el acumulado suma 100 % y el 80/20 se lee.
-- En **desperdicio** las categorías se solapan, y una curva acumulada contra el
+- En **paradas** cada parada pertenece a exactamente una categoría, así que el
+  acumulado suma 100 % y se puede ver qué pocas causas explican la mayor parte del
+  tiempo perdido.
+- En **desperdicio** las categorías se superponen, y una curva acumulada contra el
   total afirmaría algo falso.
 
 Los colores de este tablero están en `referencia/interfaz.md`.
 
 ## Registrarlo
 
-Escribe su declaración y agrégala al registro de asistentes. **Eso es todo lo que
-debería hacer falta.**
+Escribe su declaración y agrégala al registro de asistentes. Eso debería ser todo lo
+necesario.
 
 Sus métricas: horas de paro, costo, paradas registradas y porcentaje de
 microparadas. Su supuesto: el costo de paro por hora. Sus filtros: rango de fechas,
 línea, máquina, turno y categoría de falla.
 
-**Comprueba el hallazgo:**
-
-```bash
-.venv/bin/python -c "
-from src.paras import carga, calculos
-d = carga.cargar()
-r = calculos.distribucion_turno(d, 2_000_000)
-print(r['_mapa'].sort_values('horas', ascending=False).head(3))
-"
-```
-
-La celda más alta tiene que ser **una sola** combinación día × turno. Si el pico
-aparece repartido entre dos días contiguos, la fecha del turno no se está aplicando.
+Antes de seguir, comprueba que la fecha del turno quedó bien aplicada: el comando
+está en `referencia/verificacion.md`, sección **Fase 3**.
 
 ---
 
@@ -222,31 +218,30 @@ aparece repartido entre dos días contiguos, la fecha del turno no se está apli
 ## La pestaña Datos
 
 Es la pieza que convierte una demostración en una herramienta: sin ella, el
-asistente solo sabe hablar del archivo que le tocó.
+asistente solo puede hablar del archivo con el que se construyó.
 
-**Nada de esto se escribe a mano por asistente.** Cada fuente ya declara sus campos
-en el contrato de la fase 2, y de esa declaración salen solos el validador de
-archivos, el formulario de captura y la lista de columnas esperadas.
+Nada de esto se escribe a mano por asistente. Cada fuente ya declara sus campos en
+el contrato de la fase 2, y de esa declaración se derivan el validador de archivos,
+el formulario de captura y la lista de columnas esperadas.
 
-> **Regla de oro, y dila en la pantalla, arriba de todo:** los cambios valen **para
-> esta sesión**. El tablero y el chat los ven de inmediato. **Los archivos en disco
-> no se tocan.** Quien carga un archivo en una sala llena necesita saber que no está
+> Regla, y va escrita en la pantalla, arriba de todo: los cambios valen solo para
+> esta sesión. El tablero y el chat los ven de inmediato. Los archivos en disco no se
+> modifican. Quien carga un archivo en una sala llena necesita saber que no está
 > sobrescribiendo nada.
 
-Dos cosas por fuente: **cargar un archivo** y **agregar un registro a mano**. La
-mecánica de las dos —validación con mensajes accionables, confirmación en dos pasos,
-formulario con ejemplos reales— está en `referencia/interfaz.md`.
+Dos cosas por fuente: cargar un archivo y agregar un registro a mano. La mecánica de
+las dos —validación con mensajes accionables, confirmación en dos pasos, formulario
+con ejemplos reales— está en `referencia/interfaz.md`.
 
 ## La pestaña Generar reporte
 
-Un **PDF** con las gráficas incrustadas, y el mismo material en HTML para la vista
+Un PDF con las gráficas incrustadas, y el mismo material en HTML para la vista
 previa. Los dos salen de las mismas figuras y las mismas cifras, así que no pueden
 decir cosas distintas.
 
-**Es deductivo, no decorativo: no recalcula nada.** Corre las mismas funciones que
-dibuja el tablero, con los mismos filtros y supuestos. Las mismas cifras alimentan
-el pie del gráfico y el texto del reporte, así que **el texto no puede contradecir a
-su propia gráfica**.
+No recalcula nada. Corre las mismas funciones que dibuja el tablero, con los mismos
+filtros y supuestos. Las mismas cifras alimentan el pie del gráfico y el texto del
+reporte, así que el texto no puede contradecir a su propia gráfica.
 
 La maquetación completa está en `referencia/reporte.md`.
 
@@ -254,69 +249,25 @@ La maquetación completa está en `referencia/reporte.md`.
 
 # Verificación final
 
-## Las comprobaciones
-
-```bash
-.venv/bin/python -m pruebas.test_calculos
-.venv/bin/python -m src.preguntar
-.venv/bin/python -m src.paras.preguntar
-```
-
-Y sobre un reporte descargado:
-
-```python
-assert pdf[:5] == b'%PDF-'                                 # es un PDF de verdad
-assert len(re.findall(rb'/Subtype\s*/Image', pdf)) == 4    # 4 en desperdicio, 6 en paradas
-assert html.count('<svg') == 4                             # y el HTML también
-assert 'Trazabilidad' in html and 'Filas analizadas' in html
-assert '**' not in html                                    # sin markdown crudo
-assert not re.search(r'https?://(?!www\.w3\.org)', html)   # sin CDN externo
-```
-
-## En la aplicación, para **cada agente**
-
-| # | Qué | Cómo se ve que está bien |
-|---|---|---|
-| 1 | Las cuatro pestañas abren | Sin excepción en pantalla |
-| 2 | Contraste | La app arranca en oscuro; ningún texto oscuro sobre oscuro, tampoco en hover |
-| 3 | Filtros | Cambiar de asistente y volver: **siguen puestos** |
-| 4 | Recarga | F5 en `?agente=paras&tab=tablero` deja donde estaba |
-| 5 | Sugerencias | Al hacer clic, lanzan la pregunta |
-| 6 | Chat | Sin scroll horizontal; el texto dentro de su pastilla |
-| 7 | Datos | Sube un CSV sin una columna obligatoria → mensaje que **nombra la columna** |
-| 8 | Reporte | Descarga en PDF, A4, 6 gráficas, una hoja por gráfica |
-| 9 | Consola | Cero trazas al arrancar |
-
-## Autocrítica antes de dar por terminado
-
-Repasa esta lista y **reporta lo que no cumplas** en vez de dejarlo pasar:
-
-- [ ] ¿Hay algún `groupby` fuera de los módulos de cálculo?
-- [ ] ¿Hay alguna cifra de negocio escrita a mano en el código?
-- [ ] ¿Hay alguna fecha o nombre de planta escrito a mano?
-- [ ] ¿El bloque de trazabilidad lo arma el código, y suma por unión de conjuntos?
-- [ ] ¿Los pies de los gráficos se recalculan del dato, o hay prosa que afirma algo
-      que dejaría de ser cierto con otro archivo?
-- [ ] ¿La herramienta de notas devuelve o insinúa alguna cifra de negocio?
-- [ ] ¿Todos los textos están en español neutro, sin voseo?
-- [ ] ¿Hay algún `var(--x)` de CSS esperando una variable que Streamlit no expone?
-- [ ] ¿Algún fallo del modelo puede tumbar la interfaz o el reporte?
-- [ ] ¿`app.py` cambió para agregar el segundo asistente? **Si sí, el contrato
-      quedó corto.**
+Corre entera la sección **Fase 3** de `referencia/verificacion.md`: las
+comprobaciones por consola, los asertos sobre el reporte descargado, la revisión en
+pantalla de cada agente y la autorrevisión final. Pega la salida real y reporta lo
+que no cumplas en vez de dejarlo pasar.
 
 ## Lo que se entrega
 
 - La aplicación corriendo en `http://localhost:8501`, sin errores en consola.
-- Un `README.md` en español que arranque en cuatro comandos, con las cuatro
-  lecciones y sus trampas, el hallazgo de la fecha del turno, y por qué las notas
+- Un `README.md` en español que arranque en cuatro comandos, con las cuatro reglas
+  de cálculo y sus trampas, el hallazgo de la fecha del turno, y por qué las notas
   de texto libre no llevan embeddings.
-- Un archivo con las **preguntas de ejemplo y las respuestas reales que dieron** —
-  ejecutadas, no inventadas. Si una salió floja, esa es información: o el prompt o
-  una herramienta necesitan trabajo.
+- Un archivo con las preguntas de ejemplo y las respuestas reales que dieron,
+  ejecutadas, no inventadas. Si una salió deficiente, esa es información: o el
+  prompt o una herramienta necesitan trabajo.
 
-## Lo que NO hay que hacer
+## Lo que no hay que hacer
 
-- **No inventes que verificaste.** Si no corriste el comando, dilo.
+- **No afirmes que verificaste algo si no lo hiciste.** Si no corriste el comando,
+  dilo.
 - **No reemplaces una cifra que no cuadra por una que sí.** Léela primero: casi
   siempre la cifra rara está señalando un error de método real.
 - **No agregues dependencias** fuera de las fijadas. Si algo lo exige, fíjala y
